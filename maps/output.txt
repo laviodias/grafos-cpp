@@ -1,0 +1,279 @@
+Buscando bases de bicicletas Itaú em Salvador...
+1. Nome: Bike Itaú, Endereço: 41 - Praça Lord Cochrane - Garcia, Salvador, Localização: {'lat': -12.993181, 'lng': -38.507897}
+2. Nome: Bike Itaú, Endereço: 27 - Praça Ana Lúcia Magalhães - Pituba, Salvador, Localização: {'lat': -12.993338, 'lng': -38.460908}
+3. Nome: Bike Itaú, Endereço: 23 - Nossa Senhora da Luz - Pituba, Salvador, Localização: {'lat': -13.005963, 'lng': -38.457312}
+4. Nome: Bike Itaú, Endereço: 33 - Jardim de Alah - Armação, Salvador, Localização: {'lat': -12.994033, 'lng': -38.440247}
+5. Nome: Bike Itaú, Endereço: 26 - Praça Aquarius - Pituba, Salvador, Localização: {'lat': -12.986925, 'lng': -38.452353}
+6. Nome: Bike Itaú, Endereço: 14 - Pedra da Sereia - Rio Vermelho, Salvador, Localização: {'lat': -13.010995, 'lng': -38.501335}
+7. Nome: Bike Itaú, Endereço: 11 - Amaralina - Amaralina, Salvador, Localização: {'lat': -13.0123191, 'lng': -38.4683242}
+8. Nome: Bike Itaú, Endereço: 3 - Boca do Rio II - Boca do Rio, Salvador, Localização: {'lat': -12.977901, 'lng': -38.424115}
+9. Nome: Bike Itaú, Endereço: 29 - Praça do Sol - Ondina, Salvador, Localização: {'lat': -13.010308, 'lng': -38.509888}
+10. Nome: Bike Itaú, Endereço: 8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador, Localização: {'lat': -13.01114, 'lng': -38.4938}
+11. Nome: Bike Itaú, Endereço: 12 - Praça Marconi - Pituba, Salvador, Localização: {'lat': -13.002792, 'lng': -38.45533200000001}
+12. Nome: Bike Itaú, Endereço: 15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador, Localização: {'lat': -12.979067, 'lng': -38.50799}
+
+Calculando tempos e distâncias entre as bases...
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 7,8 km, Tempo: 25 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 7,3 km, Tempo: 22 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 10,0 km, Tempo: 30 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 11,7 km, Tempo: 36 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 3,1 km, Tempo: 9 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 5,9 km, Tempo: 18 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 12,6 km, Tempo: 38 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 2,3 km, Tempo: 6 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 2,9 km, Tempo: 9 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 8,4 km, Tempo: 27 minutos
+De '41 - Praça Lord Cochrane - Garcia, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 3,3 km, Tempo: 15 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 7,8 km, Tempo: 25 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 2,1 km, Tempo: 8 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 4,6 km, Tempo: 16 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 2,3 km, Tempo: 9 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 6,8 km, Tempo: 24 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 3,3 km, Tempo: 13 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 7,2 km, Tempo: 24 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 7,8 km, Tempo: 26 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 6,1 km, Tempo: 22 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 1,6 km, Tempo: 6 minutos
+De '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 9,3 km, Tempo: 34 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 8,1 km, Tempo: 28 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 1,9 km, Tempo: 8 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 2,5 km, Tempo: 8 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 4,0 km, Tempo: 13 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 6,0 km, Tempo: 22 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 2,8 km, Tempo: 9 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 5,1 km, Tempo: 16 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 7,0 km, Tempo: 24 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 5,1 km, Tempo: 17 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 0,8 km, Tempo: 3 minutos
+De '23 - Nossa Senhora da Luz - Pituba, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 10,2 km, Tempo: 37 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 10,2 km, Tempo: 35 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 4,8 km, Tempo: 17 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 2,5 km, Tempo: 10 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 4,1 km, Tempo: 13 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 8,2 km, Tempo: 28 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 4,9 km, Tempo: 15 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 2,5 km, Tempo: 8 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 9,1 km, Tempo: 30 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 7,3 km, Tempo: 24 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 3,0 km, Tempo: 11 minutos
+De '33 - Jardim de Alah - Armação, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 12,4 km, Tempo: 42 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 9,3 km, Tempo: 31 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 2,9 km, Tempo: 10 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 3,5 km, Tempo: 12 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 4,8 km, Tempo: 15 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 9,5 km, Tempo: 32 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 6,2 km, Tempo: 19 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 7,3 km, Tempo: 23 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 10,4 km, Tempo: 34 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 8,6 km, Tempo: 28 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 2,9 km, Tempo: 10 minutos
+De '26 - Praça Aquarius - Pituba, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 9,5 km, Tempo: 35 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 3,2 km, Tempo: 12 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 7,2 km, Tempo: 23 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 5,3 km, Tempo: 16 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 8,0 km, Tempo: 24 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 9,7 km, Tempo: 31 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 3,9 km, Tempo: 12 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 10,6 km, Tempo: 33 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 1,0 km, Tempo: 4 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 0,9 km, Tempo: 3 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 6,4 km, Tempo: 21 minutos
+De '14 - Pedra da Sereia - Rio Vermelho, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 6,1 km, Tempo: 26 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 5,9 km, Tempo: 22 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 3,2 km, Tempo: 11 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 1,4 km, Tempo: 4 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 3,9 km, Tempo: 12 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 5,4 km, Tempo: 17 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 3,8 km, Tempo: 15 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 6,5 km, Tempo: 20 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 4,8 km, Tempo: 17 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 2,9 km, Tempo: 11 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 2,2 km, Tempo: 7 minutos
+De '11 - Amaralina - Amaralina, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 8,0 km, Tempo: 31 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 12,8 km, Tempo: 46 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 7,3 km, Tempo: 28 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 5,1 km, Tempo: 21 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 2,5 km, Tempo: 11 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 6,6 km, Tempo: 24 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 10,7 km, Tempo: 39 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 7,5 km, Tempo: 26 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 11,7 km, Tempo: 41 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 9,8 km, Tempo: 35 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 5,6 km, Tempo: 22 minutos
+De '3 - Boca do Rio II - Boca do Rio, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 13,3 km, Tempo: 47 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 4,1 km, Tempo: 15 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 8,1 km, Tempo: 26 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 6,3 km, Tempo: 18 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 9,0 km, Tempo: 27 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 10,7 km, Tempo: 33 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 1,0 km, Tempo: 3 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 4,9 km, Tempo: 14 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 11,5 km, Tempo: 35 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 1,8 km, Tempo: 6 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 7,3 km, Tempo: 23 minutos
+De '29 - Praça do Sol - Ondina, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 4,6 km, Tempo: 21 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 3,0 km, Tempo: 11 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 6,3 km, Tempo: 20 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 4,4 km, Tempo: 13 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 7,1 km, Tempo: 21 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 8,8 km, Tempo: 27 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 0,9 km, Tempo: 4 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 3,0 km, Tempo: 9 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 9,7 km, Tempo: 29 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 1,9 km, Tempo: 6 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 5,5 km, Tempo: 18 minutos
+De '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 5,8 km, Tempo: 24 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 8,2 km, Tempo: 26 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 2,0 km, Tempo: 7 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 0,8 km, Tempo: 4 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 2,9 km, Tempo: 11 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 2,5 km, Tempo: 9 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 6,5 km, Tempo: 25 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 2,0 km, Tempo: 8 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 5,5 km, Tempo: 19 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 7,4 km, Tempo: 27 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 5,5 km, Tempo: 20 minutos
+De '12 - Praça Marconi - Pituba, Salvador' para '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador':
+    Distância: 10,8 km, Tempo: 38 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '41 - Praça Lord Cochrane - Garcia, Salvador':
+    Distância: 3,2 km, Tempo: 12 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '27 - Praça Ana Lúcia Magalhães - Pituba, Salvador':
+    Distância: 9,1 km, Tempo: 30 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '23 - Nossa Senhora da Luz - Pituba, Salvador':
+    Distância: 9,9 km, Tempo: 32 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '33 - Jardim de Alah - Armação, Salvador':
+    Distância: 12,6 km, Tempo: 40 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '26 - Praça Aquarius - Pituba, Salvador':
+    Distância: 8,5 km, Tempo: 26 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '14 - Pedra da Sereia - Rio Vermelho, Salvador':
+    Distância: 5,9 km, Tempo: 20 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '11 - Amaralina - Amaralina, Salvador':
+    Distância: 8,5 km, Tempo: 28 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '3 - Boca do Rio II - Boca do Rio, Salvador':
+    Distância: 11,4 km, Tempo: 36 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '29 - Praça do Sol - Ondina, Salvador':
+    Distância: 5,0 km, Tempo: 17 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador':
+    Distância: 5,6 km, Tempo: 20 minutos
+De '15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador' para '12 - Praça Marconi - Pituba, Salvador':
+    Distância: 10,4 km, Tempo: 33 minutos
