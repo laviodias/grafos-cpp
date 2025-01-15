@@ -1,0 +1,1947 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_331cd63f2ea543ade255998ca9342b33 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_331cd63f2ea543ade255998ca9342b33" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_331cd63f2ea543ade255998ca9342b33 = L.map(
+                "map_331cd63f2ea543ade255998ca9342b33",
+                {
+                    center: [-12.9814, -38.4714],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_09eb2f05e62c4dab9b4ccadc3a49ff16 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_09eb2f05e62c4dab9b4ccadc3a49ff16.addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var marker_792447a5b087225fa80e03fca8d3481a = L.marker(
+                [-12.993181, -38.507897],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_aa107a634c5362693c33891ccf768279 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_792447a5b087225fa80e03fca8d3481a.setIcon(icon_aa107a634c5362693c33891ccf768279);
+        
+    
+        var popup_4d7b9fcdeb521dbe2325096a2310a3c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e61d4f92a71b5821d3039d615a3bf7e = $(`<div id="html_5e61d4f92a71b5821d3039d615a3bf7e" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>41 - Praça Lord Cochrane - Garcia, Salvador</div>`)[0];
+                popup_4d7b9fcdeb521dbe2325096a2310a3c7.setContent(html_5e61d4f92a71b5821d3039d615a3bf7e);
+            
+        
+
+        marker_792447a5b087225fa80e03fca8d3481a.bindPopup(popup_4d7b9fcdeb521dbe2325096a2310a3c7)
+        ;
+
+        
+    
+    
+            var marker_42f326ca31b2b56e2ffd760238f1d55f = L.marker(
+                [-12.993338, -38.460908],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_843f84fafabbdf555d40621bf48c18fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_42f326ca31b2b56e2ffd760238f1d55f.setIcon(icon_843f84fafabbdf555d40621bf48c18fe);
+        
+    
+        var popup_a77e4bc4c0180c27b67ce7722893e3b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09d4747d42878c8bbdab89676dfbb36d = $(`<div id="html_09d4747d42878c8bbdab89676dfbb36d" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>27 - Praça Ana Lúcia Magalhães - Pituba, Salvador</div>`)[0];
+                popup_a77e4bc4c0180c27b67ce7722893e3b8.setContent(html_09d4747d42878c8bbdab89676dfbb36d);
+            
+        
+
+        marker_42f326ca31b2b56e2ffd760238f1d55f.bindPopup(popup_a77e4bc4c0180c27b67ce7722893e3b8)
+        ;
+
+        
+    
+    
+            var marker_596897e1ae425b1a87a836023fb6dfb8 = L.marker(
+                [-13.005963, -38.457312],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_eaf97859e628e1ffee152e3207426ae7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_596897e1ae425b1a87a836023fb6dfb8.setIcon(icon_eaf97859e628e1ffee152e3207426ae7);
+        
+    
+        var popup_497ddb2b1e1aa863243e940891c4910e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83513a796cea5202d871dc47332245ed = $(`<div id="html_83513a796cea5202d871dc47332245ed" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>23 - Nossa Senhora da Luz - Pituba, Salvador</div>`)[0];
+                popup_497ddb2b1e1aa863243e940891c4910e.setContent(html_83513a796cea5202d871dc47332245ed);
+            
+        
+
+        marker_596897e1ae425b1a87a836023fb6dfb8.bindPopup(popup_497ddb2b1e1aa863243e940891c4910e)
+        ;
+
+        
+    
+    
+            var marker_0609c0dc34c5074edece01dc1fafe2ad = L.marker(
+                [-13.002672, -38.451655],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_8dcaf36dc989794372a01634d72a94c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0609c0dc34c5074edece01dc1fafe2ad.setIcon(icon_8dcaf36dc989794372a01634d72a94c9);
+        
+    
+        var popup_d199cc3bfa47787b7ed26cfed206ed70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_135892cea8d061a11cac3e029496368f = $(`<div id="html_135892cea8d061a11cac3e029496368f" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>45 - Jardim dos Namorados - Pituba, Salvador</div>`)[0];
+                popup_d199cc3bfa47787b7ed26cfed206ed70.setContent(html_135892cea8d061a11cac3e029496368f);
+            
+        
+
+        marker_0609c0dc34c5074edece01dc1fafe2ad.bindPopup(popup_d199cc3bfa47787b7ed26cfed206ed70)
+        ;
+
+        
+    
+    
+            var marker_22982bc23e2b752792a95eb48c6eb09d = L.marker(
+                [-12.994033, -38.440247],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_1011e491a649e7349a9a70043e38a7dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_22982bc23e2b752792a95eb48c6eb09d.setIcon(icon_1011e491a649e7349a9a70043e38a7dd);
+        
+    
+        var popup_b6266b6616334b956b42227705d16f00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fb45a6a3e0ff338574915c6e80f53f0 = $(`<div id="html_5fb45a6a3e0ff338574915c6e80f53f0" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>33 - Jardim de Alah - Armação, Salvador</div>`)[0];
+                popup_b6266b6616334b956b42227705d16f00.setContent(html_5fb45a6a3e0ff338574915c6e80f53f0);
+            
+        
+
+        marker_22982bc23e2b752792a95eb48c6eb09d.bindPopup(popup_b6266b6616334b956b42227705d16f00)
+        ;
+
+        
+    
+    
+            var marker_baf5dfe0aec18da7085b56b1d6609c83 = L.marker(
+                [-12.986925, -38.452353],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_d65bcf6c5ffd90236da5f94c3b39c6ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_baf5dfe0aec18da7085b56b1d6609c83.setIcon(icon_d65bcf6c5ffd90236da5f94c3b39c6ec);
+        
+    
+        var popup_ee1bcb8082b81d6c6c71a4823e73c59a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9896e2790cd108f8c5bea91eaa6e8a8 = $(`<div id="html_c9896e2790cd108f8c5bea91eaa6e8a8" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>26 - Praça Aquarius - Pituba, Salvador</div>`)[0];
+                popup_ee1bcb8082b81d6c6c71a4823e73c59a.setContent(html_c9896e2790cd108f8c5bea91eaa6e8a8);
+            
+        
+
+        marker_baf5dfe0aec18da7085b56b1d6609c83.bindPopup(popup_ee1bcb8082b81d6c6c71a4823e73c59a)
+        ;
+
+        
+    
+    
+            var marker_57834b787d6e5a27f7f7e980fc3a1a95 = L.marker(
+                [-13.010995, -38.501335],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_d85befb5642c9c50e13728ace4cd7969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57834b787d6e5a27f7f7e980fc3a1a95.setIcon(icon_d85befb5642c9c50e13728ace4cd7969);
+        
+    
+        var popup_31f1a51f4d8a96a4a8e77ab547adf1bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e36f469205805c8bdf4652adbdd9398 = $(`<div id="html_2e36f469205805c8bdf4652adbdd9398" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>14 - Pedra da Sereia - Rio Vermelho, Salvador</div>`)[0];
+                popup_31f1a51f4d8a96a4a8e77ab547adf1bc.setContent(html_2e36f469205805c8bdf4652adbdd9398);
+            
+        
+
+        marker_57834b787d6e5a27f7f7e980fc3a1a95.bindPopup(popup_31f1a51f4d8a96a4a8e77ab547adf1bc)
+        ;
+
+        
+    
+    
+            var marker_df83da75a21bd2cc610cf8b2a117f86f = L.marker(
+                [-13.0080582, -38.5184592],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_c1a239062afd4a0bcb7c394161e533ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_df83da75a21bd2cc610cf8b2a117f86f.setIcon(icon_c1a239062afd4a0bcb7c394161e533ef);
+        
+    
+        var popup_f4b0da6a61bc8ac6bd7bb836a7090aaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1b2f3410966ee7249627956da9a010b = $(`<div id="html_e1b2f3410966ee7249627956da9a010b" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>4 - Praça Orungan - Ondina, Salvador</div>`)[0];
+                popup_f4b0da6a61bc8ac6bd7bb836a7090aaa.setContent(html_e1b2f3410966ee7249627956da9a010b);
+            
+        
+
+        marker_df83da75a21bd2cc610cf8b2a117f86f.bindPopup(popup_f4b0da6a61bc8ac6bd7bb836a7090aaa)
+        ;
+
+        
+    
+    
+            var marker_c08e7bd6cc17579cdf4a36c4dbf35cec = L.marker(
+                [-13.0123191, -38.4683242],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_49e679ac555861ea7a8d11c4ca20b519 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c08e7bd6cc17579cdf4a36c4dbf35cec.setIcon(icon_49e679ac555861ea7a8d11c4ca20b519);
+        
+    
+        var popup_2a7215da39bc85fdb8267e3f48590390 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b390f80141669f226361c5f7662e26a4 = $(`<div id="html_b390f80141669f226361c5f7662e26a4" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>11 - Amaralina - Amaralina, Salvador</div>`)[0];
+                popup_2a7215da39bc85fdb8267e3f48590390.setContent(html_b390f80141669f226361c5f7662e26a4);
+            
+        
+
+        marker_c08e7bd6cc17579cdf4a36c4dbf35cec.bindPopup(popup_2a7215da39bc85fdb8267e3f48590390)
+        ;
+
+        
+    
+    
+            var marker_a4602061f20710b52c48810b1df9d69a = L.marker(
+                [-13.010308, -38.509888],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_cd738c1360f1bd839b6ae294500d1de9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4602061f20710b52c48810b1df9d69a.setIcon(icon_cd738c1360f1bd839b6ae294500d1de9);
+        
+    
+        var popup_a45689f242454cba2a285c8722f97a8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5da1c0a9e3c21fd0cae5160ada0d7e0e = $(`<div id="html_5da1c0a9e3c21fd0cae5160ada0d7e0e" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>29 - Praça do Sol - Ondina, Salvador</div>`)[0];
+                popup_a45689f242454cba2a285c8722f97a8f.setContent(html_5da1c0a9e3c21fd0cae5160ada0d7e0e);
+            
+        
+
+        marker_a4602061f20710b52c48810b1df9d69a.bindPopup(popup_a45689f242454cba2a285c8722f97a8f)
+        ;
+
+        
+    
+    
+            var marker_d6d887f3a00ed7136ccb1f53b29db7ff = L.marker(
+                [-13.01114, -38.4938],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_e5bfac21c34c2f5e5f227a75161ddd48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6d887f3a00ed7136ccb1f53b29db7ff.setIcon(icon_e5bfac21c34c2f5e5f227a75161ddd48);
+        
+    
+        var popup_d44a7c510b98f0635af74d96ec91bab8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f39dd89c5520ea5e0c2e159ecdc1d31 = $(`<div id="html_2f39dd89c5520ea5e0c2e159ecdc1d31" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>8 - Quadras do Rio Vermelho - Rio Vermelho, Salvador</div>`)[0];
+                popup_d44a7c510b98f0635af74d96ec91bab8.setContent(html_2f39dd89c5520ea5e0c2e159ecdc1d31);
+            
+        
+
+        marker_d6d887f3a00ed7136ccb1f53b29db7ff.bindPopup(popup_d44a7c510b98f0635af74d96ec91bab8)
+        ;
+
+        
+    
+    
+            var marker_038f554576847cf4e4a5035b772c77b0 = L.marker(
+                [-12.990164, -38.450229],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_6078efdae8c64763fc64de264634b498 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_038f554576847cf4e4a5035b772c77b0.setIcon(icon_6078efdae8c64763fc64de264634b498);
+        
+    
+        var popup_ea9310a90a12339974c29022ac45fd00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c67d5c1ce7b884aff27f63bb16670b7 = $(`<div id="html_4c67d5c1ce7b884aff27f63bb16670b7" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>48 - Magalhães Neto - Pituba, Salvador</div>`)[0];
+                popup_ea9310a90a12339974c29022ac45fd00.setContent(html_4c67d5c1ce7b884aff27f63bb16670b7);
+            
+        
+
+        marker_038f554576847cf4e4a5035b772c77b0.bindPopup(popup_ea9310a90a12339974c29022ac45fd00)
+        ;
+
+        
+    
+    
+            var marker_f24fc0ab6844fd24d08447790c0923aa = L.marker(
+                [-13.002792, -38.45533200000001],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_5e7391af6c2d15b3756f73bf36e1f5c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f24fc0ab6844fd24d08447790c0923aa.setIcon(icon_5e7391af6c2d15b3756f73bf36e1f5c6);
+        
+    
+        var popup_581d9ce0c1bedd5b7c60972f1f5a4069 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72f01393f0780d4fdb216585f0c5f56d = $(`<div id="html_72f01393f0780d4fdb216585f0c5f56d" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>12 - Praça Marconi - Pituba, Salvador</div>`)[0];
+                popup_581d9ce0c1bedd5b7c60972f1f5a4069.setContent(html_72f01393f0780d4fdb216585f0c5f56d);
+            
+        
+
+        marker_f24fc0ab6844fd24d08447790c0923aa.bindPopup(popup_581d9ce0c1bedd5b7c60972f1f5a4069)
+        ;
+
+        
+    
+    
+            var marker_e54ec89e1ce901f0d8369d85e15d74df = L.marker(
+                [-12.988084, -38.511655],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_c495a55d649676932e9a57d96aa3308a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e54ec89e1ce901f0d8369d85e15d74df.setIcon(icon_c495a55d649676932e9a57d96aa3308a);
+        
+    
+        var popup_1c11010d27f748431bdbee62b1c82954 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_695cda5de75114aa77e59fb90fd0cc9e = $(`<div id="html_695cda5de75114aa77e59fb90fd0cc9e" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>47 - Barris (Praça João Mangabeira) - Tororo, Salvador</div>`)[0];
+                popup_1c11010d27f748431bdbee62b1c82954.setContent(html_695cda5de75114aa77e59fb90fd0cc9e);
+            
+        
+
+        marker_e54ec89e1ce901f0d8369d85e15d74df.bindPopup(popup_1c11010d27f748431bdbee62b1c82954)
+        ;
+
+        
+    
+    
+            var marker_961fbac30826867bf5bb06c2c8404d9c = L.marker(
+                [-12.979067, -38.50799],
+                {}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            var icon_a0f125aab4df367d90fe972595477b72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_961fbac30826867bf5bb06c2c8404d9c.setIcon(icon_a0f125aab4df367d90fe972595477b72);
+        
+    
+        var popup_6b20307b0188548083ed96ece1beb517 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537ad09fc0f096b8313eaea6c63bab85 = $(`<div id="html_537ad09fc0f096b8313eaea6c63bab85" style="width: 100.0%; height: 100.0%;">Bike Itaú<br>15 - Praça do Fórum Ruy Barbosa - Tororo, Salvador</div>`)[0];
+                popup_6b20307b0188548083ed96ece1beb517.setContent(html_537ad09fc0f096b8313eaea6c63bab85);
+            
+        
+
+        marker_961fbac30826867bf5bb06c2c8404d9c.bindPopup(popup_6b20307b0188548083ed96ece1beb517)
+        ;
+
+        
+    
+    
+            var poly_line_594605dac2e2167d104d7e4a7bcbee3d = L.polyline(
+                [[-12.993338, -38.460908], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_594605dac2e2167d104d7e4a7bcbee3d.bindTooltip(
+                `<div>
+                     Distância: 7.79 km, Tempo: 25.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bdb01bb6ca04e3505cba7d866a3a8737 = L.polyline(
+                [[-13.005963, -38.457312], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_bdb01bb6ca04e3505cba7d866a3a8737.bindTooltip(
+                `<div>
+                     Distância: 8.09 km, Tempo: 28.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c8ceb4e7921c8113db518330e923f93e = L.polyline(
+                [[-13.002672, -38.451655], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_c8ceb4e7921c8113db518330e923f93e.bindTooltip(
+                `<div>
+                     Distância: 8.55 km, Tempo: 29.6 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_66dea67472b2d05ab6c16f0f5d851664 = L.polyline(
+                [[-12.994033, -38.440247], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_66dea67472b2d05ab6c16f0f5d851664.bindTooltip(
+                `<div>
+                     Distância: 10.23 km, Tempo: 34.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_14d2d15186aa3e6d5f226f65031196a0 = L.polyline(
+                [[-12.986925, -38.452353], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_14d2d15186aa3e6d5f226f65031196a0.bindTooltip(
+                `<div>
+                     Distância: 9.29 km, Tempo: 31.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cb983e8646ae33d27007bc5b538dbe72 = L.polyline(
+                [[-13.010995, -38.501335], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_cb983e8646ae33d27007bc5b538dbe72.bindTooltip(
+                `<div>
+                     Distância: 3.20 km, Tempo: 12.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8d8532a93e53e301309c11ea5ec89602 = L.polyline(
+                [[-13.0080582, -38.5184592], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_8d8532a93e53e301309c11ea5ec89602.bindTooltip(
+                `<div>
+                     Distância: 3.31 km, Tempo: 11.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_998257871b811bec2369db4cc08ef736 = L.polyline(
+                [[-13.0123191, -38.4683242], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_998257871b811bec2369db4cc08ef736.bindTooltip(
+                `<div>
+                     Distância: 5.89 km, Tempo: 22.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ff4049f2ae447aac79e0521761360ac1 = L.polyline(
+                [[-13.010308, -38.509888], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ff4049f2ae447aac79e0521761360ac1.bindTooltip(
+                `<div>
+                     Distância: 4.14 km, Tempo: 14.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7787f7ac12799cd83d72f84a0ba8f16f = L.polyline(
+                [[-13.01114, -38.4938], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_7787f7ac12799cd83d72f84a0ba8f16f.bindTooltip(
+                `<div>
+                     Distância: 2.95 km, Tempo: 11.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a0a9c9cd309f8e373e99f53e04e046fe = L.polyline(
+                [[-12.990164, -38.450229], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_a0a9c9cd309f8e373e99f53e04e046fe.bindTooltip(
+                `<div>
+                     Distância: 10.10 km, Tempo: 32.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cbb3856e59be29363ac5128587451c13 = L.polyline(
+                [[-13.002792, -38.45533200000001], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_cbb3856e59be29363ac5128587451c13.bindTooltip(
+                `<div>
+                     Distância: 8.17 km, Tempo: 26.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f9b3dda9d276134ac24491b455403512 = L.polyline(
+                [[-12.988084, -38.511655], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f9b3dda9d276134ac24491b455403512.bindTooltip(
+                `<div>
+                     Distância: 1.85 km, Tempo: 6.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ffb8d87c10cf710f347b5fce3691e2cb = L.polyline(
+                [[-12.979067, -38.50799], [-12.993181, -38.507897]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ffb8d87c10cf710f347b5fce3691e2cb.bindTooltip(
+                `<div>
+                     Distância: 3.23 km, Tempo: 12.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7b3622595219be9611580428aa101288 = L.polyline(
+                [[-13.005963, -38.457312], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_7b3622595219be9611580428aa101288.bindTooltip(
+                `<div>
+                     Distância: 1.91 km, Tempo: 8.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f364b73c6a27951787ff744bec3ef126 = L.polyline(
+                [[-13.002672, -38.451655], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f364b73c6a27951787ff744bec3ef126.bindTooltip(
+                `<div>
+                     Distância: 3.12 km, Tempo: 11.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5c2aa3b67e1178f61ebb8b58c7c15e02 = L.polyline(
+                [[-12.994033, -38.440247], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_5c2aa3b67e1178f61ebb8b58c7c15e02.bindTooltip(
+                `<div>
+                     Distância: 4.80 km, Tempo: 16.7 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_09b9d43bc91b33ec2af2eac56d874d3b = L.polyline(
+                [[-12.986925, -38.452353], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_09b9d43bc91b33ec2af2eac56d874d3b.bindTooltip(
+                `<div>
+                     Distância: 2.91 km, Tempo: 9.7 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_93399932ad2a9f79884400479a6e7481 = L.polyline(
+                [[-13.010995, -38.501335], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_93399932ad2a9f79884400479a6e7481.bindTooltip(
+                `<div>
+                     Distância: 7.18 km, Tempo: 23.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b62b6b7d88da4f0edcb2be3e7092021c = L.polyline(
+                [[-13.0080582, -38.5184592], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_b62b6b7d88da4f0edcb2be3e7092021c.bindTooltip(
+                `<div>
+                     Distância: 9.12 km, Tempo: 28.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_36812b47bbefe34b2b51e5ce9a856a71 = L.polyline(
+                [[-13.0123191, -38.4683242], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_36812b47bbefe34b2b51e5ce9a856a71.bindTooltip(
+                `<div>
+                     Distância: 3.24 km, Tempo: 11.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0cdd7aa416dd21a557e6b01044a33052 = L.polyline(
+                [[-13.010308, -38.509888], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_0cdd7aa416dd21a557e6b01044a33052.bindTooltip(
+                `<div>
+                     Distância: 8.12 km, Tempo: 25.7 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7a666103ebeb295dd5906dfcf62922b6 = L.polyline(
+                [[-13.01114, -38.4938], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_7a666103ebeb295dd5906dfcf62922b6.bindTooltip(
+                `<div>
+                     Distância: 6.28 km, Tempo: 20.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_330da12f48cd118cbc877aea7ac5c3cd = L.polyline(
+                [[-12.990164, -38.450229], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_330da12f48cd118cbc877aea7ac5c3cd.bindTooltip(
+                `<div>
+                     Distância: 2.73 km, Tempo: 9.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d5c1d7d8e13032cea5c78b6ce32dbe18 = L.polyline(
+                [[-13.002792, -38.45533200000001], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d5c1d7d8e13032cea5c78b6ce32dbe18.bindTooltip(
+                `<div>
+                     Distância: 2.02 km, Tempo: 7.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_dba501a4e15fba47816a35a23e5af380 = L.polyline(
+                [[-12.988084, -38.511655], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_dba501a4e15fba47816a35a23e5af380.bindTooltip(
+                `<div>
+                     Distância: 9.22 km, Tempo: 29.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d11712277600ae7969c350d59b1fcf6c = L.polyline(
+                [[-12.979067, -38.50799], [-12.993338, -38.460908]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d11712277600ae7969c350d59b1fcf6c.bindTooltip(
+                `<div>
+                     Distância: 9.06 km, Tempo: 29.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f72b17ad137acc20ebf08be94e3ee413 = L.polyline(
+                [[-13.002672, -38.451655], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f72b17ad137acc20ebf08be94e3ee413.bindTooltip(
+                `<div>
+                     Distância: 0.85 km, Tempo: 4.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b75ee27207712e22f0062f8cbf5ac7d4 = L.polyline(
+                [[-12.994033, -38.440247], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_b75ee27207712e22f0062f8cbf5ac7d4.bindTooltip(
+                `<div>
+                     Distância: 2.53 km, Tempo: 9.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a2dd88f8b54744092b6266853ccdef40 = L.polyline(
+                [[-12.986925, -38.452353], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_a2dd88f8b54744092b6266853ccdef40.bindTooltip(
+                `<div>
+                     Distância: 3.50 km, Tempo: 12.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0e365cbe25d2cfc0c40b242d162ac5a1 = L.polyline(
+                [[-13.010995, -38.501335], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_0e365cbe25d2cfc0c40b242d162ac5a1.bindTooltip(
+                `<div>
+                     Distância: 5.34 km, Tempo: 16.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6be27a896921884b4518cd5d7b498518 = L.polyline(
+                [[-13.0080582, -38.5184592], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_6be27a896921884b4518cd5d7b498518.bindTooltip(
+                `<div>
+                     Distância: 7.29 km, Tempo: 20.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_936818e824b48711afa9d0c8f3e8b3cc = L.polyline(
+                [[-13.0123191, -38.4683242], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_936818e824b48711afa9d0c8f3e8b3cc.bindTooltip(
+                `<div>
+                     Distância: 1.40 km, Tempo: 4.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ce6ab5e3d8730583db917869d8ea741a = L.polyline(
+                [[-13.010308, -38.509888], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ce6ab5e3d8730583db917869d8ea741a.bindTooltip(
+                `<div>
+                     Distância: 6.29 km, Tempo: 18.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3ed2bac6fa2f46fdf071c8cb3c50a561 = L.polyline(
+                [[-13.01114, -38.4938], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_3ed2bac6fa2f46fdf071c8cb3c50a561.bindTooltip(
+                `<div>
+                     Distância: 4.44 km, Tempo: 12.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_96d10be82c306fc9aefb1ec3afa260b1 = L.polyline(
+                [[-12.990164, -38.450229], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_96d10be82c306fc9aefb1ec3afa260b1.bindTooltip(
+                `<div>
+                     Distância: 2.57 km, Tempo: 8.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ca467eac1a53cce19c6468a41334ce27 = L.polyline(
+                [[-13.002792, -38.45533200000001], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ca467eac1a53cce19c6468a41334ce27.bindTooltip(
+                `<div>
+                     Distância: 0.84 km, Tempo: 4.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f9333749b4b67847723276801e19a7a2 = L.polyline(
+                [[-12.988084, -38.511655], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f9333749b4b67847723276801e19a7a2.bindTooltip(
+                `<div>
+                     Distância: 8.58 km, Tempo: 26.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_da31a76b83ffdfa3d442ba44f61dde1f = L.polyline(
+                [[-12.979067, -38.50799], [-13.005963, -38.457312]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_da31a76b83ffdfa3d442ba44f61dde1f.bindTooltip(
+                `<div>
+                     Distância: 9.95 km, Tempo: 31.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_44f042c2ae72ed908ccdad8e43b7db18 = L.polyline(
+                [[-12.994033, -38.440247], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_44f042c2ae72ed908ccdad8e43b7db18.bindTooltip(
+                `<div>
+                     Distância: 1.78 km, Tempo: 5.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_126c4e61db539413896cb3586106572d = L.polyline(
+                [[-12.986925, -38.452353], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_126c4e61db539413896cb3586106572d.bindTooltip(
+                `<div>
+                     Distância: 3.04 km, Tempo: 9.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_56a6f2cc2abd8fd4f83eafaa3feab761 = L.polyline(
+                [[-13.010995, -38.501335], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_56a6f2cc2abd8fd4f83eafaa3feab761.bindTooltip(
+                `<div>
+                     Distância: 6.37 km, Tempo: 19.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ded157e6aef6ff87ab43ba82deb88525 = L.polyline(
+                [[-13.0080582, -38.5184592], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ded157e6aef6ff87ab43ba82deb88525.bindTooltip(
+                `<div>
+                     Distância: 8.31 km, Tempo: 23.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d45fb139d17e5aaad67424ed00a23cf7 = L.polyline(
+                [[-13.0123191, -38.4683242], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d45fb139d17e5aaad67424ed00a23cf7.bindTooltip(
+                `<div>
+                     Distância: 2.26 km, Tempo: 6.7 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e05261b2c0780bfd3fe236ca94192193 = L.polyline(
+                [[-13.010308, -38.509888], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_e05261b2c0780bfd3fe236ca94192193.bindTooltip(
+                `<div>
+                     Distância: 7.31 km, Tempo: 21.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6b7c5b2083b5dff41fcd92671133e509 = L.polyline(
+                [[-13.01114, -38.4938], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_6b7c5b2083b5dff41fcd92671133e509.bindTooltip(
+                `<div>
+                     Distância: 5.46 km, Tempo: 15.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5f8398c03041ab0f8a3c32e91f9f422d = L.polyline(
+                [[-12.990164, -38.450229], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_5f8398c03041ab0f8a3c32e91f9f422d.bindTooltip(
+                `<div>
+                     Distância: 2.10 km, Tempo: 6.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9a8f95e66add4d1cb0cdd696d87f255b = L.polyline(
+                [[-13.002792, -38.45533200000001], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_9a8f95e66add4d1cb0cdd696d87f255b.bindTooltip(
+                `<div>
+                     Distância: 0.80 km, Tempo: 4.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6b3bbbeeed51fa8dd199bded98a720cf = L.polyline(
+                [[-12.988084, -38.511655], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_6b3bbbeeed51fa8dd199bded98a720cf.bindTooltip(
+                `<div>
+                     Distância: 9.60 km, Tempo: 29.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8319bd2724cede7496d6a4954b28348b = L.polyline(
+                [[-12.979067, -38.50799], [-13.002672, -38.451655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_8319bd2724cede7496d6a4954b28348b.bindTooltip(
+                `<div>
+                     Distância: 10.97 km, Tempo: 35.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6bf2b2fb20d506808f97784b8bc3a08c = L.polyline(
+                [[-12.986925, -38.452353], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_6bf2b2fb20d506808f97784b8bc3a08c.bindTooltip(
+                `<div>
+                     Distância: 4.75 km, Tempo: 14.7 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0f81a8db1cdb9f95719b6d1c1b7cb20f = L.polyline(
+                [[-13.010995, -38.501335], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_0f81a8db1cdb9f95719b6d1c1b7cb20f.bindTooltip(
+                `<div>
+                     Distância: 8.04 km, Tempo: 24.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f0f114074a893950108787d45302ecc7 = L.polyline(
+                [[-13.0080582, -38.5184592], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f0f114074a893950108787d45302ecc7.bindTooltip(
+                `<div>
+                     Distância: 9.98 km, Tempo: 29.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5802a36252e5005387612811dcb56cb5 = L.polyline(
+                [[-13.0123191, -38.4683242], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_5802a36252e5005387612811dcb56cb5.bindTooltip(
+                `<div>
+                     Distância: 3.93 km, Tempo: 11.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_26e5f3da53111078b10dc48462d68faa = L.polyline(
+                [[-13.010308, -38.509888], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_26e5f3da53111078b10dc48462d68faa.bindTooltip(
+                `<div>
+                     Distância: 8.98 km, Tempo: 26.6 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2ca9b483c80d4fc57bd6e1e06c97675f = L.polyline(
+                [[-13.01114, -38.4938], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_2ca9b483c80d4fc57bd6e1e06c97675f.bindTooltip(
+                `<div>
+                     Distância: 7.14 km, Tempo: 21.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8e8adf9fb50e936fd316db0ce9bafc2c = L.polyline(
+                [[-12.990164, -38.450229], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_8e8adf9fb50e936fd316db0ce9bafc2c.bindTooltip(
+                `<div>
+                     Distância: 3.82 km, Tempo: 11.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d333d89e37b9f198c19ac0c41d54b593 = L.polyline(
+                [[-13.002792, -38.45533200000001], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d333d89e37b9f198c19ac0c41d54b593.bindTooltip(
+                `<div>
+                     Distância: 2.94 km, Tempo: 10.7 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f5628148d7bf35a43e70cda8958e9f7a = L.polyline(
+                [[-12.988084, -38.511655], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f5628148d7bf35a43e70cda8958e9f7a.bindTooltip(
+                `<div>
+                     Distância: 11.27 km, Tempo: 34.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_234cb4e41e9c8cdfed2cc01d5bd8c4dc = L.polyline(
+                [[-12.979067, -38.50799], [-12.994033, -38.440247]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_234cb4e41e9c8cdfed2cc01d5bd8c4dc.bindTooltip(
+                `<div>
+                     Distância: 12.64 km, Tempo: 40.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8c399415b9cfb0370a35c1d0f9313d3c = L.polyline(
+                [[-13.010995, -38.501335], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_8c399415b9cfb0370a35c1d0f9313d3c.bindTooltip(
+                `<div>
+                     Distância: 9.74 km, Tempo: 30.6 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9b932e55cf23acb9aae10e46884cb6d4 = L.polyline(
+                [[-13.0080582, -38.5184592], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_9b932e55cf23acb9aae10e46884cb6d4.bindTooltip(
+                `<div>
+                     Distância: 11.69 km, Tempo: 35.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d78244edf1d3786f60fc176ebe40caed = L.polyline(
+                [[-13.0123191, -38.4683242], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d78244edf1d3786f60fc176ebe40caed.bindTooltip(
+                `<div>
+                     Distância: 5.43 km, Tempo: 17.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e796da469be3cc553d055a93baa8d55e = L.polyline(
+                [[-13.010308, -38.509888], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_e796da469be3cc553d055a93baa8d55e.bindTooltip(
+                `<div>
+                     Distância: 10.69 km, Tempo: 32.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a74ca51f4d7737027b9afd0c1dff7eab = L.polyline(
+                [[-13.01114, -38.4938], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_a74ca51f4d7737027b9afd0c1dff7eab.bindTooltip(
+                `<div>
+                     Distância: 8.84 km, Tempo: 27.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_85f3dd175cbb2a13a30f5650a01ac01a = L.polyline(
+                [[-12.990164, -38.450229], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_85f3dd175cbb2a13a30f5650a01ac01a.bindTooltip(
+                `<div>
+                     Distância: 0.86 km, Tempo: 5.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0b378a437f3877dcc65926718165f10c = L.polyline(
+                [[-13.002792, -38.45533200000001], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_0b378a437f3877dcc65926718165f10c.bindTooltip(
+                `<div>
+                     Distância: 2.52 km, Tempo: 8.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e34762c965f7a9238aeb5d20f630d1f7 = L.polyline(
+                [[-12.988084, -38.511655], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_e34762c965f7a9238aeb5d20f630d1f7.bindTooltip(
+                `<div>
+                     Distância: 9.95 km, Tempo: 32.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_284ba9b7bb274f4f8bcd4506df189663 = L.polyline(
+                [[-12.979067, -38.50799], [-12.986925, -38.452353]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_284ba9b7bb274f4f8bcd4506df189663.bindTooltip(
+                `<div>
+                     Distância: 8.49 km, Tempo: 26.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ed9cfd3f32fd86214f908cc80a5a48b4 = L.polyline(
+                [[-13.0080582, -38.5184592], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ed9cfd3f32fd86214f908cc80a5a48b4.bindTooltip(
+                `<div>
+                     Distância: 1.98 km, Tempo: 5.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4b89e4c73cc3b8db48d787b7612aee7c = L.polyline(
+                [[-13.0123191, -38.4683242], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_4b89e4c73cc3b8db48d787b7612aee7c.bindTooltip(
+                `<div>
+                     Distância: 3.85 km, Tempo: 15.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f607f0781c52954de407235f22c608b8 = L.polyline(
+                [[-13.010308, -38.509888], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f607f0781c52954de407235f22c608b8.bindTooltip(
+                `<div>
+                     Distância: 0.98 km, Tempo: 2.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cca60d3b69695e4242525a856e31a7e8 = L.polyline(
+                [[-13.01114, -38.4938], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_cca60d3b69695e4242525a856e31a7e8.bindTooltip(
+                `<div>
+                     Distância: 0.91 km, Tempo: 4.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_114d16c73304f761badde7ffec481386 = L.polyline(
+                [[-12.990164, -38.450229], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_114d16c73304f761badde7ffec481386.bindTooltip(
+                `<div>
+                     Distância: 8.55 km, Tempo: 28.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_92151e3bf64e398cc5222069f7f65e3a = L.polyline(
+                [[-13.002792, -38.45533200000001], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_92151e3bf64e398cc5222069f7f65e3a.bindTooltip(
+                `<div>
+                     Distância: 6.46 km, Tempo: 24.6 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f4e9bcc61e34d0921a116fa5d4e7f9d0 = L.polyline(
+                [[-12.988084, -38.511655], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_f4e9bcc61e34d0921a116fa5d4e7f9d0.bindTooltip(
+                `<div>
+                     Distância: 4.51 km, Tempo: 14.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d7b8d0f4af6dab24ab05a8118413759e = L.polyline(
+                [[-12.979067, -38.50799], [-13.010995, -38.501335]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d7b8d0f4af6dab24ab05a8118413759e.bindTooltip(
+                `<div>
+                     Distância: 5.88 km, Tempo: 20.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_01e245405337577f8cf478c5adc16733 = L.polyline(
+                [[-13.0123191, -38.4683242], [-13.0080582, -38.5184592]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_01e245405337577f8cf478c5adc16733.bindTooltip(
+                `<div>
+                     Distância: 5.81 km, Tempo: 20.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3dd54853eafda1506f409b3a71d6923d = L.polyline(
+                [[-13.010308, -38.509888], [-13.0080582, -38.5184592]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_3dd54853eafda1506f409b3a71d6923d.bindTooltip(
+                `<div>
+                     Distância: 1.02 km, Tempo: 3.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9d6a740009e8115c261b9f0bb5ebe1fc = L.polyline(
+                [[-13.01114, -38.4938], [-13.0080582, -38.5184592]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_9d6a740009e8115c261b9f0bb5ebe1fc.bindTooltip(
+                `<div>
+                     Distância: 2.87 km, Tempo: 9.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2de0c27a75b69bb37e6e412239b3d430 = L.polyline(
+                [[-12.990164, -38.450229], [-13.0080582, -38.5184592]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_2de0c27a75b69bb37e6e412239b3d430.bindTooltip(
+                `<div>
+                     Distância: 10.52 km, Tempo: 34.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b870ec054000327a02892adc0aad2be7 = L.polyline(
+                [[-13.002792, -38.45533200000001], [-13.0080582, -38.5184592]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_b870ec054000327a02892adc0aad2be7.bindTooltip(
+                `<div>
+                     Distância: 8.42 km, Tempo: 30.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_940582f40f77cdaeacdad3068d3f6ccf = L.polyline(
+                [[-12.988084, -38.511655], [-13.0080582, -38.5184592]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_940582f40f77cdaeacdad3068d3f6ccf.bindTooltip(
+                `<div>
+                     Distância: 3.90 km, Tempo: 12.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aab0ee1505cd4931b4de0164649a33db = L.polyline(
+                [[-12.979067, -38.50799], [-13.0080582, -38.5184592]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_aab0ee1505cd4931b4de0164649a33db.bindTooltip(
+                `<div>
+                     Distância: 5.11 km, Tempo: 20.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ab18b31e5b8489fc78bf494489bb649e = L.polyline(
+                [[-13.010308, -38.509888], [-13.0123191, -38.4683242]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ab18b31e5b8489fc78bf494489bb649e.bindTooltip(
+                `<div>
+                     Distância: 4.89 km, Tempo: 14.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_55a94349ef898202167daedc578ccca6 = L.polyline(
+                [[-13.01114, -38.4938], [-13.0123191, -38.4683242]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_55a94349ef898202167daedc578ccca6.bindTooltip(
+                `<div>
+                     Distância: 3.04 km, Tempo: 8.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4fa8d773b79fcd835b1a5a12069a6f54 = L.polyline(
+                [[-12.990164, -38.450229], [-13.0123191, -38.4683242]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_4fa8d773b79fcd835b1a5a12069a6f54.bindTooltip(
+                `<div>
+                     Distância: 5.31 km, Tempo: 15.8 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ff7741610a28718476a9fbe410b742e1 = L.polyline(
+                [[-13.002792, -38.45533200000001], [-13.0123191, -38.4683242]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ff7741610a28718476a9fbe410b742e1.bindTooltip(
+                `<div>
+                     Distância: 2.01 km, Tempo: 8.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_65e57537ba96dad4cd6f696e467deaa1 = L.polyline(
+                [[-12.988084, -38.511655], [-13.0123191, -38.4683242]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_65e57537ba96dad4cd6f696e467deaa1.bindTooltip(
+                `<div>
+                     Distância: 7.17 km, Tempo: 22.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_53aea69026359b81771ee72a8c3f9ed5 = L.polyline(
+                [[-12.979067, -38.50799], [-13.0123191, -38.4683242]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_53aea69026359b81771ee72a8c3f9ed5.bindTooltip(
+                `<div>
+                     Distância: 8.55 km, Tempo: 27.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_40df818df63314b22c14ba776bf0c476 = L.polyline(
+                [[-13.01114, -38.4938], [-13.010308, -38.509888]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_40df818df63314b22c14ba776bf0c476.bindTooltip(
+                `<div>
+                     Distância: 1.86 km, Tempo: 6.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e26c31e2e24ed75e3687f7876e342365 = L.polyline(
+                [[-12.990164, -38.450229], [-13.010308, -38.509888]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_e26c31e2e24ed75e3687f7876e342365.bindTooltip(
+                `<div>
+                     Distância: 9.50 km, Tempo: 30.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ad1bca2b38b92496f2a3582cbb06bd62 = L.polyline(
+                [[-13.002792, -38.45533200000001], [-13.010308, -38.509888]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ad1bca2b38b92496f2a3582cbb06bd62.bindTooltip(
+                `<div>
+                     Distância: 7.41 km, Tempo: 26.6 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d313566b367448bb953fdc19c9abac64 = L.polyline(
+                [[-12.988084, -38.511655], [-13.010308, -38.509888]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d313566b367448bb953fdc19c9abac64.bindTooltip(
+                `<div>
+                     Distância: 3.65 km, Tempo: 11.4 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5f236831f2bc5947b115a8bd5949ed58 = L.polyline(
+                [[-12.979067, -38.50799], [-13.010308, -38.509888]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_5f236831f2bc5947b115a8bd5949ed58.bindTooltip(
+                `<div>
+                     Distância: 5.03 km, Tempo: 17.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ae3944a396ac2f9fd6f8886bd0dd47c6 = L.polyline(
+                [[-12.990164, -38.450229], [-13.01114, -38.4938]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ae3944a396ac2f9fd6f8886bd0dd47c6.bindTooltip(
+                `<div>
+                     Distância: 7.64 km, Tempo: 24.6 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a133b72e60a2d0d4ae5ee95fde0fa63d = L.polyline(
+                [[-13.002792, -38.45533200000001], [-13.01114, -38.4938]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_a133b72e60a2d0d4ae5ee95fde0fa63d.bindTooltip(
+                `<div>
+                     Distância: 5.55 km, Tempo: 20.3 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_da4ebaec1a71901833f84f2c4140e8b2 = L.polyline(
+                [[-12.988084, -38.511655], [-13.01114, -38.4938]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_da4ebaec1a71901833f84f2c4140e8b2.bindTooltip(
+                `<div>
+                     Distância: 4.27 km, Tempo: 14.1 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6972ec937eb3b9a22d043f60b1892b25 = L.polyline(
+                [[-12.979067, -38.50799], [-13.01114, -38.4938]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_6972ec937eb3b9a22d043f60b1892b25.bindTooltip(
+                `<div>
+                     Distância: 5.64 km, Tempo: 19.7 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bf17b0c9eb28a283e42f40419112462b = L.polyline(
+                [[-13.002792, -38.45533200000001], [-12.990164, -38.450229]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_bf17b0c9eb28a283e42f40419112462b.bindTooltip(
+                `<div>
+                     Distância: 2.05 km, Tempo: 8.2 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fdf18c6551851903ba1fc386bc0e69e9 = L.polyline(
+                [[-12.988084, -38.511655], [-12.990164, -38.450229]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_fdf18c6551851903ba1fc386bc0e69e9.bindTooltip(
+                `<div>
+                     Distância: 9.84 km, Tempo: 31.6 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_742049aa1202926a04337915d2522ca9 = L.polyline(
+                [[-12.979067, -38.50799], [-12.990164, -38.450229]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_742049aa1202926a04337915d2522ca9.bindTooltip(
+                `<div>
+                     Distância: 8.38 km, Tempo: 26.0 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cce4bc5e282b17918ada32ccd15e19ca = L.polyline(
+                [[-12.988084, -38.511655], [-13.002792, -38.45533200000001]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_cce4bc5e282b17918ada32ccd15e19ca.bindTooltip(
+                `<div>
+                     Distância: 9.63 km, Tempo: 30.9 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ecade7cad48af61bbe6f0d7616499054 = L.polyline(
+                [[-12.979067, -38.50799], [-13.002792, -38.45533200000001]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_ecade7cad48af61bbe6f0d7616499054.bindTooltip(
+                `<div>
+                     Distância: 10.38 km, Tempo: 32.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d7b8b1f4a3c5a12f71cb246ea3617a21 = L.polyline(
+                [[-12.979067, -38.50799], [-12.988084, -38.511655]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.6, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_331cd63f2ea543ade255998ca9342b33);
+        
+    
+            poly_line_d7b8b1f4a3c5a12f71cb246ea3617a21.bindTooltip(
+                `<div>
+                     Distância: 1.99 km, Tempo: 7.5 min
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
