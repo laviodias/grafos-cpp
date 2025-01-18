@@ -1,0 +1,2426 @@
+{
+    "locations": [
+        {
+            "name": "Bike Base 0",
+            "location": {
+                "lat": -13.005963,
+                "lng": -38.457312
+            }
+        },
+        {
+            "name": "Bike Base 1",
+            "location": {
+                "lat": -12.993181,
+                "lng": -38.507897
+            }
+        },
+        {
+            "name": "Bike Base 2",
+            "location": {
+                "lat": -12.993338,
+                "lng": -38.460908
+            }
+        },
+        {
+            "name": "Bike Base 3",
+            "location": {
+                "lat": -13.002672,
+                "lng": -38.451655
+            }
+        },
+        {
+            "name": "Bike Base 4",
+            "location": {
+                "lat": -13.0059576,
+                "lng": -38.5232551
+            }
+        },
+        {
+            "name": "Bike Base 5",
+            "location": {
+                "lat": -12.98625,
+                "lng": -38.43404
+            }
+        },
+        {
+            "name": "Bike Base 6",
+            "location": {
+                "lat": -13.01063,
+                "lng": -38.46546
+            }
+        },
+        {
+            "name": "Bike Base 7",
+            "location": {
+                "lat": -12.99751,
+                "lng": -38.44347
+            }
+        },
+        {
+            "name": "Bike Base 8",
+            "location": {
+                "lat": -13.0080582,
+                "lng": -38.5184592
+            }
+        },
+        {
+            "name": "Bike Base 9",
+            "location": {
+                "lat": -13.00202,
+                "lng": -38.50382
+            }
+        },
+        {
+            "name": "Bike Base 10",
+            "location": {
+                "lat": -13.0123191,
+                "lng": -38.4683242
+            }
+        },
+        {
+            "name": "Bike Base 11",
+            "location": {
+                "lat": -12.982846,
+                "lng": -38.514973
+            }
+        },
+        {
+            "name": "Bike Base 12",
+            "location": {
+                "lat": -12.9751659,
+                "lng": -38.4179119
+            }
+        },
+        {
+            "name": "Bike Base 13",
+            "location": {
+                "lat": -12.999232,
+                "lng": -38.523744
+            }
+        },
+        {
+            "name": "Bike Base 14",
+            "location": {
+                "lat": -12.98978,
+                "lng": -38.43678
+            }
+        },
+        {
+            "name": "Bike Base 15",
+            "location": {
+                "lat": -13.013335,
+                "lng": -38.488729
+            }
+        },
+        {
+            "name": "Bike Base 16",
+            "location": {
+                "lat": -13.00331,
+                "lng": -38.532697
+            }
+        },
+        {
+            "name": "Bike Base 17",
+            "location": {
+                "lat": -13.0093364,
+                "lng": -38.5257352
+            }
+        },
+        {
+            "name": "Bike Base 18",
+            "location": {
+                "lat": -12.994033,
+                "lng": -38.440247
+            }
+        },
+        {
+            "name": "Bike Base 19",
+            "location": {
+                "lat": -12.97935,
+                "lng": -38.45504
+            }
+        }
+    ],
+    "distances": {
+        "Bike Base 0 -> Bike Base 1": {
+            "distance": 8090,
+            "duration": 1701,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 0 -> Bike Base 2": {
+            "distance": 1907,
+            "duration": 488,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 0 -> Bike Base 3": {
+            "distance": 855,
+            "duration": 154,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 0 -> Bike Base 4": {
+            "distance": 9156,
+            "duration": 1813,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 0 -> Bike Base 5": {
+            "distance": 3636,
+            "duration": 658,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 0 -> Bike Base 6": {
+            "distance": 1410,
+            "duration": 248,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 0 -> Bike Base 7": {
+            "distance": 1932,
+            "duration": 368,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 0 -> Bike Base 8": {
+            "distance": 8011,
+            "duration": 1631,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 0 -> Bike Base 9": {
+            "distance": 6934,
+            "duration": 1497,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 0 -> Bike Base 10": {
+            "distance": 2806,
+            "duration": 513,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 0 -> Bike Base 11": {
+            "distance": 10402,
+            "duration": 2188,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 0 -> Bike Base 12": {
+            "distance": 5898,
+            "duration": 1047,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 0 -> Bike Base 13": {
+            "distance": 9850,
+            "duration": 2284,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 0 -> Bike Base 14": {
+            "distance": 3137,
+            "duration": 570,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 0 -> Bike Base 15": {
+            "distance": 4496,
+            "duration": 882,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 0 -> Bike Base 16": {
+            "distance": 10339,
+            "duration": 2139,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 0 -> Bike Base 17": {
+            "distance": 8906,
+            "duration": 1768,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 0 -> Bike Base 18": {
+            "distance": 2530,
+            "duration": 464,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 0 -> Bike Base 19": {
+            "distance": 4066,
+            "duration": 777,
+            "origin": "-13.005963,-38.457312",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 1 -> Bike Base 0": {
+            "distance": 7341,
+            "duration": 1322,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 1 -> Bike Base 2": {
+            "distance": 7847,
+            "duration": 1487,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 1 -> Bike Base 3": {
+            "distance": 8363,
+            "duration": 1503,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 1 -> Bike Base 4": {
+            "distance": 2601,
+            "duration": 447,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 1 -> Bike Base 5": {
+            "distance": 11144,
+            "duration": 2007,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 1 -> Bike Base 6": {
+            "distance": 6492,
+            "duration": 1172,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 1 -> Bike Base 7": {
+            "distance": 9440,
+            "duration": 1717,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 1 -> Bike Base 8": {
+            "distance": 3297,
+            "duration": 595,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 1 -> Bike Base 9": {
+            "distance": 1246,
+            "duration": 219,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 1 -> Bike Base 10": {
+            "distance": 5939,
+            "duration": 1076,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 1 -> Bike Base 11": {
+            "distance": 2721,
+            "duration": 740,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 1 -> Bike Base 12": {
+            "distance": 13406,
+            "duration": 2396,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 1 -> Bike Base 13": {
+            "distance": 2929,
+            "duration": 686,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 1 -> Bike Base 14": {
+            "distance": 10645,
+            "duration": 1919,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 1 -> Bike Base 15": {
+            "distance": 3683,
+            "duration": 723,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 1 -> Bike Base 16": {
+            "distance": 3884,
+            "duration": 787,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 1 -> Bike Base 17": {
+            "distance": 3229,
+            "duration": 624,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 1 -> Bike Base 18": {
+            "distance": 10038,
+            "duration": 1813,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 1 -> Bike Base 19": {
+            "distance": 9315,
+            "duration": 1580,
+            "origin": "-12.993181,-38.507897",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 2 -> Bike Base 0": {
+            "distance": 2101,
+            "duration": 498,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 2 -> Bike Base 1": {
+            "distance": 7792,
+            "duration": 1507,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 2 -> Bike Base 3": {
+            "distance": 2363,
+            "duration": 556,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 2 -> Bike Base 4": {
+            "distance": 10393,
+            "duration": 1954,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 2 -> Bike Base 5": {
+            "distance": 5737,
+            "duration": 1156,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 2 -> Bike Base 6": {
+            "distance": 3511,
+            "duration": 746,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 2 -> Bike Base 7": {
+            "distance": 3074,
+            "duration": 742,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 2 -> Bike Base 8": {
+            "distance": 8775,
+            "duration": 1784,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 2 -> Bike Base 9": {
+            "distance": 6636,
+            "duration": 1303,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 2 -> Bike Base 10": {
+            "distance": 3263,
+            "duration": 752,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 2 -> Bike Base 11": {
+            "distance": 10818,
+            "duration": 2271,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 2 -> Bike Base 12": {
+            "distance": 7999,
+            "duration": 1545,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 2 -> Bike Base 13": {
+            "distance": 10721,
+            "duration": 2193,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 2 -> Bike Base 14": {
+            "distance": 5238,
+            "duration": 1068,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 2 -> Bike Base 15": {
+            "distance": 5502,
+            "duration": 1173,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 2 -> Bike Base 16": {
+            "distance": 11676,
+            "duration": 2294,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 2 -> Bike Base 17": {
+            "distance": 9670,
+            "duration": 1921,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 2 -> Bike Base 18": {
+            "distance": 4631,
+            "duration": 962,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 2 -> Bike Base 19": {
+            "distance": 3920,
+            "duration": 746,
+            "origin": "-12.993338,-38.460908",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 3 -> Bike Base 0": {
+            "distance": 855,
+            "duration": 286,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 3 -> Bike Base 1": {
+            "distance": 8551,
+            "duration": 1778,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 3 -> Bike Base 2": {
+            "distance": 3121,
+            "duration": 692,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 3 -> Bike Base 4": {
+            "distance": 9617,
+            "duration": 1890,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 3 -> Bike Base 5": {
+            "distance": 2881,
+            "duration": 522,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 3 -> Bike Base 6": {
+            "distance": 1871,
+            "duration": 325,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 3 -> Bike Base 7": {
+            "distance": 1078,
+            "duration": 214,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 3 -> Bike Base 8": {
+            "distance": 8472,
+            "duration": 1708,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 3 -> Bike Base 9": {
+            "distance": 7395,
+            "duration": 1574,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 3 -> Bike Base 10": {
+            "distance": 3267,
+            "duration": 590,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 3 -> Bike Base 11": {
+            "distance": 10863,
+            "duration": 2265,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 3 -> Bike Base 12": {
+            "distance": 5143,
+            "duration": 911,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 3 -> Bike Base 13": {
+            "distance": 10311,
+            "duration": 2361,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 3 -> Bike Base 14": {
+            "distance": 2382,
+            "duration": 434,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 3 -> Bike Base 15": {
+            "distance": 4957,
+            "duration": 959,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 3 -> Bike Base 16": {
+            "distance": 10800,
+            "duration": 2216,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 3 -> Bike Base 17": {
+            "distance": 9367,
+            "duration": 1845,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 3 -> Bike Base 18": {
+            "distance": 1775,
+            "duration": 328,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 3 -> Bike Base 19": {
+            "distance": 3474,
+            "duration": 697,
+            "origin": "-13.002672,-38.451655",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 4 -> Bike Base 0": {
+            "distance": 8489,
+            "duration": 1596,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 4 -> Bike Base 1": {
+            "distance": 2773,
+            "duration": 521,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 4 -> Bike Base 2": {
+            "distance": 10325,
+            "duration": 2029,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 4 -> Bike Base 3": {
+            "distance": 9511,
+            "duration": 1777,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 4 -> Bike Base 5": {
+            "distance": 12292,
+            "duration": 2281,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 4 -> Bike Base 6": {
+            "distance": 7640,
+            "duration": 1446,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 4 -> Bike Base 7": {
+            "distance": 10588,
+            "duration": 1991,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 4 -> Bike Base 8": {
+            "distance": 1201,
+            "duration": 349,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 4 -> Bike Base 9": {
+            "distance": 3537,
+            "duration": 654,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 4 -> Bike Base 10": {
+            "distance": 7087,
+            "duration": 1350,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 4 -> Bike Base 11": {
+            "distance": 4052,
+            "duration": 1054,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 4 -> Bike Base 12": {
+            "distance": 14554,
+            "duration": 2670,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 4 -> Bike Base 13": {
+            "distance": 1675,
+            "duration": 611,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 4 -> Bike Base 14": {
+            "distance": 11793,
+            "duration": 2193,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 4 -> Bike Base 15": {
+            "distance": 4780,
+            "duration": 1083,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 4 -> Bike Base 16": {
+            "distance": 1503,
+            "duration": 498,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 4 -> Bike Base 17": {
+            "distance": 628,
+            "duration": 177,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 4 -> Bike Base 18": {
+            "distance": 11186,
+            "duration": 2087,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 4 -> Bike Base 19": {
+            "distance": 10760,
+            "duration": 2079,
+            "origin": "-13.0059576,-38.5232551",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 5 -> Bike Base 0": {
+            "distance": 3637,
+            "duration": 795,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 5 -> Bike Base 1": {
+            "distance": 11333,
+            "duration": 2287,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 5 -> Bike Base 2": {
+            "distance": 5903,
+            "duration": 1201,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 5 -> Bike Base 3": {
+            "distance": 2882,
+            "duration": 527,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 5 -> Bike Base 4": {
+            "distance": 12399,
+            "duration": 2399,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 5 -> Bike Base 6": {
+            "distance": 4653,
+            "duration": 834,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 5 -> Bike Base 7": {
+            "distance": 1716,
+            "duration": 510,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 5 -> Bike Base 8": {
+            "distance": 11254,
+            "duration": 2217,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 5 -> Bike Base 9": {
+            "distance": 10177,
+            "duration": 2083,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 5 -> Bike Base 10": {
+            "distance": 6049,
+            "duration": 1099,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 5 -> Bike Base 11": {
+            "distance": 13645,
+            "duration": 2774,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 5 -> Bike Base 12": {
+            "distance": 2262,
+            "duration": 389,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 5 -> Bike Base 13": {
+            "distance": 13093,
+            "duration": 2870,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 5 -> Bike Base 14": {
+            "distance": 498,
+            "duration": 90,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 5 -> Bike Base 15": {
+            "distance": 7739,
+            "duration": 1468,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 5 -> Bike Base 16": {
+            "distance": 13582,
+            "duration": 2725,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 5 -> Bike Base 17": {
+            "distance": 12149,
+            "duration": 2354,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 5 -> Bike Base 18": {
+            "distance": 1106,
+            "duration": 200,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 5 -> Bike Base 19": {
+            "distance": 5236,
+            "duration": 997,
+            "origin": "-12.98625,-38.43404",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 6 -> Bike Base 0": {
+            "distance": 1410,
+            "duration": 386,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 6 -> Bike Base 1": {
+            "distance": 6680,
+            "duration": 1453,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 6 -> Bike Base 2": {
+            "distance": 3676,
+            "duration": 792,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 6 -> Bike Base 3": {
+            "distance": 1871,
+            "duration": 331,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 6 -> Bike Base 4": {
+            "distance": 7746,
+            "duration": 1565,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 6 -> Bike Base 5": {
+            "distance": 4652,
+            "duration": 835,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 6 -> Bike Base 7": {
+            "distance": 2948,
+            "duration": 545,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 6 -> Bike Base 8": {
+            "distance": 6601,
+            "duration": 1383,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 6 -> Bike Base 9": {
+            "distance": 5524,
+            "duration": 1249,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 6 -> Bike Base 10": {
+            "distance": 1396,
+            "duration": 265,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 6 -> Bike Base 11": {
+            "distance": 8992,
+            "duration": 1940,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 6 -> Bike Base 12": {
+            "distance": 6914,
+            "duration": 1224,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 6 -> Bike Base 13": {
+            "distance": 8440,
+            "duration": 2036,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 6 -> Bike Base 14": {
+            "distance": 4153,
+            "duration": 747,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 6 -> Bike Base 15": {
+            "distance": 3086,
+            "duration": 634,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 6 -> Bike Base 16": {
+            "distance": 8929,
+            "duration": 1891,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 6 -> Bike Base 17": {
+            "distance": 7496,
+            "duration": 1520,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 6 -> Bike Base 18": {
+            "distance": 3546,
+            "duration": 641,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 6 -> Bike Base 19": {
+            "distance": 5286,
+            "duration": 1018,
+            "origin": "-13.01063,-38.46546",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 7 -> Bike Base 0": {
+            "distance": 2205,
+            "duration": 540,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 7 -> Bike Base 1": {
+            "distance": 9901,
+            "duration": 2032,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 7 -> Bike Base 2": {
+            "distance": 4471,
+            "duration": 946,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 7 -> Bike Base 3": {
+            "distance": 1450,
+            "duration": 272,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 7 -> Bike Base 4": {
+            "distance": 10967,
+            "duration": 2144,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 7 -> Bike Base 5": {
+            "distance": 1716,
+            "duration": 304,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 7 -> Bike Base 6": {
+            "distance": 3221,
+            "duration": 579,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 7 -> Bike Base 8": {
+            "distance": 9822,
+            "duration": 1962,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 7 -> Bike Base 9": {
+            "distance": 8745,
+            "duration": 1828,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 7 -> Bike Base 10": {
+            "distance": 4617,
+            "duration": 844,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 7 -> Bike Base 11": {
+            "distance": 12213,
+            "duration": 2519,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 7 -> Bike Base 12": {
+            "distance": 3978,
+            "duration": 693,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 7 -> Bike Base 13": {
+            "distance": 11661,
+            "duration": 2615,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 7 -> Bike Base 14": {
+            "distance": 1217,
+            "duration": 216,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 7 -> Bike Base 15": {
+            "distance": 6307,
+            "duration": 1213,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 7 -> Bike Base 16": {
+            "distance": 12150,
+            "duration": 2470,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 7 -> Bike Base 17": {
+            "distance": 10717,
+            "duration": 2099,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 7 -> Bike Base 18": {
+            "distance": 610,
+            "duration": 110,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 7 -> Bike Base 19": {
+            "distance": 3563,
+            "duration": 751,
+            "origin": "-12.99751,-38.44347",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 8 -> Bike Base 0": {
+            "distance": 7288,
+            "duration": 1247,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 8 -> Bike Base 1": {
+            "distance": 3311,
+            "duration": 673,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 8 -> Bike Base 2": {
+            "distance": 9124,
+            "duration": 1680,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 8 -> Bike Base 3": {
+            "distance": 8310,
+            "duration": 1428,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 8 -> Bike Base 4": {
+            "distance": 1145,
+            "duration": 182,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 8 -> Bike Base 5": {
+            "distance": 11091,
+            "duration": 1932,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 8 -> Bike Base 6": {
+            "distance": 6439,
+            "duration": 1097,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 8 -> Bike Base 7": {
+            "distance": 9387,
+            "duration": 1642,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 8 -> Bike Base 9": {
+            "distance": 3987,
+            "duration": 808,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 8 -> Bike Base 10": {
+            "distance": 5886,
+            "duration": 1001,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 8 -> Bike Base 11": {
+            "distance": 4590,
+            "duration": 1206,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 8 -> Bike Base 12": {
+            "distance": 13353,
+            "duration": 2321,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 8 -> Bike Base 13": {
+            "distance": 1544,
+            "duration": 658,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 8 -> Bike Base 14": {
+            "distance": 10592,
+            "duration": 1844,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 8 -> Bike Base 15": {
+            "distance": 3579,
+            "duration": 734,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 8 -> Bike Base 16": {
+            "distance": 2328,
+            "duration": 508,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 8 -> Bike Base 17": {
+            "distance": 895,
+            "duration": 136,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 8 -> Bike Base 18": {
+            "distance": 9985,
+            "duration": 1738,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 8 -> Bike Base 19": {
+            "distance": 9559,
+            "duration": 1730,
+            "origin": "-13.0080582,-38.5184592",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 9 -> Bike Base 0": {
+            "distance": 6824,
+            "duration": 1300,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 9 -> Bike Base 1": {
+            "distance": 1202,
+            "duration": 285,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 9 -> Bike Base 2": {
+            "distance": 7330,
+            "duration": 1465,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 9 -> Bike Base 3": {
+            "distance": 7846,
+            "duration": 1481,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 9 -> Bike Base 4": {
+            "distance": 3803,
+            "duration": 732,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 9 -> Bike Base 5": {
+            "distance": 10627,
+            "duration": 1985,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 9 -> Bike Base 6": {
+            "distance": 5975,
+            "duration": 1150,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 9 -> Bike Base 7": {
+            "distance": 8923,
+            "duration": 1695,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 9 -> Bike Base 8": {
+            "distance": 2780,
+            "duration": 573,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 9 -> Bike Base 10": {
+            "distance": 5422,
+            "duration": 1054,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 9 -> Bike Base 11": {
+            "distance": 4227,
+            "duration": 1049,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 9 -> Bike Base 12": {
+            "distance": 12889,
+            "duration": 2374,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 9 -> Bike Base 13": {
+            "distance": 4131,
+            "duration": 971,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 9 -> Bike Base 14": {
+            "distance": 10128,
+            "duration": 1897,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 9 -> Bike Base 15": {
+            "distance": 3166,
+            "duration": 701,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 9 -> Bike Base 16": {
+            "distance": 5086,
+            "duration": 1072,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 9 -> Bike Base 17": {
+            "distance": 3675,
+            "duration": 710,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 9 -> Bike Base 18": {
+            "distance": 9521,
+            "duration": 1791,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 9 -> Bike Base 19": {
+            "distance": 8798,
+            "duration": 1558,
+            "origin": "-13.00202,-38.50382",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 10 -> Bike Base 0": {
+            "distance": 1402,
+            "duration": 246,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 10 -> Bike Base 1": {
+            "distance": 5890,
+            "duration": 1326,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 10 -> Bike Base 2": {
+            "distance": 3237,
+            "duration": 679,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 10 -> Bike Base 3": {
+            "distance": 2257,
+            "duration": 400,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 10 -> Bike Base 4": {
+            "distance": 6956,
+            "duration": 1438,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 10 -> Bike Base 5": {
+            "distance": 5038,
+            "duration": 904,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 10 -> Bike Base 6": {
+            "distance": 2812,
+            "duration": 494,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 10 -> Bike Base 7": {
+            "distance": 3334,
+            "duration": 614,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 10 -> Bike Base 8": {
+            "distance": 5811,
+            "duration": 1256,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 10 -> Bike Base 9": {
+            "distance": 4734,
+            "duration": 1122,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 10 -> Bike Base 11": {
+            "distance": 8202,
+            "duration": 1813,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 10 -> Bike Base 12": {
+            "distance": 7300,
+            "duration": 1293,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 10 -> Bike Base 13": {
+            "distance": 7650,
+            "duration": 1909,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 10 -> Bike Base 14": {
+            "distance": 4539,
+            "duration": 816,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 10 -> Bike Base 15": {
+            "distance": 2296,
+            "duration": 507,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 10 -> Bike Base 16": {
+            "distance": 8139,
+            "duration": 1764,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 10 -> Bike Base 17": {
+            "distance": 6706,
+            "duration": 1393,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 10 -> Bike Base 18": {
+            "distance": 3932,
+            "duration": 710,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 10 -> Bike Base 19": {
+            "distance": 5468,
+            "duration": 1023,
+            "origin": "-13.0123191,-38.4683242",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 11 -> Bike Base 0": {
+            "distance": 9776,
+            "duration": 1852,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 11 -> Bike Base 1": {
+            "distance": 3055,
+            "duration": 658,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 11 -> Bike Base 2": {
+            "distance": 10001,
+            "duration": 1924,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 11 -> Bike Base 3": {
+            "distance": 10798,
+            "duration": 2033,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 11 -> Bike Base 4": {
+            "distance": 4093,
+            "duration": 763,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 11 -> Bike Base 5": {
+            "distance": 13579,
+            "duration": 2537,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 11 -> Bike Base 6": {
+            "distance": 8927,
+            "duration": 1702,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 11 -> Bike Base 7": {
+            "distance": 11875,
+            "duration": 2247,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 11 -> Bike Base 8": {
+            "distance": 5186,
+            "duration": 1125,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 11 -> Bike Base 9": {
+            "distance": 3819,
+            "duration": 791,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 11 -> Bike Base 10": {
+            "distance": 8374,
+            "duration": 1606,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 11 -> Bike Base 12": {
+            "distance": 15841,
+            "duration": 2926,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 11 -> Bike Base 13": {
+            "distance": 2842,
+            "duration": 607,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 11 -> Bike Base 14": {
+            "distance": 13080,
+            "duration": 2449,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 11 -> Bike Base 15": {
+            "distance": 5963,
+            "duration": 1219,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 11 -> Bike Base 16": {
+            "distance": 3275,
+            "duration": 624,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 11 -> Bike Base 17": {
+            "distance": 4613,
+            "duration": 953,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 11 -> Bike Base 18": {
+            "distance": 12473,
+            "duration": 2343,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 11 -> Bike Base 19": {
+            "distance": 8182,
+            "duration": 1489,
+            "origin": "-12.982846,-38.514973",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 12 -> Bike Base 0": {
+            "distance": 5899,
+            "duration": 1191,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 12 -> Bike Base 1": {
+            "distance": 13595,
+            "duration": 2683,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 12 -> Bike Base 2": {
+            "distance": 8165,
+            "duration": 1597,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 12 -> Bike Base 3": {
+            "distance": 5144,
+            "duration": 923,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 12 -> Bike Base 4": {
+            "distance": 14661,
+            "duration": 2795,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 12 -> Bike Base 5": {
+            "distance": 2262,
+            "duration": 396,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 12 -> Bike Base 6": {
+            "distance": 6915,
+            "duration": 1230,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 12 -> Bike Base 7": {
+            "distance": 3978,
+            "duration": 906,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 12 -> Bike Base 8": {
+            "distance": 13516,
+            "duration": 2613,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 12 -> Bike Base 9": {
+            "distance": 12439,
+            "duration": 2479,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 12 -> Bike Base 10": {
+            "distance": 8311,
+            "duration": 1495,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 12 -> Bike Base 11": {
+            "distance": 15907,
+            "duration": 3170,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 12 -> Bike Base 13": {
+            "distance": 15355,
+            "duration": 3266,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 12 -> Bike Base 14": {
+            "distance": 2760,
+            "duration": 486,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 12 -> Bike Base 15": {
+            "distance": 10001,
+            "duration": 1864,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 12 -> Bike Base 16": {
+            "distance": 15844,
+            "duration": 3121,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 12 -> Bike Base 17": {
+            "distance": 14411,
+            "duration": 2750,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 12 -> Bike Base 18": {
+            "distance": 3368,
+            "duration": 596,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 12 -> Bike Base 19": {
+            "distance": 7498,
+            "duration": 1393,
+            "origin": "-12.9751659,-38.4179119",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 13 -> Bike Base 0": {
+            "distance": 9724,
+            "duration": 1841,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 13 -> Bike Base 1": {
+            "distance": 2531,
+            "duration": 447,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 13 -> Bike Base 2": {
+            "distance": 11560,
+            "duration": 2274,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 13 -> Bike Base 3": {
+            "distance": 10746,
+            "duration": 2022,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 13 -> Bike Base 4": {
+            "distance": 1305,
+            "duration": 316,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 13 -> Bike Base 5": {
+            "distance": 13527,
+            "duration": 2526,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 13 -> Bike Base 6": {
+            "distance": 8875,
+            "duration": 1691,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 13 -> Bike Base 7": {
+            "distance": 11823,
+            "duration": 2236,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 13 -> Bike Base 8": {
+            "distance": 2436,
+            "duration": 594,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 13 -> Bike Base 9": {
+            "distance": 3295,
+            "duration": 580,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 13 -> Bike Base 10": {
+            "distance": 8322,
+            "duration": 1595,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 13 -> Bike Base 11": {
+            "distance": 3013,
+            "duration": 636,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 13 -> Bike Base 12": {
+            "distance": 15789,
+            "duration": 2915,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 13 -> Bike Base 14": {
+            "distance": 13028,
+            "duration": 2438,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 13 -> Bike Base 15": {
+            "distance": 6015,
+            "duration": 1328,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 13 -> Bike Base 16": {
+            "distance": 1599,
+            "duration": 315,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 13 -> Bike Base 17": {
+            "distance": 1863,
+            "duration": 422,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 13 -> Bike Base 18": {
+            "distance": 12421,
+            "duration": 2332,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 13 -> Bike Base 19": {
+            "distance": 11364,
+            "duration": 1941,
+            "origin": "-12.999232,-38.523744",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 14 -> Bike Base 0": {
+            "distance": 3138,
+            "duration": 705,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 14 -> Bike Base 1": {
+            "distance": 10834,
+            "duration": 2197,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 14 -> Bike Base 2": {
+            "distance": 5404,
+            "duration": 1111,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 14 -> Bike Base 3": {
+            "distance": 2383,
+            "duration": 437,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 14 -> Bike Base 4": {
+            "distance": 11900,
+            "duration": 2309,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 14 -> Bike Base 5": {
+            "distance": 498,
+            "duration": 88,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 14 -> Bike Base 6": {
+            "distance": 4154,
+            "duration": 744,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 14 -> Bike Base 7": {
+            "distance": 1217,
+            "duration": 420,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 14 -> Bike Base 8": {
+            "distance": 10755,
+            "duration": 2127,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 14 -> Bike Base 9": {
+            "distance": 9678,
+            "duration": 1993,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 14 -> Bike Base 10": {
+            "distance": 5550,
+            "duration": 1009,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 14 -> Bike Base 11": {
+            "distance": 13146,
+            "duration": 2684,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 14 -> Bike Base 12": {
+            "distance": 2760,
+            "duration": 477,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 14 -> Bike Base 13": {
+            "distance": 12594,
+            "duration": 2780,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 14 -> Bike Base 15": {
+            "distance": 7240,
+            "duration": 1378,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 14 -> Bike Base 16": {
+            "distance": 13083,
+            "duration": 2635,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 14 -> Bike Base 17": {
+            "distance": 11650,
+            "duration": 2264,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 14 -> Bike Base 18": {
+            "distance": 607,
+            "duration": 110,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 14 -> Bike Base 19": {
+            "distance": 4737,
+            "duration": 907,
+            "origin": "-12.98978,-38.43678",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 15 -> Bike Base 0": {
+            "distance": 3929,
+            "duration": 771,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 15 -> Bike Base 1": {
+            "distance": 3594,
+            "duration": 819,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 15 -> Bike Base 2": {
+            "distance": 5162,
+            "duration": 1082,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 15 -> Bike Base 3": {
+            "distance": 4951,
+            "duration": 952,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 15 -> Bike Base 4": {
+            "distance": 4660,
+            "duration": 931,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 15 -> Bike Base 5": {
+            "distance": 7732,
+            "duration": 1456,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 15 -> Bike Base 6": {
+            "distance": 3080,
+            "duration": 621,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 15 -> Bike Base 7": {
+            "distance": 6028,
+            "duration": 1166,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 15 -> Bike Base 8": {
+            "distance": 3515,
+            "duration": 749,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 15 -> Bike Base 9": {
+            "distance": 2438,
+            "duration": 615,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 15 -> Bike Base 10": {
+            "distance": 2527,
+            "duration": 525,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 15 -> Bike Base 11": {
+            "distance": 5906,
+            "duration": 1306,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 15 -> Bike Base 12": {
+            "distance": 9994,
+            "duration": 1845,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 15 -> Bike Base 13": {
+            "distance": 5354,
+            "duration": 1402,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 15 -> Bike Base 14": {
+            "distance": 7233,
+            "duration": 1368,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 15 -> Bike Base 16": {
+            "distance": 5843,
+            "duration": 1257,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 15 -> Bike Base 17": {
+            "distance": 4410,
+            "duration": 886,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 15 -> Bike Base 18": {
+            "distance": 6626,
+            "duration": 1262,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 15 -> Bike Base 19": {
+            "distance": 6630,
+            "duration": 1175,
+            "origin": "-13.013335,-38.488729",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 16 -> Bike Base 0": {
+            "distance": 9670,
+            "duration": 1779,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 16 -> Bike Base 1": {
+            "distance": 4695,
+            "duration": 997,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 16 -> Bike Base 2": {
+            "distance": 11506,
+            "duration": 2212,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 16 -> Bike Base 3": {
+            "distance": 10692,
+            "duration": 1960,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 16 -> Bike Base 4": {
+            "distance": 1922,
+            "duration": 476,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 16 -> Bike Base 5": {
+            "distance": 13473,
+            "duration": 2464,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 16 -> Bike Base 6": {
+            "distance": 8821,
+            "duration": 1629,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 16 -> Bike Base 7": {
+            "distance": 11769,
+            "duration": 2174,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 16 -> Bike Base 8": {
+            "distance": 2382,
+            "duration": 532,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 16 -> Bike Base 9": {
+            "distance": 6369,
+            "duration": 1340,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 16 -> Bike Base 10": {
+            "distance": 8268,
+            "duration": 1533,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 16 -> Bike Base 11": {
+            "distance": 3483,
+            "duration": 1127,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 16 -> Bike Base 12": {
+            "distance": 15735,
+            "duration": 2853,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 16 -> Bike Base 13": {
+            "distance": 1516,
+            "duration": 593,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 16 -> Bike Base 14": {
+            "distance": 12974,
+            "duration": 2376,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 16 -> Bike Base 15": {
+            "distance": 5961,
+            "duration": 1266,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 16 -> Bike Base 17": {
+            "distance": 1486,
+            "duration": 316,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 16 -> Bike Base 18": {
+            "distance": 12367,
+            "duration": 2270,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 16 -> Bike Base 19": {
+            "distance": 11941,
+            "duration": 2262,
+            "origin": "-13.00331,-38.532697",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 17 -> Bike Base 0": {
+            "distance": 8183,
+            "duration": 1463,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 17 -> Bike Base 1": {
+            "distance": 3498,
+            "duration": 747,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 17 -> Bike Base 2": {
+            "distance": 10019,
+            "duration": 1896,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 17 -> Bike Base 3": {
+            "distance": 9205,
+            "duration": 1644,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 17 -> Bike Base 4": {
+            "distance": 725,
+            "duration": 226,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 17 -> Bike Base 5": {
+            "distance": 11986,
+            "duration": 2148,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 17 -> Bike Base 6": {
+            "distance": 7334,
+            "duration": 1313,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 17 -> Bike Base 7": {
+            "distance": 10282,
+            "duration": 1858,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 17 -> Bike Base 8": {
+            "distance": 895,
+            "duration": 217,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 17 -> Bike Base 9": {
+            "distance": 4882,
+            "duration": 1024,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 17 -> Bike Base 10": {
+            "distance": 6781,
+            "duration": 1217,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 17 -> Bike Base 11": {
+            "distance": 4835,
+            "duration": 1235,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 17 -> Bike Base 12": {
+            "distance": 14248,
+            "duration": 2537,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 17 -> Bike Base 13": {
+            "distance": 1822,
+            "duration": 599,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 17 -> Bike Base 14": {
+            "distance": 11487,
+            "duration": 2060,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 17 -> Bike Base 15": {
+            "distance": 4474,
+            "duration": 950,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 17 -> Bike Base 16": {
+            "distance": 1433,
+            "duration": 371,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 17 -> Bike Base 18": {
+            "distance": 10880,
+            "duration": 1954,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.994033,-38.440247"
+        },
+        "Bike Base 17 -> Bike Base 19": {
+            "distance": 10454,
+            "duration": 1946,
+            "origin": "-13.0093364,-38.5257352",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 18 -> Bike Base 0": {
+            "distance": 2531,
+            "duration": 595,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 18 -> Bike Base 1": {
+            "distance": 10227,
+            "duration": 2087,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 18 -> Bike Base 2": {
+            "distance": 4797,
+            "duration": 1001,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 18 -> Bike Base 3": {
+            "distance": 1776,
+            "duration": 327,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 18 -> Bike Base 4": {
+            "distance": 11293,
+            "duration": 2199,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 18 -> Bike Base 5": {
+            "distance": 1106,
+            "duration": 194,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 18 -> Bike Base 6": {
+            "distance": 3547,
+            "duration": 634,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 18 -> Bike Base 7": {
+            "distance": 610,
+            "duration": 310,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 18 -> Bike Base 8": {
+            "distance": 10148,
+            "duration": 2017,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 18 -> Bike Base 9": {
+            "distance": 9071,
+            "duration": 1883,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 18 -> Bike Base 10": {
+            "distance": 4943,
+            "duration": 899,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 18 -> Bike Base 11": {
+            "distance": 12539,
+            "duration": 2574,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 18 -> Bike Base 12": {
+            "distance": 3368,
+            "duration": 583,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 18 -> Bike Base 13": {
+            "distance": 11987,
+            "duration": 2670,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 18 -> Bike Base 14": {
+            "distance": 607,
+            "duration": 106,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 18 -> Bike Base 15": {
+            "distance": 6633,
+            "duration": 1268,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 18 -> Bike Base 16": {
+            "distance": 12476,
+            "duration": 2525,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 18 -> Bike Base 17": {
+            "distance": 11043,
+            "duration": 2154,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 18 -> Bike Base 19": {
+            "distance": 4130,
+            "duration": 797,
+            "origin": "-12.994033,-38.440247",
+            "destination": "-12.97935,-38.45504"
+        },
+        "Bike Base 19 -> Bike Base 0": {
+            "distance": 4564,
+            "duration": 963,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.005963,-38.457312"
+        },
+        "Bike Base 19 -> Bike Base 1": {
+            "distance": 9849,
+            "duration": 1776,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.993181,-38.507897"
+        },
+        "Bike Base 19 -> Bike Base 2": {
+            "distance": 3896,
+            "duration": 760,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.993338,-38.460908"
+        },
+        "Bike Base 19 -> Bike Base 3": {
+            "distance": 4094,
+            "duration": 796,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.002672,-38.451655"
+        },
+        "Bike Base 19 -> Bike Base 4": {
+            "distance": 12450,
+            "duration": 2223,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.0059576,-38.5232551"
+        },
+        "Bike Base 19 -> Bike Base 5": {
+            "distance": 5641,
+            "duration": 1085,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.98625,-38.43404"
+        },
+        "Bike Base 19 -> Bike Base 6": {
+            "distance": 5906,
+            "duration": 1111,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.01063,-38.46546"
+        },
+        "Bike Base 19 -> Bike Base 7": {
+            "distance": 4378,
+            "duration": 976,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.99751,-38.44347"
+        },
+        "Bike Base 19 -> Bike Base 8": {
+            "distance": 10832,
+            "duration": 2053,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.0080582,-38.5184592"
+        },
+        "Bike Base 19 -> Bike Base 9": {
+            "distance": 8693,
+            "duration": 1572,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.00202,-38.50382"
+        },
+        "Bike Base 19 -> Bike Base 10": {
+            "distance": 7302,
+            "duration": 1376,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.0123191,-38.4683242"
+        },
+        "Bike Base 19 -> Bike Base 11": {
+            "distance": 9676,
+            "duration": 1972,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.982846,-38.514973"
+        },
+        "Bike Base 19 -> Bike Base 12": {
+            "distance": 7903,
+            "duration": 1474,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.9751659,-38.4179119"
+        },
+        "Bike Base 19 -> Bike Base 13": {
+            "distance": 12778,
+            "duration": 2462,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.999232,-38.523744"
+        },
+        "Bike Base 19 -> Bike Base 14": {
+            "distance": 5142,
+            "duration": 997,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.98978,-38.43678"
+        },
+        "Bike Base 19 -> Bike Base 15": {
+            "distance": 8992,
+            "duration": 1745,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.013335,-38.488729"
+        },
+        "Bike Base 19 -> Bike Base 16": {
+            "distance": 12854,
+            "duration": 2552,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.00331,-38.532697"
+        },
+        "Bike Base 19 -> Bike Base 17": {
+            "distance": 11727,
+            "duration": 2190,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-13.0093364,-38.5257352"
+        },
+        "Bike Base 19 -> Bike Base 18": {
+            "distance": 4535,
+            "duration": 891,
+            "origin": "-12.97935,-38.45504",
+            "destination": "-12.994033,-38.440247"
+        }
+    }
+}
