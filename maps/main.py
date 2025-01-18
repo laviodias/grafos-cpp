@@ -2,7 +2,7 @@ import requests
 import folium
 import networkx as nx
 
-API_KEY = "AIzaSyCZndMy7A8eq9aGrH-C25F0C4eoG6b0uFU"
+API_KEY = "api-key"
 LOCATION = "-12.9814,-38.4714"  # Salvador, Bahia
 RADIUS = 5000  # 5 km
 
