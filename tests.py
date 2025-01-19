@@ -1,5 +1,4 @@
-import sys
-from algorithm import find_path_with_fuel_limit
+from src.algorithms.shortest_path import find_path_with_fuel_limit
 
 test_cases = {
     "caso_1_grafo_pouco_denso": {

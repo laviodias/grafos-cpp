@@ -1,8 +1,16 @@
 import random
 import json
 import os
+import networkx as nx
 from src.services.google_api import GoogleMapsAPI
 from src.maps.utils import MapUtils
+
+
+colors = {
+    "bike": "blue",
+    "origin": "red",
+    "destination": "green",
+}
 
 
 class MapManager:
@@ -22,7 +30,7 @@ class MapManager:
         self.google_api = GoogleMapsAPI(api_key)
         self.bike_bases = []
         self.base_distances = {}
-        self.map_utils = MapUtils(location)
+        self.map_utils = MapUtils(location, self.google_api)
 
     def save_base_distances(self):
         print("Calculating distances between bike bases...")
@@ -93,65 +101,6 @@ class MapManager:
             self.bike_bases = data.get("locations", [])
             self.base_distances = data.get("distances", {})
 
-    def create_delivery_map(self):
-        self.load_base_distances()
-        if not self.bike_bases:
-            print("No bike bases found. Run 'save_base_distances' first.")
-            return
-
-        origin = self._select_random_origin()
-        if not origin:
-            return
-
-        destinations = self._select_random_destinations()
-        if not destinations:
-            return
-
-        map_object = self.map_utils.initialize_map()
-
-        # Add bike bases to the map
-        for base in self.bike_bases:
-            self.map_utils.add_point_to_map(
-                map_object,
-                location=base["location"],
-                popup=f"{base['name']}",
-                icon_color="blue",
-                icon_type="info-sign",
-            )
-
-        # Add origin to the map
-        self.map_utils.add_point_to_map(
-            map_object,
-            location=origin["location"],
-            popup=f"Origin: {origin['name']}",
-            icon_color="red",
-            icon_type="cutlery",
-        )
-
-        # Add destinations to the map
-        for destination in destinations:
-            self.map_utils.add_point_to_map(
-                map_object,
-                location=destination["location"],
-                popup=f"Destination: {destination['name']}",
-                icon_color="green",
-                icon_type="home",
-            )
-
-        self.map_utils.connect_points_on_map(
-            map_object,
-            origin,
-            destinations,
-            self.google_api,
-            self.bike_bases,
-            self.base_distances,
-        )
-
-        output_file = "output/delivery_map.html"
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
-        map_object.save(output_file)
-        print(f"Map saved as '{output_file}'. Open the file in a browser to view.")
-
     def _select_random_origin(self):
         print("Fetching a random restaurant as the origin...")
         restaurant_data = self.google_api.nearby_search(
@@ -183,3 +132,77 @@ class MapManager:
                 f"Selected destination: {destination['name']} - Location: {destination['location']}"
             )
         return destinations
+
+    def create_delivery_map(self, origin, destinations):
+        self.load_base_distances()
+
+        map_object = self.map_utils.initialize_map()
+        graph = nx.Graph()
+
+        if not self.bike_bases:
+            print("No bike bases found. Run 'save_base_distances' first.")
+            return
+
+        # Add bike bases to the map
+        for base in self.bike_bases:
+            graph.add_node(
+                base["name"], coords=(base["location"]["lat"], base["location"]["lng"])
+            )
+            self.map_utils.add_point_to_map(
+                map_object,
+                location=base["location"],
+                popup=f"{base['name']}",
+                icon_color="blue",
+                icon_type="info-sign",
+            )
+
+        # Add origin to the map
+        graph.add_node(
+            origin["name"],
+            coords=(origin["location"]["lat"], origin["location"]["lng"]),
+        )
+        self.map_utils.add_point_to_map(
+            map_object,
+            location=origin["location"],
+            popup=f"Origin: {origin['name']}",
+            icon_color="red",
+            icon_type="cutlery",
+        )
+
+        # Add destinations to the map
+        for destination in destinations:
+            graph.add_node(
+                destination["name"],
+                coords=(destination["location"]["lat"], destination["location"]["lng"]),
+            )
+            self.map_utils.add_point_to_map(
+                map_object,
+                location=destination["location"],
+                popup=f"Destination: {destination['name']}",
+                icon_color="green",
+                icon_type="home",
+            )
+
+        self.map_utils.connect_points_on_map(
+            origin,
+            destinations,
+            self.bike_bases,
+            self.base_distances,
+            graph,
+        )
+
+        for edge in graph.edges(data=True):
+            self.map_utils.add_edge_to_map(
+                map_object,
+                edge,
+                color=colors[edge[2]["type"]],
+                weight=2,
+                opacity=0.5,
+            )
+
+        output_file = "output/delivery_map.html"
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        map_object.save(output_file)
+        print(f"Map saved as '{output_file}'. Open the file in a browser to view.")
+
+        return graph
