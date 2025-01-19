@@ -24,6 +24,7 @@ class MapUtils:
             color=color,
             weight=weight,
             opacity=opacity,
+            popup=f"Duration: {edge[2]['duration'] // 60} minutes",
         ).add_to(map_object)
 
     def connect_bases_between_each_other(self, bike_bases, base_distances, graph):

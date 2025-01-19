@@ -200,7 +200,7 @@ class MapManager:
                 opacity=0.5,
             )
 
-        output_file = "output/delivery_map.html"
+        output_file = "output/graph_map.html"
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
         map_object.save(output_file)
         print(f"Map saved as '{output_file}'. Open the file in a browser to view.")

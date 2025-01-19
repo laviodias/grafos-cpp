@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from src.maps.manager import MapManager
+from src.maps.utils import MapUtils
 from src.graph_utils import graph_to_adjacency_matrix
 from src.algorithms.shortest_path import find_path_with_fuel_limit
 import folium
@@ -15,6 +16,7 @@ NUM_DESTINATIONS = 6
 FUEL_LIMIT = 30
 
 maps = MapManager(API_KEY, LOCATION, RADIUS, BASES_FILE, NUM_DESTINATIONS)
+maps_utils = MapUtils(LOCATION, API_KEY)
 
 if __name__ == "__main__":
     if not os.path.exists(BASES_FILE):
@@ -52,13 +54,25 @@ if __name__ == "__main__":
         adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
     )
 
+    print(adjacency_matrix)
+    print(stops)
+
     if path:
         print(f"Path: {path}")
         print(f"Cost: {cost}")
         print(f"Stops: {stops}")
 
         # Recriar o mapa com o menor caminho
-        delivery_map = maps.map_utils.initialize_map()
+        delivery_map = maps_utils.initialize_map()
+
+        # Adiciona todas as bases de bicicleta ao mapa
+        for base in bike_bases:
+            coords = (base["location"]["lat"], base["location"]["lng"])
+            folium.Marker(
+                coords,
+                popup=base["name"],
+                icon=folium.Icon(color="blue", icon="info-sign"),
+            ).add_to(delivery_map)
 
         # Adicionar a origem
         origin_coords = node_coords[nodes[start_vertex]]
