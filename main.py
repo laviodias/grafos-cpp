@@ -36,6 +36,7 @@ if __name__ == "__main__":
         with open(GRAPH_FILE, "r") as f:
             graph_data = json.load(f)
         graph, origin, destinations = maps.load_graph_from_data(graph_data)
+        maps_utils.draw_map(graph, bike_bases, origin, destinations)
     else:
         print(
             "Graph file not found or LOAD_GRAPH_FROM_FILE is False. Creating graph..."

@@ -1,4 +1,5 @@
 import folium
+import os
 
 
 class MapUtils:
@@ -26,6 +27,45 @@ class MapUtils:
             opacity=opacity,
             popup=f"Duration: {edge[2]['duration'] // 60} minutes",
         ).add_to(map_object)
+
+    def draw_map(self, graph, bike_bases, origin, destinations):
+        delivery_map = self.initialize_map()
+
+        origin_coords = (origin["location"]["lat"], origin["location"]["lng"])
+        folium.Marker(
+            origin_coords,
+            popup=f"Origin: {origin['name']}",
+            icon=folium.Icon(color="red", icon="cutlery"),
+        ).add_to(delivery_map)
+
+        for destination in destinations:
+            coords = (destination["location"]["lat"], destination["location"]["lng"])
+            folium.Marker(
+                coords,
+                popup=f"Destination: {destination['name']}",
+                icon=folium.Icon(color="green", icon="home"),
+            ).add_to(delivery_map)
+
+        for base in bike_bases:
+            coords = (base["location"]["lat"], base["location"]["lng"])
+            folium.Marker(
+                coords,
+                popup=base["name"],
+                icon=folium.Icon(color="blue", icon="info-sign"),
+            ).add_to(delivery_map)
+
+        for edge in graph.edges(data=True):
+            self.add_edge_to_map(
+                delivery_map,
+                edge,
+                color="blue",
+                weight=3,
+                opacity=0.7,
+            )
+
+        output_path = "output/graph_map.html"
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        delivery_map.save(output_path)
 
     def draw_final_map(
         self,
