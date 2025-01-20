@@ -1,0 +1,67 @@
+{
+  "origin": {
+      "name": "Bar Cruz do Pascoal",
+      "location": {
+          "lat": -12.9674658,
+          "lng": -38.5070202
+      }
+  },
+  "destinations": [
+      {
+          "name": "Pousada Pituba",
+          "location": {
+              "lat": -12.9933929,
+              "lng": -38.45720529999999
+          }
+      },
+      {
+          "name": "Tennis shoes",
+          "location": {
+              "lat": -12.9820772,
+              "lng": -38.4635678
+          }
+      },
+      {
+          "name": "Real Expresso",
+          "location": {
+              "lat": -12.9778445,
+              "lng": -38.4659356
+          }
+      },
+      {
+          "name": "Lojas Marisa",
+          "location": {
+              "lat": -12.9817061,
+              "lng": -38.4646255
+          }
+      },
+      {
+          "name": "Mercure Salvador Pituba",
+          "location": {
+              "lat": -12.9866277,
+              "lng": -38.4518323
+          }
+      },
+      {
+          "name": "Mercure Salvador Boulevard Hotel",
+          "location": {
+              "lat": -12.9818939,
+              "lng": -38.4558371
+          }
+      },
+      {
+          "name": "Brotas",
+          "location": {
+              "lat": -12.9850099,
+              "lng": -38.5015788
+          }
+      },
+      {
+          "name": "Iguatemi Business Flat",
+          "location": {
+              "lat": -12.9837595,
+              "lng": -38.4650282
+          }
+      }
+  ]
+}

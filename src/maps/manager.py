@@ -83,6 +83,85 @@ class MapManager:
         )
         print(f"Distances saved to {self.bases_file}.")
 
+    def load_origin_and_destinations(self, filepath):
+        if not os.path.exists(filepath):
+            print(f"File '{filepath}' not found.")
+            return None, None
+
+        with open(filepath, "r") as file:
+            data = json.load(file)
+
+        origin = data.get("origin")
+        destinations = data.get("destinations", [])
+
+        if origin:
+            print(f"Loaded origin: {origin['name']} - Location: {origin['location']}")
+        if destinations:
+            print(f"Loaded {len(destinations)} destinations:")
+            for destination in destinations:
+                print(f"- {destination['name']} at {destination['location']}")
+
+        return origin, destinations
+
+    def save_last_processed(self, origin, destinations):
+        last_processed_data = {
+            "origin": {
+                "name": origin["name"],
+                "location": origin["location"],
+            },
+            "destinations": [
+                {"name": destination["name"], "location": destination["location"]}
+                for destination in destinations
+            ],
+        }
+
+        storage_dir = "./storage"
+        os.makedirs(storage_dir, exist_ok=True)
+        file_path = os.path.join(storage_dir, "last_processed.json")
+
+        with open(file_path, "w") as f:
+            json.dump(last_processed_data, f, indent=4)
+        print(f"Last processed data saved to {file_path}.")
+
+    def save_graph(self, graph, origin, destinations):
+        origin_name = origin["name"].replace(" ", "_").lower()
+        num_destinations = len(destinations)
+        file_name = f"graph_{origin_name}_{num_destinations}_destinations.json"
+        storage_dir = "./storage"
+        os.makedirs(storage_dir, exist_ok=True)
+        file_path = os.path.join(storage_dir, file_name)
+
+        graph_data = {
+            "origin": {
+                "name": origin["name"],
+                "location": origin["location"],
+            },
+            "destinations": [
+                {"name": destination["name"], "location": destination["location"]}
+                for destination in destinations
+            ],
+            "nodes": list(graph.nodes(data=True)),
+            "edges": list(graph.edges(data=True)),
+        }
+
+        with open(file_path, "w") as f:
+            json.dump(graph_data, f, indent=4)
+        print(f"Graph saved to {file_path}.")
+
+    def load_graph_from_data(self, graph_data):
+        graph = nx.Graph()
+
+        origin = graph_data.get("origin")
+        destinations = graph_data.get("destinations", [])
+
+        for node, attrs in graph_data.get("nodes", []):
+            graph.add_node(node, **attrs)
+
+        for source, target, attrs in graph_data.get("edges", []):
+            graph.add_edge(source, target, **attrs)
+
+        return graph, origin, destinations
+
     def _save_to_file(self, filepath, data):
         with open(filepath, "w") as f:
             json.dump(data, f, indent=4)

@@ -1,0 +1,60 @@
+{
+    "origin": {
+        "name": "Quality Hotel & Suites S\u00e3o Salvador",
+        "location": {
+            "lat": -12.9850966,
+            "lng": -38.4496956
+        }
+    },
+    "destinations": [
+        {
+            "name": "Hotel Atlanta",
+            "location": {
+                "lat": -12.9913225,
+                "lng": -38.48612790000001
+            }
+        },
+        {
+            "name": "Mercure Salvador Pituba",
+            "location": {
+                "lat": -12.9866277,
+                "lng": -38.4518323
+            }
+        },
+        {
+            "name": "People2People RH",
+            "location": {
+                "lat": -12.9873278,
+                "lng": -38.4680299
+            }
+        },
+        {
+            "name": "Fiesta Bahia Hotel - Salvador Bahia",
+            "location": {
+                "lat": -12.9974361,
+                "lng": -38.46532000000001
+            }
+        },
+        {
+            "name": "Conect Smart Salvador by Accor",
+            "location": {
+                "lat": -12.9830259,
+                "lng": -38.4646334
+            }
+        },
+        {
+            "name": "Dubai Hotel",
+            "location": {
+                "lat": -12.9848969,
+                "lng": -38.47774639999999
+            }
+        },
+        {
+            "name": "Hotel Pir\u00e2mide Rodovi\u00e1ria",
+            "location": {
+                "lat": -12.9763242,
+                "lng": -38.4625446
+            }
+        }
+    ]
+}

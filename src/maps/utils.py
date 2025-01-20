@@ -7,7 +7,7 @@ class MapUtils:
         self.google_api = google_api
 
     def initialize_map(self):
-        return folium.Map(location=self.location, zoom_start=12)
+        return folium.Map(location=self.location, zoom_start=15)
 
     def add_point_to_map(self, map_object, location, popup, icon_color, icon_type):
         folium.Marker(
@@ -26,6 +26,69 @@ class MapUtils:
             opacity=opacity,
             popup=f"Duration: {edge[2]['duration'] // 60} minutes",
         ).add_to(map_object)
+
+    def draw_final_map(
+        self,
+        path,
+        stops,
+        graph,
+        bike_bases,
+        start_vertex,
+        mandatory_vertices,
+        nodes,
+        node_coords,
+    ):
+        delivery_map = self.initialize_map()
+
+        for base in bike_bases:
+            coords = (base["location"]["lat"], base["location"]["lng"])
+            folium.Marker(
+                coords,
+                popup=base["name"],
+                icon=folium.Icon(color="blue", icon="info-sign"),
+            ).add_to(delivery_map)
+
+        origin_coords = node_coords[nodes[start_vertex]]
+        folium.Marker(
+            origin_coords,
+            popup=f"Origin: {nodes[start_vertex]}",
+            icon=folium.Icon(color="red", icon="cutlery"),
+        ).add_to(delivery_map)
+
+        for destination in mandatory_vertices:
+            destination_coords = node_coords[nodes[destination]]
+            folium.Marker(
+                destination_coords,
+                popup=f"Destination: {nodes[destination]}",
+                icon=folium.Icon(color="green", icon="home"),
+            ).add_to(delivery_map)
+
+        for stop in stops:
+            stop_coords = node_coords[nodes[stop]]
+            folium.Marker(
+                stop_coords,
+                popup=f"Stop: {nodes[stop]}",
+                icon=folium.Icon(color="purple", icon="flag"),
+            ).add_to(delivery_map)
+
+        for i in range(len(path) - 1):
+            node1 = nodes[path[i]]
+            node2 = nodes[path[i + 1]]
+            coord1 = node_coords[node1]
+            coord2 = node_coords[node2]
+
+            duration = graph[node1][node2]["duration"]
+            duration_minutes = duration // 60
+
+            folium.PolyLine(
+                [coord1, coord2],
+                color="blue",
+                weight=3,
+                opacity=0.7,
+                popup=f"Duration: {duration_minutes} minutes",
+            ).add_to(delivery_map)
+
+        return delivery_map
 
     def connect_bases_between_each_other(self, bike_bases, base_distances, graph):
         for base_a in bike_bases:
@@ -53,8 +116,6 @@ class MapUtils:
                             type="bike",
                             coords=(base_a_coord, base_b_coord),
                         )
-
-                        print(f"Connecting bases: {base_a['name']} -> {base_b['name']}")
 
     def connect_origin_to_bases(self, origin, bike_bases, graph):
         origin_coord = f"{origin['location']['lat']},{origin['location']['lng']}"
@@ -124,8 +185,6 @@ class MapUtils:
     def connect_destionations_between_each_other(self, destinations, graph):
         for i in range(len(destinations)):
             for j in range(i + 1, len(destinations)):
-                origin_coord = f"{destinations[i]['location']['lat']},{destinations[i]['location']['lng']}"
-                destination_coord = f"{destinations[j]['location']['lat']},{destinations[j]['location']['lng']}"
 
                 response = self.google_api.directions(
                     f"{destinations[i]['location']['lat']},{destinations[i]['location']['lng']}",
