@@ -5,6 +5,7 @@ from src.maps.manager import MapManager
 from src.maps.utils import MapUtils
 from src.graph_utils import graph_to_adjacency_matrix
 from src.algorithms.shortest_path import find_path_with_fuel_limit
+from src.algorithms.appr_path import find_approximate_path
 
 load_dotenv()
 
@@ -79,6 +80,14 @@ if __name__ == "__main__":
     path, cost, stops = find_path_with_fuel_limit(
         adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
     )
+
+    apprx_path, apprx_cost, apprx_stops = find_approximate_path(
+        adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
+    )
+
+    print('apprx_path', apprx_path)
+    print('apprx_cost', apprx_cost)
+    print('apprx_stops', apprx_stops)
 
     if path:
         print(f"Path: {path}")
