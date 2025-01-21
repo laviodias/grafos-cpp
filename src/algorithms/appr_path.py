@@ -13,6 +13,8 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
     total_cost = 0
     visited_stops = []
     current_path = [start]
+    last_mandatory_visited = start
+    refuel_nodes_since_last_mandatory = set()
 
     while remaining_mandatory:
         best_next_mandatory = None
@@ -32,6 +34,8 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
             total_cost += min_cost_to_mandatory
             current_node = best_next_mandatory
             remaining_mandatory.remove(best_next_mandatory)
+            refuel_nodes_since_last_mandatory = set() # Reset refuel nodes since a mandatory was reached
+            last_mandatory_visited = current_node
         else:
             # Não é possível ir diretamente para nenhum nó obrigatório, tentar reabastecer
             best_refuel_node = None
@@ -43,11 +47,16 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
                     best_refuel_node = refuel_node
 
             if best_refuel_node:
+                if best_refuel_node in refuel_nodes_since_last_mandatory:
+                    print("Possível loop infinito detectado. O algoritmo está revisitando nós de reabastecimento sem progredir para os nós obrigatórios.")
+                    return None, 0, []
+
                 # Ir para o nó de reabastecimento
                 current_path.append(best_refuel_node)
                 total_cost += min_cost_to_refuel
                 current_time_traveled += min_cost_to_refuel
                 visited_stops.append(best_refuel_node)
+                refuel_nodes_since_last_mandatory.add(best_refuel_node)
                 current_node = best_refuel_node
                 current_time_traveled = 0
             else:
