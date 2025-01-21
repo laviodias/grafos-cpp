@@ -64,18 +64,18 @@ def draw_final_map(
             (
                 edge["duration"]
                 for edge in edges
-                if edge["source"] == path[i] and edge["target"] == path[i + 1]
+                if (edge["source"] == path[i] and edge["target"] == path[i + 1])
+                or (edge["source"] == path[i + 1] and edge["target"] == path[i])
             ),
             0,
         )
-        duration_minutes = duration // 60
 
         folium.PolyLine(
             [coord1, coord2],
             color="blue",
             weight=3,
             opacity=0.7,
-            popup=f"Duration: {duration_minutes} minutes",
+            popup=f"Duration: {duration / 60} minutes",
         ).add_to(delivery_map)
 
     return delivery_map
@@ -126,7 +126,7 @@ def process_test_cases():
 
             # Executando o algoritmo
             apprx_path, apprx_cost, apprx_stops = find_approximate_path(
-                adjacency_matrix, start_vertex, mandatory_vertices, fuel_limit
+                adjacency_matrix, start_vertex, mandatory_vertices, fuel_limit * 60
             )
 
             # Salvando o resultado em JSON

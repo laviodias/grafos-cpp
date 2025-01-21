@@ -11,8 +11,8 @@ def graph_to_adjacency_matrix(graph):
 
     for node1, node2, data in graph.edges(data=True):
         i, j = node_index[node1], node_index[node2]
-        adjacency_matrix[i, j] = data.get("duration", 0) / 60
-        adjacency_matrix[j, i] = data.get("duration", 0) / 60
+        adjacency_matrix[i, j] = data.get("duration", 0)
+        adjacency_matrix[j, i] = data.get("duration", 0)
 
     adjacency_matrix = adjacency_matrix.astype(int)
 

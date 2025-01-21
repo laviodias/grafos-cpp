@@ -39,14 +39,21 @@ def draw_map(graph, bike_bases, origin, destinations, output_path):
         ).add_to(delivery_map)
 
     for edge in graph.edges(data=True):
+        colors = {
+            "bike": "blue",
+            "origin": "red",
+            "destination": "green",
+        }
+        color = colors[edge[2]["type"]]
         folium.PolyLine(
             [
                 (graph.nodes[edge[0]]["coords"][0], graph.nodes[edge[0]]["coords"][1]),
                 (graph.nodes[edge[1]]["coords"][0], graph.nodes[edge[1]]["coords"][1]),
             ],
-            color="blue",
+            color=color,
             weight=2,
             opacity=0.5,
+            popup=f"Duration: {edge[2].get('duration', 0) / 60} minutes",
         ).add_to(delivery_map)
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
@@ -123,7 +130,7 @@ def process_graph_files():
 
             for fuel_limit in fuel_limits:
                 apprx_path, apprx_cost, apprx_stops = find_approximate_path(
-                    adjacency_matrix, start_vertex, mandatory_vertices, fuel_limit
+                    adjacency_matrix, start_vertex, mandatory_vertices, fuel_limit * 60
                 )
 
                 apprx_path = apprx_path if isinstance(apprx_path, list) else []
