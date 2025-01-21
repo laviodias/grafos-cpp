@@ -1,5 +1,6 @@
 import sys
 from itertools import permutations
+from functools import lru_cache
 
 def floyd_warshall_with_predecessors(adj_matrix):
     n = len(adj_matrix)
@@ -46,6 +47,14 @@ def find_path_with_fuel_limit(adj_matrix, start, mandatory, fuel_limit):
     all_nodes = set(range(len(adj_matrix)))
     refuel_nodes = list(all_nodes - set(mandatory) - {start})
 
+    @lru_cache(None)
+    def calculate_path_cost(path):
+        return sum(adj_matrix[path[i - 1]][path[i]] for i in range(1, len(path)))
+
+    @lru_cache(None)
+    def get_reconstructed_path(start, end):
+        return reconstruct_path(pred, start, end)
+
     for perm in permutations(mandatory):
         current_path = [start]
         current_fuel = 0
@@ -64,11 +73,9 @@ def find_path_with_fuel_limit(adj_matrix, start, mandatory, fuel_limit):
             best_path_to_next = None
 
             for next_mand in remaining_mandatory:
-                path_to_next = reconstruct_path(pred, current_node, next_mand)
+                path_to_next = get_reconstructed_path(current_node, next_mand)
                 if path_to_next:
-                    cost_to_next = 0
-                    for l in range(1, len(path_to_next)):
-                        cost_to_next += adj_matrix[path_to_next[l - 1]][path_to_next[l]]
+                    cost_to_next = calculate_path_cost(tuple(path_to_next))
                     if current_fuel + cost_to_next <= fuel_limit:
                         if cost_to_next < min_cost_to_next:
                             min_cost_to_next = cost_to_next
@@ -76,19 +83,14 @@ def find_path_with_fuel_limit(adj_matrix, start, mandatory, fuel_limit):
                             best_path_to_next = path_to_next
                     else:
                         for refuel_node in refuel_nodes:
-                            path_to_refuel = reconstruct_path(pred, current_node, refuel_node)
+                            path_to_refuel = get_reconstructed_path(current_node, refuel_node)
                             if path_to_refuel:
-                                refuel_cost = 0
-                                for l in range(1, len(path_to_refuel)):
-                                    refuel_cost += adj_matrix[path_to_refuel[l - 1]][path_to_refuel[l]]
+                                refuel_cost = calculate_path_cost(tuple(path_to_refuel))
 
                                 if current_fuel + refuel_cost <= fuel_limit:
-                                    path_from_refuel_to_next = reconstruct_path(pred, refuel_node, next_mand)
+                                    path_from_refuel_to_next = get_reconstructed_path(refuel_node, next_mand)
                                     if path_from_refuel_to_next:
-                                        from_refuel_cost = 0
-                                        for l in range(1, len(path_from_refuel_to_next)):
-                                            from_refuel_cost += adj_matrix[path_from_refuel_to_next[l - 1]][
-                                                path_from_refuel_to_next[l]]
+                                        from_refuel_cost = calculate_path_cost(tuple(path_from_refuel_to_next))
                                         if from_refuel_cost <= fuel_limit:
                                             if refuel_cost + from_refuel_cost < min_cost_to_next:
                                                 min_cost_to_next = refuel_cost + from_refuel_cost
@@ -107,12 +109,11 @@ def find_path_with_fuel_limit(adj_matrix, start, mandatory, fuel_limit):
                 stops_count += 1
                 visited_stops.append(best_refuel_path[-1])
 
-            path_segment = reconstruct_path(pred, current_node, next_vertex)
-            for j in range(1, len(path_segment)):
-                weight = adj_matrix[path_segment[j - 1]][path_segment[j]]
+            for j in range(1, len(best_path_to_next)):
+                weight = adj_matrix[best_path_to_next[j - 1]][best_path_to_next[j]]
                 current_fuel += weight
                 total_cost += weight
-            current_path.append(path_segment[-1])
+            current_path.append(best_path_to_next[-1])
 
             current_node = next_vertex
             remaining_mandatory.remove(next_vertex)
