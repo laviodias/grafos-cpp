@@ -42,9 +42,10 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
             min_cost_to_refuel = sys.maxsize
 
             for refuel_node in refuel_nodes:
-                if adj_matrix[current_node][refuel_node] > 0 and adj_matrix[current_node][refuel_node] < min_cost_to_refuel:
-                    min_cost_to_refuel = adj_matrix[current_node][refuel_node]
-                    best_refuel_node = refuel_node
+                if adj_matrix[current_node][refuel_node] > 0 and adj_matrix[current_node][refuel_node] <= fuel_limit - current_time_traveled:
+                    if adj_matrix[current_node][refuel_node] < min_cost_to_refuel:
+                        min_cost_to_refuel = adj_matrix[current_node][refuel_node]
+                        best_refuel_node = refuel_node
 
             if best_refuel_node:
                 if best_refuel_node in refuel_nodes_since_last_mandatory:
