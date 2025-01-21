@@ -6,7 +6,7 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
 
     # Inicialização
     all_nodes = set(range(len(adj_matrix)))
-    refuel_nodes = sorted(list(all_nodes - set(mandatory) - {start}))
+    refuel_nodes = list(all_nodes - set(mandatory) - {start})
     remaining_mandatory = set(mandatory)
     current_node = start
     current_time_traveled = 0
