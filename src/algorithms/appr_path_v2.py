@@ -1,6 +1,6 @@
 import sys
 
-def find_approximate_path(adj_matrix, start, mandatory, fuel_limit, alternatives_count=2): # Adicionado alternatives_count
+def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
     def calculate_cost(path):
         return sum(adj_matrix[path[i - 1]][path[i]] for i in range(1, len(path))) if path and len(path) > 1 else 0
 
@@ -20,7 +20,7 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit, alternatives
 
         # Ordenar e limitar as alternativas de nós obrigatórios
         possible_mandatory_nodes.sort(key=lambda item: item[1])
-        mandatory_alternatives = possible_mandatory_nodes[:alternatives_count] # Limitando as alternativas
+        mandatory_alternatives = possible_mandatory_nodes[:1]
 
         for next_mandatory, cost_to_mandatory in mandatory_alternatives:
             next_remaining_mandatory = remaining_mandatory - {next_mandatory}
@@ -30,9 +30,9 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit, alternatives
                 current_fuel - cost_to_mandatory,
                 current_path + [next_mandatory],
                 visited_stops_recursive,
-                set() # Reset refuel nodes since mandatory reached
+                set()
             )
-            if path_result: # Se encontrou um caminho a partir daqui
+            if path_result:
                 return path_result, total_cost_result, visited_stops_result
 
         # Se não conseguiu ir diretamente para nenhum obrigatório, tentar reabastecer
@@ -44,7 +44,7 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit, alternatives
 
         # Ordenar e limitar as alternativas de nós de reabastecimento
         possible_refuel_nodes.sort(key=lambda item: item[1])
-        refuel_alternatives = possible_refuel_nodes[:alternatives_count] # Limitando as alternativas
+        refuel_alternatives = possible_refuel_nodes[:1]
 
         for refuel_node, cost_to_refuel in refuel_alternatives:
             if refuel_node in refuel_nodes_since_last_mandatory_recursive:
@@ -57,7 +57,7 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit, alternatives
                 fuel_limit - cost_to_refuel, # Reabastece totalmente
                 current_path + [refuel_node],
                 next_visited_stops,
-                refuel_nodes_since_last_mandatory_recursive.union({refuel_node}) # Add refuel node to set
+                refuel_nodes_since_last_mandatory_recursive.union({refuel_node})
             )
             if path_result: # Se encontrou um caminho a partir do reabastecimento
                 return path_result, total_cost_result, visited_stops_result
