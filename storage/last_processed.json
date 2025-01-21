@@ -1,31 +1,17 @@
 {
     "origin": {
-        "name": "Bahia Lodge",
+        "name": "Natural da Bahia",
         "location": {
-            "lat": -13.0155889,
-            "lng": -38.48683819999999
+            "lat": -12.9724845,
+            "lng": -38.5085027
         }
     },
     "destinations": [
         {
-            "name": "Dubai Hotel",
+            "name": "Fiesta Bahia Hotel - Salvador Bahia",
             "location": {
-                "lat": -12.9848969,
-                "lng": -38.47774639999999
-            }
-        },
-        {
-            "name": "Salvador Business & Flat",
-            "location": {
-                "lat": -12.9802231,
-                "lng": -38.4550683
-            }
-        },
-        {
-            "name": "Am\u00e9rica Towers Hotel",
-            "location": {
-                "lat": -12.9816312,
-                "lng": -38.453772
+                "lat": -12.9974361,
+                "lng": -38.46532000000001
             }
         },
         {
@@ -36,10 +22,59 @@
             }
         },
         {
+            "name": "Conect Smart Salvador by Accor",
+            "location": {
+                "lat": -12.9830259,
+                "lng": -38.4646334
+            }
+        },
+        {
+            "name": "Mercure Salvador Boulevard Hotel",
+            "location": {
+                "lat": -12.9818939,
+                "lng": -38.4558371
+            }
+        },
+        {
+            "name": "Pousada Pituba",
+            "location": {
+                "lat": -12.9933929,
+                "lng": -38.45720529999999
+            }
+        },
+        {
             "name": "Lojas Marisa",
             "location": {
                 "lat": -12.9817061,
                 "lng": -38.4646255
+            }
+        },
+        {
+            "name": "Hotel Pir\u00e2mide",
+            "location": {
+                "lat": -12.990412,
+                "lng": -38.45655599999999
+            }
+        },
+        {
+            "name": "Dubai Hotel",
+            "location": {
+                "lat": -12.9848969,
+                "lng": -38.47774639999999
+            }
+        },
+        {
+            "name": "Mercure Salvador Pituba",
+            "location": {
+                "lat": -12.9866277,
+                "lng": -38.4518323
+            }
+        },
+        {
+            "name": "Sotero Hotel",
+            "location": {
+                "lat": -12.9861838,
+                "lng": -38.4493766
             }
         },
         {
@@ -50,10 +85,66 @@
             }
         },
         {
-            "name": "Conect Smart Salvador by Accor",
+            "name": "Hotel Intercity Salvador",
             "location": {
-                "lat": -12.9830259,
-                "lng": -38.4646334
+                "lat": -12.9807725,
+                "lng": -38.4504273
+            }
+        },
+        {
+            "name": "People2People RH",
+            "location": {
+                "lat": -12.9873278,
+                "lng": -38.4680299
+            }
+        },
+        {
+            "name": "Am\u00e9rica Towers Hotel",
+            "location": {
+                "lat": -12.9816312,
+                "lng": -38.453772
+            }
+        },
+        {
+            "name": "Salvador Business & Flat",
+            "location": {
+                "lat": -12.9802231,
+                "lng": -38.4550683
+            }
+        },
+        {
+            "name": "Tennis shoes",
+            "location": {
+                "lat": -12.9820772,
+                "lng": -38.4635678
+            }
+        },
+        {
+            "name": "Brotas",
+            "location": {
+                "lat": -12.9850099,
+                "lng": -38.5015788
+            }
+        },
+        {
+            "name": "Hotel Atlanta",
+            "location": {
+                "lat": -12.9913225,
+                "lng": -38.48612790000001
+            }
+        },
+        {
+            "name": "Real Expresso",
+            "location": {
+                "lat": -12.9778445,
+                "lng": -38.4659356
+            }
+        },
+        {
+            "name": "Salvador",
+            "location": {
+                "lat": -12.9777378,
+                "lng": -38.5016363
             }
         }
     ]

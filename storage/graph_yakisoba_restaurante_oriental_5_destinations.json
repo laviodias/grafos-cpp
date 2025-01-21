@@ -1,0 +1,6459 @@
+{
+    "origin": {
+        "name": "Yakisoba Restaurante Oriental",
+        "location": {
+            "lat": -12.9961696,
+            "lng": -38.4544938
+        }
+    },
+    "destinations": [
+        {
+            "name": "Dubai Hotel",
+            "location": {
+                "lat": -12.9848969,
+                "lng": -38.47774639999999
+            }
+        },
+        {
+            "name": "Am\u00e9rica Towers Hotel",
+            "location": {
+                "lat": -12.9816312,
+                "lng": -38.453772
+            }
+        },
+        {
+            "name": "Fiesta Bahia Hotel - Salvador Bahia",
+            "location": {
+                "lat": -12.9974361,
+                "lng": -38.46532000000001
+            }
+        },
+        {
+            "name": "Salvador",
+            "location": {
+                "lat": -12.9777378,
+                "lng": -38.5016363
+            }
+        },
+        {
+            "name": "People2People RH",
+            "location": {
+                "lat": -12.9873278,
+                "lng": -38.4680299
+            }
+        }
+    ],
+    "nodes": [
+        [
+            "Bike Base 0",
+            {
+                "coords": [
+                    -13.005963,
+                    -38.457312
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            {
+                "coords": [
+                    -12.993181,
+                    -38.507897
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            {
+                "coords": [
+                    -12.993338,
+                    -38.460908
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            {
+                "coords": [
+                    -13.002672,
+                    -38.451655
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            {
+                "coords": [
+                    -12.98625,
+                    -38.43404
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            {
+                "coords": [
+                    -13.01063,
+                    -38.46546
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            {
+                "coords": [
+                    -12.99751,
+                    -38.44347
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            {
+                "coords": [
+                    -13.00202,
+                    -38.50382
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            {
+                "coords": [
+                    -13.0123191,
+                    -38.4683242
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            {
+                "coords": [
+                    -12.982846,
+                    -38.514973
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            {
+                "coords": [
+                    -13.0080582,
+                    -38.5184592
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            {
+                "coords": [
+                    -12.98978,
+                    -38.43678
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            {
+                "coords": [
+                    -13.013335,
+                    -38.488729
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            {
+                "coords": [
+                    -12.994033,
+                    -38.440247
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            {
+                "coords": [
+                    -12.97935,
+                    -38.45504
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            {
+                "coords": [
+                    -12.986925,
+                    -38.452353
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            {
+                "coords": [
+                    -12.99722,
+                    -38.46358
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            {
+                "coords": [
+                    -13.010995,
+                    -38.501335
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            {
+                "coords": [
+                    -12.99972,
+                    -38.50576
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            {
+                "coords": [
+                    -13.010308,
+                    -38.509888
+                ]
+            }
+        ],
+        [
+            "Yakisoba Restaurante Oriental",
+            {
+                "coords": [
+                    -12.9961696,
+                    -38.4544938
+                ]
+            }
+        ],
+        [
+            "Dubai Hotel",
+            {
+                "coords": [
+                    -12.9848969,
+                    -38.47774639999999
+                ]
+            }
+        ],
+        [
+            "Am\u00e9rica Towers Hotel",
+            {
+                "coords": [
+                    -12.9816312,
+                    -38.453772
+                ]
+            }
+        ],
+        [
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "coords": [
+                    -12.9974361,
+                    -38.46532000000001
+                ]
+            }
+        ],
+        [
+            "Salvador",
+            {
+                "coords": [
+                    -12.9777378,
+                    -38.5016363
+                ]
+            }
+        ],
+        [
+            "People2People RH",
+            {
+                "coords": [
+                    -12.9873278,
+                    -38.4680299
+                ]
+            }
+        ]
+    ],
+    "edges": [
+        [
+            "Bike Base 0",
+            "Bike Base 1",
+            {
+                "distance": 7341,
+                "duration": 1322,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.993181,
+                        -38.507897
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 2",
+            {
+                "distance": 2101,
+                "duration": 498,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.993338,
+                        -38.460908
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 3",
+            {
+                "distance": 855,
+                "duration": 286,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.002672,
+                        -38.451655
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 4",
+            {
+                "distance": 3637,
+                "duration": 795,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98625,
+                        -38.43404
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 5",
+            {
+                "distance": 1410,
+                "duration": 386,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.01063,
+                        -38.46546
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 6",
+            {
+                "distance": 2205,
+                "duration": 540,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99751,
+                        -38.44347
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 7",
+            {
+                "distance": 6824,
+                "duration": 1300,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.00202,
+                        -38.50382
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 8",
+            {
+                "distance": 1402,
+                "duration": 246,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 9",
+            {
+                "distance": 9776,
+                "duration": 1852,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 10",
+            {
+                "distance": 7288,
+                "duration": 1247,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 11",
+            {
+                "distance": 3138,
+                "duration": 705,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 12",
+            {
+                "distance": 3929,
+                "duration": 771,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 13",
+            {
+                "distance": 2531,
+                "duration": 595,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 14",
+            {
+                "distance": 4564,
+                "duration": 963,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 15",
+            {
+                "distance": 3505,
+                "duration": 732,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 16",
+            {
+                "distance": 1423,
+                "duration": 372,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 17",
+            {
+                "distance": 5343,
+                "duration": 968,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 18",
+            {
+                "distance": 6562,
+                "duration": 1336,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Bike Base 19",
+            {
+                "distance": 6288,
+                "duration": 1107,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 2691,
+                "duration": 586,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Dubai Hotel",
+            {
+                "distance": 4682,
+                "duration": 1053,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4360,
+                "duration": 923,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 1492,
+                "duration": 357,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Salvador",
+            {
+                "distance": 8707,
+                "duration": 1695,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "People2People RH",
+            {
+                "distance": 3974,
+                "duration": 800,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 2",
+            {
+                "distance": 7792,
+                "duration": 1507,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.993338,
+                        -38.460908
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 3",
+            {
+                "distance": 8551,
+                "duration": 1778,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.002672,
+                        -38.451655
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 4",
+            {
+                "distance": 11333,
+                "duration": 2287,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98625,
+                        -38.43404
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 5",
+            {
+                "distance": 6680,
+                "duration": 1453,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.01063,
+                        -38.46546
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 6",
+            {
+                "distance": 9901,
+                "duration": 2032,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99751,
+                        -38.44347
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 7",
+            {
+                "distance": 1202,
+                "duration": 285,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.00202,
+                        -38.50382
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 8",
+            {
+                "distance": 5890,
+                "duration": 1326,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 9",
+            {
+                "distance": 3055,
+                "duration": 658,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 10",
+            {
+                "distance": 3311,
+                "duration": 673,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 11",
+            {
+                "distance": 10834,
+                "duration": 2197,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 12",
+            {
+                "distance": 3594,
+                "duration": 819,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 13",
+            {
+                "distance": 10227,
+                "duration": 2087,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 14",
+            {
+                "distance": 9849,
+                "duration": 1776,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 15",
+            {
+                "distance": 9286,
+                "duration": 1869,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 16",
+            {
+                "distance": 6765,
+                "duration": 1335,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 17",
+            {
+                "distance": 3198,
+                "duration": 733,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 18",
+            {
+                "distance": 830,
+                "duration": 149,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Bike Base 19",
+            {
+                "distance": 4143,
+                "duration": 872,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 8846,
+                "duration": 1720,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Dubai Hotel",
+            {
+                "distance": 6630,
+                "duration": 1225,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 9790,
+                "duration": 1762,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 6828,
+                "duration": 1345,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Salvador",
+            {
+                "distance": 3636,
+                "duration": 772,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "People2People RH",
+            {
+                "distance": 6688,
+                "duration": 1203,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 3",
+            {
+                "distance": 3121,
+                "duration": 692,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.002672,
+                        -38.451655
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 4",
+            {
+                "distance": 5903,
+                "duration": 1201,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98625,
+                        -38.43404
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 5",
+            {
+                "distance": 3676,
+                "duration": 792,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.01063,
+                        -38.46546
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 6",
+            {
+                "distance": 4471,
+                "duration": 946,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99751,
+                        -38.44347
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 7",
+            {
+                "distance": 7330,
+                "duration": 1465,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.00202,
+                        -38.50382
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 8",
+            {
+                "distance": 3237,
+                "duration": 679,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 9",
+            {
+                "distance": 10001,
+                "duration": 1924,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 10",
+            {
+                "distance": 9124,
+                "duration": 1680,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 11",
+            {
+                "distance": 5404,
+                "duration": 1111,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 12",
+            {
+                "distance": 5162,
+                "duration": 1082,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 13",
+            {
+                "distance": 4797,
+                "duration": 1001,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 14",
+            {
+                "distance": 3896,
+                "duration": 760,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 15",
+            {
+                "distance": 2909,
+                "duration": 583,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 16",
+            {
+                "distance": 1091,
+                "duration": 207,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 17",
+            {
+                "distance": 7179,
+                "duration": 1401,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 18",
+            {
+                "distance": 7068,
+                "duration": 1501,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Bike Base 19",
+            {
+                "distance": 8124,
+                "duration": 1540,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 2068,
+                "duration": 393,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Dubai Hotel",
+            {
+                "distance": 3346,
+                "duration": 807,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 3691,
+                "duration": 720,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 1280,
+                "duration": 362,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Salvador",
+            {
+                "distance": 8155,
+                "duration": 1557,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "People2People RH",
+            {
+                "distance": 2638,
+                "duration": 554,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 4",
+            {
+                "distance": 2882,
+                "duration": 527,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98625,
+                        -38.43404
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 5",
+            {
+                "distance": 1871,
+                "duration": 331,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.01063,
+                        -38.46546
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 6",
+            {
+                "distance": 1450,
+                "duration": 272,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99751,
+                        -38.44347
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 7",
+            {
+                "distance": 7846,
+                "duration": 1481,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.00202,
+                        -38.50382
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 8",
+            {
+                "distance": 2257,
+                "duration": 400,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 9",
+            {
+                "distance": 10798,
+                "duration": 2033,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 10",
+            {
+                "distance": 8310,
+                "duration": 1428,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 11",
+            {
+                "distance": 2383,
+                "duration": 437,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 12",
+            {
+                "distance": 4951,
+                "duration": 952,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 13",
+            {
+                "distance": 1776,
+                "duration": 327,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 14",
+            {
+                "distance": 4094,
+                "duration": 796,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 15",
+            {
+                "distance": 3035,
+                "duration": 565,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 16",
+            {
+                "distance": 2278,
+                "duration": 526,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 17",
+            {
+                "distance": 6365,
+                "duration": 1149,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 18",
+            {
+                "distance": 7584,
+                "duration": 1517,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Bike Base 19",
+            {
+                "distance": 7310,
+                "duration": 1288,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 2221,
+                "duration": 419,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Dubai Hotel",
+            {
+                "distance": 5537,
+                "duration": 1207,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 3890,
+                "duration": 756,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 2347,
+                "duration": 511,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Salvador",
+            {
+                "distance": 9585,
+                "duration": 1699,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "People2People RH",
+            {
+                "distance": 4829,
+                "duration": 954,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 5",
+            {
+                "distance": 4652,
+                "duration": 835,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.01063,
+                        -38.46546
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 6",
+            {
+                "distance": 1716,
+                "duration": 304,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99751,
+                        -38.44347
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 7",
+            {
+                "distance": 10627,
+                "duration": 1985,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.00202,
+                        -38.50382
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 8",
+            {
+                "distance": 5038,
+                "duration": 904,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 9",
+            {
+                "distance": 13579,
+                "duration": 2537,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 10",
+            {
+                "distance": 11091,
+                "duration": 1932,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 11",
+            {
+                "distance": 498,
+                "duration": 88,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 12",
+            {
+                "distance": 7732,
+                "duration": 1456,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 13",
+            {
+                "distance": 1106,
+                "duration": 194,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 14",
+            {
+                "distance": 5641,
+                "duration": 1085,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 15",
+            {
+                "distance": 5857,
+                "duration": 1077,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 16",
+            {
+                "distance": 5059,
+                "duration": 1030,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 17",
+            {
+                "distance": 9146,
+                "duration": 1653,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 18",
+            {
+                "distance": 10365,
+                "duration": 2021,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Bike Base 19",
+            {
+                "distance": 10091,
+                "duration": 1792,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 5043,
+                "duration": 931,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Dubai Hotel",
+            {
+                "distance": 8318,
+                "duration": 1711,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 5437,
+                "duration": 1045,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 5128,
+                "duration": 1015,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Salvador",
+            {
+                "distance": 12510,
+                "duration": 2380,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "People2People RH",
+            {
+                "distance": 7610,
+                "duration": 1458,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 6",
+            {
+                "distance": 3221,
+                "duration": 579,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99751,
+                        -38.44347
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 7",
+            {
+                "distance": 5975,
+                "duration": 1150,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.00202,
+                        -38.50382
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 8",
+            {
+                "distance": 2812,
+                "duration": 494,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 9",
+            {
+                "distance": 8927,
+                "duration": 1702,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 10",
+            {
+                "distance": 6439,
+                "duration": 1097,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 11",
+            {
+                "distance": 4154,
+                "duration": 744,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 12",
+            {
+                "distance": 3080,
+                "duration": 621,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 13",
+            {
+                "distance": 3547,
+                "duration": 634,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 14",
+            {
+                "distance": 5906,
+                "duration": 1111,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 15",
+            {
+                "distance": 4847,
+                "duration": 880,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 16",
+            {
+                "distance": 2833,
+                "duration": 620,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 17",
+            {
+                "distance": 4494,
+                "duration": 818,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 18",
+            {
+                "distance": 5713,
+                "duration": 1186,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Bike Base 19",
+            {
+                "distance": 5439,
+                "duration": 957,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 4033,
+                "duration": 734,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Dubai Hotel",
+            {
+                "distance": 6092,
+                "duration": 1301,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 5702,
+                "duration": 1071,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 2902,
+                "duration": 605,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Salvador",
+            {
+                "distance": 7858,
+                "duration": 1545,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "People2People RH",
+            {
+                "distance": 5384,
+                "duration": 1048,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 7",
+            {
+                "distance": 8923,
+                "duration": 1695,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.00202,
+                        -38.50382
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 8",
+            {
+                "distance": 3334,
+                "duration": 614,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 9",
+            {
+                "distance": 11875,
+                "duration": 2247,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 10",
+            {
+                "distance": 9387,
+                "duration": 1642,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 11",
+            {
+                "distance": 1217,
+                "duration": 420,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 12",
+            {
+                "distance": 6028,
+                "duration": 1166,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 13",
+            {
+                "distance": 610,
+                "duration": 310,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 14",
+            {
+                "distance": 4378,
+                "duration": 976,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 15",
+            {
+                "distance": 3319,
+                "duration": 745,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 16",
+            {
+                "distance": 3355,
+                "duration": 740,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 17",
+            {
+                "distance": 7442,
+                "duration": 1363,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 18",
+            {
+                "distance": 8661,
+                "duration": 1731,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Bike Base 19",
+            {
+                "distance": 8387,
+                "duration": 1502,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 2505,
+                "duration": 599,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Dubai Hotel",
+            {
+                "distance": 6614,
+                "duration": 1421,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4174,
+                "duration": 936,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 3424,
+                "duration": 725,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Salvador",
+            {
+                "distance": 9869,
+                "duration": 1879,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "People2People RH",
+            {
+                "distance": 5906,
+                "duration": 1168,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 8",
+            {
+                "distance": 4734,
+                "duration": 1122,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 9",
+            {
+                "distance": 3819,
+                "duration": 791,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 10",
+            {
+                "distance": 3987,
+                "duration": 808,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 11",
+            {
+                "distance": 9678,
+                "duration": 1993,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 12",
+            {
+                "distance": 2438,
+                "duration": 615,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 13",
+            {
+                "distance": 9071,
+                "duration": 1883,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 14",
+            {
+                "distance": 8693,
+                "duration": 1572,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 15",
+            {
+                "distance": 8130,
+                "duration": 1665,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 16",
+            {
+                "distance": 5609,
+                "duration": 1131,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 17",
+            {
+                "distance": 2042,
+                "duration": 529,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 18",
+            {
+                "distance": 434,
+                "duration": 153,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Bike Base 19",
+            {
+                "distance": 2987,
+                "duration": 668,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 7690,
+                "duration": 1516,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Dubai Hotel",
+            {
+                "distance": 5474,
+                "duration": 1021,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8634,
+                "duration": 1558,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 5672,
+                "duration": 1141,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Salvador",
+            {
+                "distance": 4400,
+                "duration": 905,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "People2People RH",
+            {
+                "distance": 5532,
+                "duration": 999,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 9",
+            {
+                "distance": 8374,
+                "duration": 1606,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.982846,
+                        -38.514973
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 10",
+            {
+                "distance": 5886,
+                "duration": 1001,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 11",
+            {
+                "distance": 5550,
+                "duration": 1009,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 12",
+            {
+                "distance": 2527,
+                "duration": 525,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 13",
+            {
+                "distance": 4943,
+                "duration": 899,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 14",
+            {
+                "distance": 7302,
+                "duration": 1376,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 15",
+            {
+                "distance": 6243,
+                "duration": 1145,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 16",
+            {
+                "distance": 2605,
+                "duration": 589,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 17",
+            {
+                "distance": 3941,
+                "duration": 722,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 18",
+            {
+                "distance": 5160,
+                "duration": 1090,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Bike Base 19",
+            {
+                "distance": 4886,
+                "duration": 861,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 5429,
+                "duration": 999,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Dubai Hotel",
+            {
+                "distance": 5864,
+                "duration": 1270,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 7098,
+                "duration": 1336,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 2674,
+                "duration": 574,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Salvador",
+            {
+                "distance": 7305,
+                "duration": 1449,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "People2People RH",
+            {
+                "distance": 5156,
+                "duration": 1017,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 10",
+            {
+                "distance": 4590,
+                "duration": 1206,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 11",
+            {
+                "distance": 13146,
+                "duration": 2684,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 12",
+            {
+                "distance": 5906,
+                "duration": 1306,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 13",
+            {
+                "distance": 12539,
+                "duration": 2574,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 14",
+            {
+                "distance": 9676,
+                "duration": 1972,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 15",
+            {
+                "distance": 10485,
+                "duration": 2294,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 16",
+            {
+                "distance": 9791,
+                "duration": 2099,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 17",
+            {
+                "distance": 6224,
+                "duration": 1497,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 18",
+            {
+                "distance": 3855,
+                "duration": 913,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Bike Base 19",
+            {
+                "distance": 4771,
+                "duration": 1218,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 10968,
+                "duration": 2325,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Dubai Hotel",
+            {
+                "distance": 6417,
+                "duration": 1525,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 9617,
+                "duration": 1958,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 9854,
+                "duration": 2109,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Salvador",
+            {
+                "distance": 3798,
+                "duration": 928,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "People2People RH",
+            {
+                "distance": 9714,
+                "duration": 1967,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 11",
+            {
+                "distance": 10755,
+                "duration": 2127,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.98978,
+                        -38.43678
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 12",
+            {
+                "distance": 3515,
+                "duration": 749,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 13",
+            {
+                "distance": 10148,
+                "duration": 2017,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 14",
+            {
+                "distance": 10832,
+                "duration": 2053,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 15",
+            {
+                "distance": 11448,
+                "duration": 2263,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 16",
+            {
+                "distance": 7748,
+                "duration": 1612,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 17",
+            {
+                "distance": 1996,
+                "duration": 455,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 18",
+            {
+                "distance": 2518,
+                "duration": 609,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Bike Base 19",
+            {
+                "distance": 1016,
+                "duration": 210,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 10634,
+                "duration": 2117,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Dubai Hotel",
+            {
+                "distance": 7613,
+                "duration": 1502,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 10773,
+                "duration": 2039,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 7811,
+                "duration": 1622,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Salvador",
+            {
+                "distance": 6293,
+                "duration": 1269,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "People2People RH",
+            {
+                "distance": 7671,
+                "duration": 1480,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 12",
+            {
+                "distance": 7233,
+                "duration": 1368,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.013335,
+                        -38.488729
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 13",
+            {
+                "distance": 607,
+                "duration": 106,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 14",
+            {
+                "distance": 5142,
+                "duration": 997,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 15",
+            {
+                "distance": 5358,
+                "duration": 989,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 16",
+            {
+                "distance": 4560,
+                "duration": 942,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 17",
+            {
+                "distance": 8647,
+                "duration": 1565,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 18",
+            {
+                "distance": 9866,
+                "duration": 1933,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Bike Base 19",
+            {
+                "distance": 9592,
+                "duration": 1704,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 4544,
+                "duration": 843,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Dubai Hotel",
+            {
+                "distance": 7819,
+                "duration": 1623,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4938,
+                "duration": 957,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 4629,
+                "duration": 927,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Salvador",
+            {
+                "distance": 12011,
+                "duration": 2292,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "People2People RH",
+            {
+                "distance": 7111,
+                "duration": 1370,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Bike Base 13",
+            {
+                "distance": 6633,
+                "duration": 1268,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.994033,
+                        -38.440247
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Bike Base 14",
+            {
+                "distance": 8992,
+                "duration": 1745,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Bike Base 15",
+            {
+                "distance": 7933,
+                "duration": 1514,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Bike Base 16",
+            {
+                "distance": 4844,
+                "duration": 1010,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Bike Base 17",
+            {
+                "distance": 1634,
+                "duration": 455,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Bike Base 18",
+            {
+                "distance": 2904,
+                "duration": 737,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Bike Base 19",
+            {
+                "distance": 2579,
+                "duration": 594,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 7119,
+                "duration": 1368,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Dubai Hotel",
+            {
+                "distance": 4935,
+                "duration": 920,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8788,
+                "duration": 1705,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 4913,
+                "duration": 995,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Salvador",
+            {
+                "distance": 4894,
+                "duration": 1062,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "People2People RH",
+            {
+                "distance": 4993,
+                "duration": 898,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Bike Base 14",
+            {
+                "distance": 4535,
+                "duration": 891,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.97935,
+                        -38.45504
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Bike Base 15",
+            {
+                "distance": 4751,
+                "duration": 883,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Bike Base 16",
+            {
+                "distance": 3953,
+                "duration": 836,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Bike Base 17",
+            {
+                "distance": 8040,
+                "duration": 1459,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Bike Base 18",
+            {
+                "distance": 9259,
+                "duration": 1827,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Bike Base 19",
+            {
+                "distance": 8985,
+                "duration": 1598,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 3937,
+                "duration": 737,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Dubai Hotel",
+            {
+                "distance": 7212,
+                "duration": 1517,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4331,
+                "duration": 851,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 4022,
+                "duration": 821,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Salvador",
+            {
+                "distance": 11404,
+                "duration": 2186,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "People2People RH",
+            {
+                "distance": 6504,
+                "duration": 1264,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Bike Base 15",
+            {
+                "distance": 2220,
+                "duration": 573,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.986925,
+                        -38.452353
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Bike Base 16",
+            {
+                "distance": 3920,
+                "duration": 726,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Bike Base 17",
+            {
+                "distance": 7614,
+                "duration": 1451,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Bike Base 18",
+            {
+                "distance": 8536,
+                "duration": 1594,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Bike Base 19",
+            {
+                "distance": 8559,
+                "duration": 1590,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 3143,
+                "duration": 661,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Dubai Hotel",
+            {
+                "distance": 4082,
+                "duration": 863,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 421,
+                "duration": 71,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 4109,
+                "duration": 881,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Salvador",
+            {
+                "distance": 6336,
+                "duration": 1122,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "People2People RH",
+            {
+                "distance": 3374,
+                "duration": 610,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Bike Base 16",
+            {
+                "distance": 2987,
+                "duration": 663,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99722,
+                        -38.46358
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Bike Base 17",
+            {
+                "distance": 9743,
+                "duration": 1835,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Bike Base 18",
+            {
+                "distance": 10962,
+                "duration": 2203,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Bike Base 19",
+            {
+                "distance": 10688,
+                "duration": 1974,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 1695,
+                "duration": 369,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Dubai Hotel",
+            {
+                "distance": 5023,
+                "duration": 1073,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 1166,
+                "duration": 201,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 3728,
+                "duration": 812,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Salvador",
+            {
+                "distance": 7586,
+                "duration": 1356,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "People2People RH",
+            {
+                "distance": 4315,
+                "duration": 820,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Bike Base 17",
+            {
+                "distance": 6577,
+                "duration": 1248,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010995,
+                        -38.501335
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Bike Base 18",
+            {
+                "distance": 6029,
+                "duration": 1303,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Bike Base 19",
+            {
+                "distance": 7522,
+                "duration": 1387,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 3533,
+                "duration": 704,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Dubai Hotel",
+            {
+                "distance": 3423,
+                "duration": 859,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 5202,
+                "duration": 1041,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 251,
+                "duration": 194,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Salvador",
+            {
+                "distance": 8163,
+                "duration": 1572,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "People2People RH",
+            {
+                "distance": 2715,
+                "duration": 606,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Bike Base 18",
+            {
+                "distance": 2357,
+                "duration": 578,
+                "type": "bike",
+                "coords": [
+                    [
+                        -12.99972,
+                        -38.50576
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Bike Base 19",
+            {
+                "distance": 981,
+                "duration": 171,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 8673,
+                "duration": 1782,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Dubai Hotel",
+            {
+                "distance": 5652,
+                "duration": 1167,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8812,
+                "duration": 1704,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 5850,
+                "duration": 1287,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Salvador",
+            {
+                "distance": 6290,
+                "duration": 1250,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "People2People RH",
+            {
+                "distance": 5710,
+                "duration": 1145,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Bike Base 19",
+            {
+                "distance": 3314,
+                "duration": 723,
+                "type": "bike",
+                "coords": [
+                    [
+                        -13.010308,
+                        -38.509888
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 8017,
+                "duration": 1571,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Dubai Hotel",
+            {
+                "distance": 5801,
+                "duration": 1076,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8961,
+                "duration": 1613,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 5999,
+                "duration": 1196,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Salvador",
+            {
+                "distance": 4052,
+                "duration": 912,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "People2People RH",
+            {
+                "distance": 5859,
+                "duration": 1054,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "Yakisoba Restaurante Oriental",
+            {
+                "distance": 9618,
+                "duration": 1908,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "Dubai Hotel",
+            {
+                "distance": 6597,
+                "duration": 1293,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 9757,
+                "duration": 1830,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 6795,
+                "duration": 1413,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "Salvador",
+            {
+                "distance": 5435,
+                "duration": 1072,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "People2People RH",
+            {
+                "distance": 6655,
+                "duration": 1271,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Yakisoba Restaurante Oriental",
+            "Dubai Hotel",
+            {
+                "distance": 3875,
+                "duration": 1083,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ]
+                ]
+            }
+        ],
+        [
+            "Yakisoba Restaurante Oriental",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 3098,
+                "duration": 654,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ]
+                ]
+            }
+        ],
+        [
+            "Yakisoba Restaurante Oriental",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 3097,
+                "duration": 650,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ]
+                ]
+            }
+        ],
+        [
+            "Yakisoba Restaurante Oriental",
+            "Salvador",
+            {
+                "distance": 9543,
+                "duration": 1986,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Yakisoba Restaurante Oriental",
+            "People2People RH",
+            {
+                "distance": 2653,
+                "duration": 590,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9961696,
+                        -38.4544938
+                    ],
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ]
+                ]
+            }
+        ],
+        [
+            "Dubai Hotel",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4252,
+                "duration": 901,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ]
+                ]
+            }
+        ],
+        [
+            "Dubai Hotel",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 3182,
+                "duration": 695,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ]
+                ]
+            }
+        ],
+        [
+            "Dubai Hotel",
+            "Salvador",
+            {
+                "distance": 4434,
+                "duration": 1004,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Dubai Hotel",
+            "People2People RH",
+            {
+                "distance": 1313,
+                "duration": 484,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9848969,
+                        -38.47774639999999
+                    ],
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ]
+                ]
+            }
+        ],
+        [
+            "Am\u00e9rica Towers Hotel",
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            {
+                "distance": 5576,
+                "duration": 1001,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ]
+                ]
+            }
+        ],
+        [
+            "Am\u00e9rica Towers Hotel",
+            "Salvador",
+            {
+                "distance": 8192,
+                "duration": 1619,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Am\u00e9rica Towers Hotel",
+            "People2People RH",
+            {
+                "distance": 3091,
+                "duration": 553,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ]
+                ]
+            }
+        ],
+        [
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            "Salvador",
+            {
+                "distance": 9492,
+                "duration": 1867,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Fiesta Bahia Hotel - Salvador Bahia",
+            "People2People RH",
+            {
+                "distance": 2184,
+                "duration": 612,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9974361,
+                        -38.46532000000001
+                    ],
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ]
+                ]
+            }
+        ],
+        [
+            "Salvador",
+            "People2People RH",
+            {
+                "distance": 5402,
+                "duration": 950,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.9873278,
+                        -38.4680299
+                    ]
+                ]
+            }
+        ]
+    ]
+}

@@ -15,10 +15,10 @@ API_KEY = os.getenv("API_KEY")
 BASES_FILE = "storage/bases_itau_distances.json"
 ORIGIN_DESTINATIONS_FILE = "input/origin_and_destinations.json"
 GRAPH_FILE = "input/graph_input.json"
-LOAD_GRAPH_FROM_FILE = True
+LOAD_GRAPH_FROM_FILE = False
 LOAD_ORIGIN_AND_DESTINATIONS_FROM_FILE = False
-NUM_DESTINATIONS = 7
-FUEL_LIMIT = 45
+NUM_DESTINATIONS = 15
+FUEL_LIMIT = 40
 
 maps = MapManager(API_KEY, LOCATION, RADIUS, BASES_FILE, NUM_DESTINATIONS)
 maps_utils = MapUtils(LOCATION, API_KEY)
@@ -77,27 +77,23 @@ if __name__ == "__main__":
         nodes.index(destination["name"]) for destination in destinations
     ]
 
-    path, cost, stops = find_path_with_fuel_limit(
-        adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
-    )
+    # path, cost, stops = find_path_with_fuel_limit(
+    #     adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
+    # )
 
     apprx_path, apprx_cost, apprx_stops = find_approximate_path(
         adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
     )
 
-    print('apprx_path', apprx_path)
-    print('apprx_cost', apprx_cost)
-    print('apprx_stops', apprx_stops)
-
-    if path:
-        print(f"Path: {path}")
-        print(f"Cost: {cost}")
-        print(f"Stops: {stops}")
+    if apprx_path:
+        print(f"apprx_path: {apprx_path}")
+        print(f"Cost: {apprx_cost}")
+        print(f"Stops: {apprx_stops}")
 
         # Recriar o mapa com o menor caminho
         delivery_map = maps_utils.draw_final_map(
-            path,
-            stops,
+            apprx_path,
+            apprx_stops,
             graph,
             bike_bases,
             start_vertex,
