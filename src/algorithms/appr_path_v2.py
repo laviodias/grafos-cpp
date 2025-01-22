@@ -12,15 +12,12 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
             return current_path, calculate_cost(current_path), visited_stops_recursive
 
         # Tentar ir diretamente para nós obrigatórios
-        possible_mandatory_nodes = []
+        mandatory_alternatives = []
         for next_mandatory in remaining_mandatory:
             cost_to_mandatory = adj_matrix[current_node][next_mandatory]
             if cost_to_mandatory > 0 and cost_to_mandatory <= current_fuel:
-                possible_mandatory_nodes.append((next_mandatory, cost_to_mandatory))
-
-        # Ordenar e limitar as alternativas de nós obrigatórios
-        possible_mandatory_nodes.sort(key=lambda item: item[1])
-        mandatory_alternatives = possible_mandatory_nodes[:1]
+                mandatory_alternatives.append((next_mandatory, cost_to_mandatory))
+                break
 
         for next_mandatory, cost_to_mandatory in mandatory_alternatives:
             next_remaining_mandatory = remaining_mandatory - {next_mandatory}
@@ -36,16 +33,13 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
                 return path_result, total_cost_result, visited_stops_result
 
         # Se não conseguiu ir diretamente para nenhum obrigatório, tentar reabastecer
-        possible_refuel_nodes = []
+        refuel_alternatives = []
         for refuel_node in refuel_nodes:
             cost_to_refuel = adj_matrix[current_node][refuel_node]
             if cost_to_refuel > 0 and cost_to_refuel <= current_fuel:
-                possible_refuel_nodes.append((refuel_node, cost_to_refuel))
-
-        # Ordenar e limitar as alternativas de nós de reabastecimento
-        possible_refuel_nodes.sort(key=lambda item: item[1])
-        refuel_alternatives = possible_refuel_nodes[:1]
-
+                refuel_alternatives.append((refuel_node, cost_to_refuel))
+                break
+                
         for refuel_node, cost_to_refuel in refuel_alternatives:
             if refuel_node in refuel_nodes_since_last_mandatory_recursive:
                 continue # Evitar loop infinito no mesmo nó de reabastecimento
@@ -66,4 +60,3 @@ def find_approximate_path(adj_matrix, start, mandatory, fuel_limit):
 
     initial_mandatory = set(mandatory) # Criar uma cópia para não modificar a original
     return solve_recursive(start, initial_mandatory, fuel_limit, [start], [], set())
-

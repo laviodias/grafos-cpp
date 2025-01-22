@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 from src.graph_utils import graph_to_adjacency_matrix
-from src.algorithms.appr_path import find_approximate_path
+from src.algorithms.appr_path_v2 import find_approximate_path
 from src.algorithms.shortest_path import find_path_with_fuel_limit
 import networkx as nx
 import folium
