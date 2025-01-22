@@ -3095,7 +3095,7 @@
     "fuel_limit": 20,
     "expected_result": [
         [],
-        0.0,
+        0,
         []
     ]
 }

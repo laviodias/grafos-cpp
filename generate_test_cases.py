@@ -146,17 +146,6 @@ def process_graph_files():
 
             for fuel_limit in fuel_limits:
                 print(f"Calculating path with fuel limit {fuel_limit} minutes...")
-                apprx_path, apprx_cost, apprx_stops = find_approximate_path(
-                    adjacency_matrix, start_vertex, mandatory_vertices, fuel_limit * 60
-                )
-
-                apprx_path = apprx_path if isinstance(apprx_path, list) else []
-                apprx_stops = apprx_stops if isinstance(apprx_stops, list) else []
-                apprx_cost = apprx_cost if apprx_cost is not None else 0
-
-                print(
-                    f"Path found: {apprx_path}, Cost: {apprx_cost}, Stops: {apprx_stops}"
-                )
 
                 formatted_data = {
                     "adj_matrix": (
@@ -170,11 +159,7 @@ def process_graph_files():
                     "start_vertex": int(start_vertex),
                     "mandatory_vertices": [int(v) for v in mandatory_vertices],
                     "fuel_limit": int(fuel_limit),
-                    "expected_result": (
-                        [int(v) for v in apprx_path],
-                        float(apprx_cost),
-                        [int(s) for s in apprx_stops],
-                    ),
+                    "expected_result": ([], 0, []),
                 }
 
                 output_path = os.path.join(

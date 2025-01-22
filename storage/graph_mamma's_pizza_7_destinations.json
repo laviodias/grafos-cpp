@@ -8,24 +8,17 @@
     },
     "destinations": [
         {
-            "name": "Am\u00e9rica Towers Hotel",
+            "name": "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             "location": {
-                "lat": -12.9816312,
-                "lng": -38.453772
+                "lat": -12.9763242,
+                "lng": -38.4625446
             }
         },
         {
-            "name": "Iguatemi Business Flat",
+            "name": "Hotel Intercity Salvador",
             "location": {
-                "lat": -12.9837595,
-                "lng": -38.4650282
-            }
-        },
-        {
-            "name": "Fiesta Bahia Hotel - Salvador Bahia",
-            "location": {
-                "lat": -12.9974361,
-                "lng": -38.46532000000001
+                "lat": -12.9807725,
+                "lng": -38.4504273
             }
         },
         {
@@ -36,24 +29,31 @@
             }
         },
         {
+            "name": "Iguatemi Business Flat",
+            "location": {
+                "lat": -12.9837595,
+                "lng": -38.4650282
+            }
+        },
+        {
+            "name": "Am\u00e9rica Towers Hotel",
+            "location": {
+                "lat": -12.9816312,
+                "lng": -38.453772
+            }
+        },
+        {
+            "name": "Salvador",
+            "location": {
+                "lat": -12.9777378,
+                "lng": -38.5016363
+            }
+        },
+        {
             "name": "Salvador Business & Flat",
             "location": {
                 "lat": -12.9802231,
                 "lng": -38.4550683
-            }
-        },
-        {
-            "name": "Hotel Atlanta",
-            "location": {
-                "lat": -12.9913225,
-                "lng": -38.48612790000001
-            }
-        },
-        {
-            "name": "Pousada Pituba",
-            "location": {
-                "lat": -12.9933929,
-                "lng": -38.45720529999999
             }
         }
     ],
@@ -248,29 +248,20 @@
             }
         ],
         [
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
                 "coords": [
-                    -12.9816312,
-                    -38.453772
+                    -12.9763242,
+                    -38.4625446
                 ]
             }
         ],
         [
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
                 "coords": [
-                    -12.9837595,
-                    -38.4650282
-                ]
-            }
-        ],
-        [
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "coords": [
-                    -12.9974361,
-                    -38.46532000000001
+                    -12.9807725,
+                    -38.4504273
                 ]
             }
         ],
@@ -284,29 +275,38 @@
             }
         ],
         [
+            "Iguatemi Business Flat",
+            {
+                "coords": [
+                    -12.9837595,
+                    -38.4650282
+                ]
+            }
+        ],
+        [
+            "Am\u00e9rica Towers Hotel",
+            {
+                "coords": [
+                    -12.9816312,
+                    -38.453772
+                ]
+            }
+        ],
+        [
+            "Salvador",
+            {
+                "coords": [
+                    -12.9777378,
+                    -38.5016363
+                ]
+            }
+        ],
+        [
             "Salvador Business & Flat",
             {
                 "coords": [
                     -12.9802231,
                     -38.4550683
-                ]
-            }
-        ],
-        [
-            "Hotel Atlanta",
-            {
-                "coords": [
-                    -12.9913225,
-                    -38.48612790000001
-                ]
-            }
-        ],
-        [
-            "Pousada Pituba",
-            {
-                "coords": [
-                    -12.9933929,
-                    -38.45720529999999
                 ]
             }
         ]
@@ -694,15 +694,15 @@
         ],
         [
             "Bike Base 0",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 4360,
-                "duration": 923,
+                "distance": 5786,
+                "duration": 1188,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.005963,
@@ -713,34 +713,15 @@
         ],
         [
             "Bike Base 0",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 4057,
-                "duration": 888,
+                "distance": 5488,
+                "duration": 1110,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.005963,
-                        -38.457312
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 0",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 1492,
-                "duration": 357,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.005963,
@@ -770,6 +751,63 @@
         ],
         [
             "Bike Base 0",
+            "Iguatemi Business Flat",
+            {
+                "distance": 4057,
+                "duration": 888,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4360,
+                "duration": 923,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
+            "Salvador",
+            {
+                "distance": 8707,
+                "duration": 1695,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.005963,
+                        -38.457312
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 0",
             "Salvador Business & Flat",
             {
                 "distance": 4102,
@@ -779,44 +817,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.005963,
-                        -38.457312
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 0",
-            "Hotel Atlanta",
-            {
-                "distance": 4674,
-                "duration": 1144,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.005963,
-                        -38.457312
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 0",
-            "Pousada Pituba",
-            {
-                "distance": 2836,
-                "duration": 618,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.005963,
@@ -1188,15 +1188,15 @@
         ],
         [
             "Bike Base 1",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 9790,
-                "duration": 1762,
+                "distance": 8214,
+                "duration": 1492,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.993181,
@@ -1207,34 +1207,15 @@
         ],
         [
             "Bike Base 1",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 8282,
-                "duration": 1502,
+                "distance": 9777,
+                "duration": 1743,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.993181,
-                        -38.507897
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 1",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 6828,
-                "duration": 1345,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.993181,
@@ -1264,6 +1245,63 @@
         ],
         [
             "Bike Base 1",
+            "Iguatemi Business Flat",
+            {
+                "distance": 8282,
+                "duration": 1502,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 9790,
+                "duration": 1762,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
+            "Salvador",
+            {
+                "distance": 3636,
+                "duration": 772,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.993181,
+                        -38.507897
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 1",
             "Salvador Business & Flat",
             {
                 "distance": 10013,
@@ -1273,44 +1311,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.993181,
-                        -38.507897
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 1",
-            "Hotel Atlanta",
-            {
-                "distance": 4140,
-                "duration": 897,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.993181,
-                        -38.507897
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 1",
-            "Pousada Pituba",
-            {
-                "distance": 8168,
-                "duration": 1576,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.993181,
@@ -1663,15 +1663,15 @@
         ],
         [
             "Bike Base 2",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 3691,
-                "duration": 720,
+                "distance": 3760,
+                "duration": 790,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.993338,
@@ -1682,34 +1682,15 @@
         ],
         [
             "Bike Base 2",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 2323,
-                "duration": 453,
+                "distance": 5336,
+                "duration": 1043,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.993338,
-                        -38.460908
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 2",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 1280,
-                "duration": 362,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.993338,
@@ -1739,6 +1720,63 @@
         ],
         [
             "Bike Base 2",
+            "Iguatemi Business Flat",
+            {
+                "distance": 2323,
+                "duration": 453,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 3691,
+                "duration": 720,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
+            "Salvador",
+            {
+                "distance": 8155,
+                "duration": 1557,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.993338,
+                        -38.460908
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 2",
             "Salvador Business & Flat",
             {
                 "distance": 4257,
@@ -1748,44 +1786,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.993338,
-                        -38.460908
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 2",
-            "Hotel Atlanta",
-            {
-                "distance": 4540,
-                "duration": 951,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.993338,
-                        -38.460908
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 2",
-            "Pousada Pituba",
-            {
-                "distance": 962,
-                "duration": 151,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.993338,
@@ -2119,15 +2119,15 @@
         ],
         [
             "Bike Base 3",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 3890,
-                "duration": 756,
+                "distance": 5316,
+                "duration": 1021,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.002672,
@@ -2138,34 +2138,15 @@
         ],
         [
             "Bike Base 3",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 4446,
-                "duration": 877,
+                "distance": 5018,
+                "duration": 943,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.002672,
-                        -38.451655
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 3",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 2347,
-                "duration": 511,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.002672,
@@ -2195,6 +2176,63 @@
         ],
         [
             "Bike Base 3",
+            "Iguatemi Business Flat",
+            {
+                "distance": 4446,
+                "duration": 877,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 3890,
+                "duration": 756,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
+            "Salvador",
+            {
+                "distance": 9585,
+                "duration": 1699,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.002672,
+                        -38.451655
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 3",
             "Salvador Business & Flat",
             {
                 "distance": 3632,
@@ -2204,44 +2242,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.002672,
-                        -38.451655
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 3",
-            "Hotel Atlanta",
-            {
-                "distance": 5529,
-                "duration": 1298,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.002672,
-                        -38.451655
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 3",
-            "Pousada Pituba",
-            {
-                "distance": 2366,
-                "duration": 451,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.002672,
@@ -2556,15 +2556,15 @@
         ],
         [
             "Bike Base 4",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 5437,
-                "duration": 1045,
+                "distance": 6863,
+                "duration": 1310,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.98625,
@@ -2575,34 +2575,15 @@
         ],
         [
             "Bike Base 4",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 7268,
-                "duration": 1389,
+                "distance": 2682,
+                "duration": 930,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.98625,
-                        -38.43404
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 4",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 5128,
-                "duration": 1015,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.98625,
@@ -2632,6 +2613,63 @@
         ],
         [
             "Bike Base 4",
+            "Iguatemi Business Flat",
+            {
+                "distance": 7268,
+                "duration": 1389,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 5437,
+                "duration": 1045,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
+            "Salvador",
+            {
+                "distance": 12510,
+                "duration": 2380,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.98625,
+                        -38.43404
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 4",
             "Salvador Business & Flat",
             {
                 "distance": 5179,
@@ -2641,44 +2679,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.98625,
-                        -38.43404
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 4",
-            "Hotel Atlanta",
-            {
-                "distance": 8310,
-                "duration": 1802,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.98625,
-                        -38.43404
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 4",
-            "Pousada Pituba",
-            {
-                "distance": 5188,
-                "duration": 963,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.98625,
@@ -2974,15 +2974,15 @@
         ],
         [
             "Bike Base 5",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 5702,
-                "duration": 1071,
+                "distance": 7128,
+                "duration": 1336,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.01063,
@@ -2993,34 +2993,15 @@
         ],
         [
             "Bike Base 5",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 5467,
-                "duration": 1136,
+                "distance": 6830,
+                "duration": 1258,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.01063,
-                        -38.46546
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 5",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 2902,
-                "duration": 605,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.01063,
@@ -3050,6 +3031,63 @@
         ],
         [
             "Bike Base 5",
+            "Iguatemi Business Flat",
+            {
+                "distance": 5467,
+                "duration": 1136,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 5702,
+                "duration": 1071,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
+            "Salvador",
+            {
+                "distance": 7858,
+                "duration": 1545,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.01063,
+                        -38.46546
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 5",
             "Salvador Business & Flat",
             {
                 "distance": 5444,
@@ -3059,44 +3097,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.01063,
-                        -38.46546
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 5",
-            "Hotel Atlanta",
-            {
-                "distance": 6084,
-                "duration": 1392,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.01063,
-                        -38.46546
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 5",
-            "Pousada Pituba",
-            {
-                "distance": 4178,
-                "duration": 766,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.01063,
@@ -3373,15 +3373,15 @@
         ],
         [
             "Bike Base 6",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 4174,
-                "duration": 936,
+                "distance": 5600,
+                "duration": 1201,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.99751,
@@ -3392,34 +3392,15 @@
         ],
         [
             "Bike Base 6",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 4730,
-                "duration": 1057,
+                "distance": 5302,
+                "duration": 1123,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.99751,
-                        -38.44347
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 6",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 3424,
-                "duration": 725,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.99751,
@@ -3449,6 +3430,63 @@
         ],
         [
             "Bike Base 6",
+            "Iguatemi Business Flat",
+            {
+                "distance": 4730,
+                "duration": 1057,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4174,
+                "duration": 936,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
+            "Salvador",
+            {
+                "distance": 9869,
+                "duration": 1879,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.99751,
+                        -38.44347
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 6",
             "Salvador Business & Flat",
             {
                 "distance": 3916,
@@ -3458,44 +3496,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.99751,
-                        -38.44347
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 6",
-            "Hotel Atlanta",
-            {
-                "distance": 6606,
-                "duration": 1512,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.99751,
-                        -38.44347
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 6",
-            "Pousada Pituba",
-            {
-                "distance": 2650,
-                "duration": 631,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.99751,
@@ -3753,15 +3753,15 @@
         ],
         [
             "Bike Base 7",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 8634,
-                "duration": 1558,
+                "distance": 7058,
+                "duration": 1288,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.00202,
@@ -3772,34 +3772,15 @@
         ],
         [
             "Bike Base 7",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 7126,
-                "duration": 1298,
+                "distance": 8621,
+                "duration": 1539,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.00202,
-                        -38.50382
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 7",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 5672,
-                "duration": 1141,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.00202,
@@ -3829,6 +3810,63 @@
         ],
         [
             "Bike Base 7",
+            "Iguatemi Business Flat",
+            {
+                "distance": 7126,
+                "duration": 1298,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8634,
+                "duration": 1558,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
+            "Salvador",
+            {
+                "distance": 4400,
+                "duration": 905,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.00202,
+                        -38.50382
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 7",
             "Salvador Business & Flat",
             {
                 "distance": 8857,
@@ -3838,44 +3876,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.00202,
-                        -38.50382
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 7",
-            "Hotel Atlanta",
-            {
-                "distance": 4470,
-                "duration": 946,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.00202,
-                        -38.50382
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 7",
-            "Pousada Pituba",
-            {
-                "distance": 7012,
-                "duration": 1372,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.00202,
@@ -4114,15 +4114,15 @@
         ],
         [
             "Bike Base 8",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 7098,
-                "duration": 1336,
+                "distance": 8524,
+                "duration": 1601,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.0123191,
@@ -4133,34 +4133,15 @@
         ],
         [
             "Bike Base 8",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 5219,
-                "duration": 1142,
+                "distance": 8226,
+                "duration": 1523,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.0123191,
-                        -38.4683242
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 8",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 2674,
-                "duration": 574,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.0123191,
@@ -4190,6 +4171,63 @@
         ],
         [
             "Bike Base 8",
+            "Iguatemi Business Flat",
+            {
+                "distance": 5219,
+                "duration": 1142,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 7098,
+                "duration": 1336,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
+            "Salvador",
+            {
+                "distance": 7305,
+                "duration": 1449,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.0123191,
+                        -38.4683242
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 8",
             "Salvador Business & Flat",
             {
                 "distance": 6840,
@@ -4199,44 +4237,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.0123191,
-                        -38.4683242
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 8",
-            "Hotel Atlanta",
-            {
-                "distance": 5309,
-                "duration": 1374,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.0123191,
-                        -38.4683242
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 8",
-            "Pousada Pituba",
-            {
-                "distance": 5574,
-                "duration": 1031,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.0123191,
@@ -4456,15 +4456,15 @@
         ],
         [
             "Bike Base 9",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 9617,
-                "duration": 1958,
+                "distance": 8027,
+                "duration": 1686,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.982846,
@@ -4475,34 +4475,15 @@
         ],
         [
             "Bike Base 9",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 8454,
-                "duration": 1833,
+                "distance": 9604,
+                "duration": 1939,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.982846,
-                        -38.514973
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 9",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 9854,
-                "duration": 2109,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.982846,
@@ -4532,6 +4513,63 @@
         ],
         [
             "Bike Base 9",
+            "Iguatemi Business Flat",
+            {
+                "distance": 8454,
+                "duration": 1833,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 9617,
+                "duration": 1958,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
+            "Salvador",
+            {
+                "distance": 3798,
+                "duration": 928,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.982846,
+                        -38.514973
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 9",
             "Salvador Business & Flat",
             {
                 "distance": 9840,
@@ -4541,44 +4579,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.982846,
-                        -38.514973
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 9",
-            "Hotel Atlanta",
-            {
-                "distance": 5378,
-                "duration": 1281,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.982846,
-                        -38.514973
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 9",
-            "Pousada Pituba",
-            {
-                "distance": 11194,
-                "duration": 2340,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.982846,
@@ -4779,15 +4779,15 @@
         ],
         [
             "Bike Base 10",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 10773,
-                "duration": 2039,
+                "distance": 9197,
+                "duration": 1769,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.0080582,
@@ -4798,34 +4798,15 @@
         ],
         [
             "Bike Base 10",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 9265,
-                "duration": 1779,
+                "distance": 10760,
+                "duration": 2020,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.0080582,
-                        -38.5184592
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 10",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 7811,
-                "duration": 1622,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.0080582,
@@ -4855,6 +4836,63 @@
         ],
         [
             "Bike Base 10",
+            "Iguatemi Business Flat",
+            {
+                "distance": 9265,
+                "duration": 1779,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 10773,
+                "duration": 2039,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
+            "Salvador",
+            {
+                "distance": 6293,
+                "duration": 1269,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.0080582,
+                        -38.5184592
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 10",
             "Salvador Business & Flat",
             {
                 "distance": 10996,
@@ -4864,44 +4902,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.0080582,
-                        -38.5184592
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 10",
-            "Hotel Atlanta",
-            {
-                "distance": 6609,
-                "duration": 1427,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.0080582,
-                        -38.5184592
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 10",
-            "Pousada Pituba",
-            {
-                "distance": 9151,
-                "duration": 1853,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.0080582,
@@ -5083,15 +5083,15 @@
         ],
         [
             "Bike Base 11",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 4938,
-                "duration": 957,
+                "distance": 6364,
+                "duration": 1222,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.98978,
@@ -5102,34 +5102,15 @@
         ],
         [
             "Bike Base 11",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 6769,
-                "duration": 1301,
+                "distance": 6066,
+                "duration": 1144,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.98978,
-                        -38.43678
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 11",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 4629,
-                "duration": 927,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.98978,
@@ -5159,6 +5140,63 @@
         ],
         [
             "Bike Base 11",
+            "Iguatemi Business Flat",
+            {
+                "distance": 6769,
+                "duration": 1301,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4938,
+                "duration": 957,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
+            "Salvador",
+            {
+                "distance": 12011,
+                "duration": 2292,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.98978,
+                        -38.43678
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 11",
             "Salvador Business & Flat",
             {
                 "distance": 4680,
@@ -5168,44 +5206,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.98978,
-                        -38.43678
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 11",
-            "Hotel Atlanta",
-            {
-                "distance": 7811,
-                "duration": 1714,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.98978,
-                        -38.43678
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 11",
-            "Pousada Pituba",
-            {
-                "distance": 4689,
-                "duration": 875,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.98978,
@@ -5368,15 +5368,15 @@
         ],
         [
             "Bike Base 12",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 8788,
-                "duration": 1705,
+                "distance": 6519,
+                "duration": 1187,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.013335,
@@ -5387,34 +5387,15 @@
         ],
         [
             "Bike Base 12",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 6587,
-                "duration": 1197,
+                "distance": 8082,
+                "duration": 1438,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.013335,
-                        -38.488729
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 12",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 4913,
-                "duration": 995,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.013335,
@@ -5444,6 +5425,63 @@
         ],
         [
             "Bike Base 12",
+            "Iguatemi Business Flat",
+            {
+                "distance": 6587,
+                "duration": 1197,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8788,
+                "duration": 1705,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
+            "Salvador",
+            {
+                "distance": 4894,
+                "duration": 1062,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.013335,
+                        -38.488729
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 12",
             "Salvador Business & Flat",
             {
                 "distance": 8530,
@@ -5453,44 +5491,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.013335,
-                        -38.488729
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 12",
-            "Hotel Atlanta",
-            {
-                "distance": 3931,
-                "duration": 845,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.013335,
-                        -38.488729
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 12",
-            "Pousada Pituba",
-            {
-                "distance": 7264,
-                "duration": 1400,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.013335,
@@ -5634,15 +5634,15 @@
         ],
         [
             "Bike Base 13",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 4331,
-                "duration": 851,
+                "distance": 5757,
+                "duration": 1116,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.994033,
@@ -5653,34 +5653,15 @@
         ],
         [
             "Bike Base 13",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 6162,
-                "duration": 1195,
+                "distance": 5459,
+                "duration": 1038,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.994033,
-                        -38.440247
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 13",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 4022,
-                "duration": 821,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.994033,
@@ -5710,6 +5691,63 @@
         ],
         [
             "Bike Base 13",
+            "Iguatemi Business Flat",
+            {
+                "distance": 6162,
+                "duration": 1195,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 4331,
+                "duration": 851,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
+            "Salvador",
+            {
+                "distance": 11404,
+                "duration": 2186,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.994033,
+                        -38.440247
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 13",
             "Salvador Business & Flat",
             {
                 "distance": 4073,
@@ -5719,44 +5757,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.994033,
-                        -38.440247
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 13",
-            "Hotel Atlanta",
-            {
-                "distance": 7204,
-                "duration": 1608,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.994033,
-                        -38.440247
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 13",
-            "Pousada Pituba",
-            {
-                "distance": 4082,
-                "duration": 769,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.994033,
@@ -5881,15 +5881,15 @@
         ],
         [
             "Bike Base 14",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 421,
-                "duration": 71,
+                "distance": 2376,
+                "duration": 468,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.97935,
@@ -5900,34 +5900,15 @@
         ],
         [
             "Bike Base 14",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 2064,
-                "duration": 367,
+                "distance": 1339,
+                "duration": 218,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.97935,
-                        -38.45504
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 14",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 4109,
-                "duration": 881,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.97935,
@@ -5957,6 +5938,63 @@
         ],
         [
             "Bike Base 14",
+            "Iguatemi Business Flat",
+            {
+                "distance": 2064,
+                "duration": 367,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 421,
+                "duration": 71,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
+            "Salvador",
+            {
+                "distance": 6336,
+                "duration": 1122,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.97935,
+                        -38.45504
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 14",
             "Salvador Business & Flat",
             {
                 "distance": 163,
@@ -5966,44 +6004,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.97935,
-                        -38.45504
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 14",
-            "Hotel Atlanta",
-            {
-                "distance": 5322,
-                "duration": 1005,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.97935,
-                        -38.45504
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 14",
-            "Pousada Pituba",
-            {
-                "distance": 3288,
-                "duration": 700,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.97935,
@@ -6109,15 +6109,15 @@
         ],
         [
             "Bike Base 15",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 1166,
-                "duration": 201,
+                "distance": 3317,
+                "duration": 678,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.986925,
@@ -6128,34 +6128,15 @@
         ],
         [
             "Bike Base 15",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 3005,
-                "duration": 577,
+                "distance": 2711,
+                "duration": 459,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.986925,
-                        -38.452353
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 15",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 3728,
-                "duration": 812,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.986925,
@@ -6185,6 +6166,63 @@
         ],
         [
             "Bike Base 15",
+            "Iguatemi Business Flat",
+            {
+                "distance": 3005,
+                "duration": 577,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 1166,
+                "duration": 201,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
+            "Salvador",
+            {
+                "distance": 7586,
+                "duration": 1356,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.986925,
+                        -38.452353
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 15",
             "Salvador Business & Flat",
             {
                 "distance": 1339,
@@ -6194,44 +6232,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.986925,
-                        -38.452353
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 15",
-            "Hotel Atlanta",
-            {
-                "distance": 6572,
-                "duration": 1239,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.986925,
-                        -38.452353
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 15",
-            "Pousada Pituba",
-            {
-                "distance": 1840,
-                "duration": 408,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.986925,
@@ -6318,15 +6318,15 @@
         ],
         [
             "Bike Base 16",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 5202,
-                "duration": 1041,
+                "distance": 4241,
+                "duration": 895,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.99722,
@@ -6337,34 +6337,15 @@
         ],
         [
             "Bike Base 16",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 2426,
-                "duration": 685,
+                "distance": 6330,
+                "duration": 1228,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.99722,
-                        -38.46358
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 16",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 251,
-                "duration": 194,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.99722,
@@ -6394,6 +6375,63 @@
         ],
         [
             "Bike Base 16",
+            "Iguatemi Business Flat",
+            {
+                "distance": 2426,
+                "duration": 685,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 5202,
+                "duration": 1041,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
+            "Salvador",
+            {
+                "distance": 8163,
+                "duration": 1572,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.99722,
+                        -38.46358
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 16",
             "Salvador Business & Flat",
             {
                 "distance": 4944,
@@ -6403,44 +6441,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.99722,
-                        -38.46358
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 16",
-            "Hotel Atlanta",
-            {
-                "distance": 3415,
-                "duration": 950,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.99722,
-                        -38.46358
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 16",
-            "Pousada Pituba",
-            {
-                "distance": 1910,
-                "duration": 412,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.99722,
@@ -6508,15 +6508,15 @@
         ],
         [
             "Bike Base 17",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 8812,
-                "duration": 1704,
+                "distance": 7236,
+                "duration": 1434,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.010995,
@@ -6527,34 +6527,15 @@
         ],
         [
             "Bike Base 17",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 7304,
-                "duration": 1444,
+                "distance": 8799,
+                "duration": 1685,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.010995,
-                        -38.501335
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 17",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 5850,
-                "duration": 1287,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.010995,
@@ -6584,6 +6565,63 @@
         ],
         [
             "Bike Base 17",
+            "Iguatemi Business Flat",
+            {
+                "distance": 7304,
+                "duration": 1444,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8812,
+                "duration": 1704,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
+            "Salvador",
+            {
+                "distance": 6290,
+                "duration": 1250,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.010995,
+                        -38.501335
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 17",
             "Salvador Business & Flat",
             {
                 "distance": 9035,
@@ -6593,44 +6631,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -13.010995,
-                        -38.501335
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 17",
-            "Hotel Atlanta",
-            {
-                "distance": 4648,
-                "duration": 1092,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.010995,
-                        -38.501335
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 17",
-            "Pousada Pituba",
-            {
-                "distance": 7190,
-                "duration": 1518,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -13.010995,
@@ -6679,15 +6679,15 @@
         ],
         [
             "Bike Base 18",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 8961,
-                "duration": 1613,
+                "distance": 7385,
+                "duration": 1343,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.99972,
@@ -6698,34 +6698,15 @@
         ],
         [
             "Bike Base 18",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 7453,
-                "duration": 1353,
+                "distance": 8948,
+                "duration": 1594,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.99972,
-                        -38.50576
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 18",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 5999,
-                "duration": 1196,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.99972,
@@ -6755,6 +6736,63 @@
         ],
         [
             "Bike Base 18",
+            "Iguatemi Business Flat",
+            {
+                "distance": 7453,
+                "duration": 1353,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 8961,
+                "duration": 1613,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
+            "Salvador",
+            {
+                "distance": 4052,
+                "duration": 912,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -12.99972,
+                        -38.50576
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 18",
             "Salvador Business & Flat",
             {
                 "distance": 9184,
@@ -6764,44 +6802,6 @@
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.99972,
-                        -38.50576
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 18",
-            "Hotel Atlanta",
-            {
-                "distance": 4797,
-                "duration": 1001,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -12.99972,
-                        -38.50576
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 18",
-            "Pousada Pituba",
-            {
-                "distance": 7339,
-                "duration": 1427,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ],
                     [
                         -12.99972,
@@ -6831,15 +6831,15 @@
         ],
         [
             "Bike Base 19",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 9757,
-                "duration": 1830,
+                "distance": 8181,
+                "duration": 1560,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -13.010308,
@@ -6850,34 +6850,15 @@
         ],
         [
             "Bike Base 19",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 8249,
-                "duration": 1570,
+                "distance": 9744,
+                "duration": 1811,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -13.010308,
-                        -38.509888
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 19",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 6795,
-                "duration": 1413,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -13.010308,
@@ -6907,6 +6888,63 @@
         ],
         [
             "Bike Base 19",
+            "Iguatemi Business Flat",
+            {
+                "distance": 8249,
+                "duration": 1570,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 9757,
+                "duration": 1830,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
+            "Salvador",
+            {
+                "distance": 5435,
+                "duration": 1072,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ],
+                    [
+                        -13.010308,
+                        -38.509888
+                    ]
+                ]
+            }
+        ],
+        [
+            "Bike Base 19",
             "Salvador Business & Flat",
             {
                 "distance": 9980,
@@ -6925,49 +6963,11 @@
             }
         ],
         [
-            "Bike Base 19",
-            "Hotel Atlanta",
-            {
-                "distance": 5593,
-                "duration": 1218,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ],
-                    [
-                        -13.010308,
-                        -38.509888
-                    ]
-                ]
-            }
-        ],
-        [
-            "Bike Base 19",
-            "Pousada Pituba",
-            {
-                "distance": 8135,
-                "duration": 1644,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9933929,
-                        -38.45720529999999
-                    ],
-                    [
-                        -13.010308,
-                        -38.509888
-                    ]
-                ]
-            }
-        ],
-        [
             "Mamma's Pizza",
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             {
-                "distance": 2974,
-                "duration": 661,
+                "distance": 3536,
+                "duration": 795,
                 "type": "origin",
                 "coords": [
                     [
@@ -6975,18 +6975,18 @@
                         -38.45604179999999
                     ],
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ]
                 ]
             }
         ],
         [
             "Mamma's Pizza",
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             {
-                "distance": 2493,
-                "duration": 570,
+                "distance": 2627,
+                "duration": 626,
                 "type": "origin",
                 "coords": [
                     [
@@ -6994,27 +6994,8 @@
                         -38.45604179999999
                     ],
                     [
-                        -12.9837595,
-                        -38.4650282
-                    ]
-                ]
-            }
-        ],
-        [
-            "Mamma's Pizza",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 2754,
-                "duration": 612,
-                "type": "origin",
-                "coords": [
-                    [
-                        -12.9934906,
-                        -38.45604179999999
-                    ],
-                    [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.9807725,
+                        -38.4504273
                     ]
                 ]
             }
@@ -7040,6 +7021,63 @@
         ],
         [
             "Mamma's Pizza",
+            "Iguatemi Business Flat",
+            {
+                "distance": 2493,
+                "duration": 570,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9934906,
+                        -38.45604179999999
+                    ],
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ]
+                ]
+            }
+        ],
+        [
+            "Mamma's Pizza",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 2974,
+                "duration": 661,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9934906,
+                        -38.45604179999999
+                    ],
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ]
+                ]
+            }
+        ],
+        [
+            "Mamma's Pizza",
+            "Salvador",
+            {
+                "distance": 9283,
+                "duration": 1992,
+                "type": "origin",
+                "coords": [
+                    [
+                        -12.9934906,
+                        -38.45604179999999
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Mamma's Pizza",
             "Salvador Business & Flat",
             {
                 "distance": 2856,
@@ -7058,92 +7096,35 @@
             }
         ],
         [
-            "Mamma's Pizza",
-            "Hotel Atlanta",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
+            "Hotel Intercity Salvador",
             {
-                "distance": 5040,
-                "duration": 1318,
-                "type": "origin",
-                "coords": [
-                    [
-                        -12.9934906,
-                        -38.45604179999999
-                    ],
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ]
-                ]
-            }
-        ],
-        [
-            "Mamma's Pizza",
-            "Pousada Pituba",
-            {
-                "distance": 753,
-                "duration": 181,
-                "type": "origin",
-                "coords": [
-                    [
-                        -12.9934906,
-                        -38.45604179999999
-                    ],
-                    [
-                        -12.9933929,
-                        -38.45720529999999
-                    ]
-                ]
-            }
-        ],
-        [
-            "Am\u00e9rica Towers Hotel",
-            "Iguatemi Business Flat",
-            {
-                "distance": 2898,
-                "duration": 724,
+                "distance": 2990,
+                "duration": 585,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
-                        -12.9837595,
-                        -38.4650282
+                        -12.9807725,
+                        -38.4504273
                     ]
                 ]
             }
         ],
         [
-            "Am\u00e9rica Towers Hotel",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 5576,
-                "duration": 1001,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9816312,
-                        -38.453772
-                    ],
-                    [
-                        -12.9974361,
-                        -38.46532000000001
-                    ]
-                ]
-            }
-        ],
-        [
-            "Am\u00e9rica Towers Hotel",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             "Hotel Pir\u00e2mide",
             {
-                "distance": 2081,
-                "duration": 457,
+                "distance": 3070,
+                "duration": 727,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9816312,
-                        -38.453772
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.990412,
@@ -7153,16 +7134,73 @@
             }
         ],
         [
-            "Am\u00e9rica Towers Hotel",
-            "Salvador Business & Flat",
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
+            "Iguatemi Business Flat",
             {
-                "distance": 258,
-                "duration": 44,
+                "distance": 1634,
+                "duration": 519,
                 "type": "destination",
                 "coords": [
                     [
+                        -12.9763242,
+                        -38.4625446
+                    ],
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ]
+                ]
+            }
+        ],
+        [
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 2546,
+                "duration": 506,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9763242,
+                        -38.4625446
+                    ],
+                    [
                         -12.9816312,
                         -38.453772
+                    ]
+                ]
+            }
+        ],
+        [
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
+            "Salvador",
+            {
+                "distance": 6602,
+                "duration": 1347,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9763242,
+                        -38.4625446
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Hotel Pir\u00e2mide Rodovi\u00e1ria",
+            "Salvador Business & Flat",
+            {
+                "distance": 2839,
+                "duration": 552,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9763242,
+                        -38.4625446
                     ],
                     [
                         -12.9802231,
@@ -7172,73 +7210,16 @@
             }
         ],
         [
-            "Am\u00e9rica Towers Hotel",
-            "Hotel Atlanta",
-            {
-                "distance": 5738,
-                "duration": 1275,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9816312,
-                        -38.453772
-                    ],
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ]
-                ]
-            }
-        ],
-        [
-            "Am\u00e9rica Towers Hotel",
-            "Pousada Pituba",
-            {
-                "distance": 3146,
-                "duration": 644,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9816312,
-                        -38.453772
-                    ],
-                    [
-                        -12.9933929,
-                        -38.45720529999999
-                    ]
-                ]
-            }
-        ],
-        [
-            "Iguatemi Business Flat",
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            {
-                "distance": 3090,
-                "duration": 669,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.9974361,
-                        -38.46532000000001
-                    ]
-                ]
-            }
-        ],
-        [
-            "Iguatemi Business Flat",
+            "Hotel Intercity Salvador",
             "Hotel Pir\u00e2mide",
             {
-                "distance": 2086,
-                "duration": 438,
+                "distance": 3092,
+                "duration": 717,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9837595,
-                        -38.4650282
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.990412,
@@ -7248,16 +7229,73 @@
             }
         ],
         [
+            "Hotel Intercity Salvador",
             "Iguatemi Business Flat",
-            "Salvador Business & Flat",
             {
-                "distance": 2527,
-                "duration": 451,
+                "distance": 3197,
+                "duration": 770,
                 "type": "destination",
                 "coords": [
                     [
+                        -12.9807725,
+                        -38.4504273
+                    ],
+                    [
                         -12.9837595,
                         -38.4650282
+                    ]
+                ]
+            }
+        ],
+        [
+            "Hotel Intercity Salvador",
+            "Am\u00e9rica Towers Hotel",
+            {
+                "distance": 1921,
+                "duration": 322,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9807725,
+                        -38.4504273
+                    ],
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ]
+                ]
+            }
+        ],
+        [
+            "Hotel Intercity Salvador",
+            "Salvador",
+            {
+                "distance": 8179,
+                "duration": 1600,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9807725,
+                        -38.4504273
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Hotel Intercity Salvador",
+            "Salvador Business & Flat",
+            {
+                "distance": 1802,
+                "duration": 302,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9807725,
+                        -38.4504273
                     ],
                     [
                         -12.9802231,
@@ -7267,115 +7305,58 @@
             }
         ],
         [
-            "Iguatemi Business Flat",
-            "Hotel Atlanta",
-            {
-                "distance": 4241,
-                "duration": 1021,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.9913225,
-                        -38.48612790000001
-                    ]
-                ]
-            }
-        ],
-        [
-            "Iguatemi Business Flat",
-            "Pousada Pituba",
-            {
-                "distance": 2573,
-                "duration": 535,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9837595,
-                        -38.4650282
-                    ],
-                    [
-                        -12.9933929,
-                        -38.45720529999999
-                    ]
-                ]
-            }
-        ],
-        [
-            "Fiesta Bahia Hotel - Salvador Bahia",
             "Hotel Pir\u00e2mide",
+            "Iguatemi Business Flat",
             {
-                "distance": 2155,
-                "duration": 532,
+                "distance": 1894,
+                "duration": 393,
                 "type": "destination",
                 "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
-                    ],
                     [
                         -12.990412,
                         -38.45655599999999
+                    ],
+                    [
+                        -12.9837595,
+                        -38.4650282
                     ]
                 ]
             }
         ],
         [
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            "Salvador Business & Flat",
+            "Hotel Pir\u00e2mide",
+            "Am\u00e9rica Towers Hotel",
             {
-                "distance": 4572,
-                "duration": 965,
+                "distance": 2669,
+                "duration": 622,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.990412,
+                        -38.45655599999999
                     ],
                     [
-                        -12.9802231,
-                        -38.4550683
+                        -12.9816312,
+                        -38.453772
                     ]
                 ]
             }
         ],
         [
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            "Hotel Atlanta",
+            "Hotel Pir\u00e2mide",
+            "Salvador",
             {
-                "distance": 3887,
-                "duration": 1069,
+                "distance": 8684,
+                "duration": 1815,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9974361,
-                        -38.46532000000001
+                        -12.990412,
+                        -38.45655599999999
                     ],
                     [
-                        -12.9913225,
-                        -38.48612790000001
-                    ]
-                ]
-            }
-        ],
-        [
-            "Fiesta Bahia Hotel - Salvador Bahia",
-            "Pousada Pituba",
-            {
-                "distance": 1530,
-                "duration": 444,
-                "type": "destination",
-                "coords": [
-                    [
-                        -12.9974361,
-                        -38.46532000000001
-                    ],
-                    [
-                        -12.9933929,
-                        -38.45720529999999
+                        -12.9777378,
+                        -38.5016363
                     ]
                 ]
             }
@@ -7400,96 +7381,115 @@
             }
         ],
         [
-            "Hotel Pir\u00e2mide",
-            "Hotel Atlanta",
+            "Iguatemi Business Flat",
+            "Am\u00e9rica Towers Hotel",
             {
-                "distance": 4441,
-                "duration": 1141,
+                "distance": 2234,
+                "duration": 405,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.990412,
-                        -38.45655599999999
+                        -12.9837595,
+                        -38.4650282
                     ],
                     [
-                        -12.9913225,
-                        -38.48612790000001
+                        -12.9816312,
+                        -38.453772
                     ]
                 ]
             }
         ],
         [
-            "Hotel Pir\u00e2mide",
-            "Pousada Pituba",
+            "Iguatemi Business Flat",
+            "Salvador",
             {
-                "distance": 1282,
-                "duration": 271,
+                "distance": 7029,
+                "duration": 1494,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.990412,
-                        -38.45655599999999
+                        -12.9837595,
+                        -38.4650282
                     ],
                     [
-                        -12.9933929,
-                        -38.45720529999999
+                        -12.9777378,
+                        -38.5016363
                     ]
                 ]
             }
         ],
         [
+            "Iguatemi Business Flat",
             "Salvador Business & Flat",
-            "Hotel Atlanta",
             {
-                "distance": 5961,
-                "duration": 1316,
+                "distance": 2527,
+                "duration": 451,
                 "type": "destination",
                 "coords": [
+                    [
+                        -12.9837595,
+                        -38.4650282
+                    ],
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.9913225,
-                        -38.48612790000001
                     ]
                 ]
             }
         ],
         [
-            "Salvador Business & Flat",
-            "Pousada Pituba",
+            "Am\u00e9rica Towers Hotel",
+            "Salvador",
             {
-                "distance": 3712,
-                "duration": 812,
+                "distance": 8192,
+                "duration": 1619,
                 "type": "destination",
                 "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
+                    [
+                        -12.9777378,
+                        -38.5016363
+                    ]
+                ]
+            }
+        ],
+        [
+            "Am\u00e9rica Towers Hotel",
+            "Salvador Business & Flat",
+            {
+                "distance": 258,
+                "duration": 44,
+                "type": "destination",
+                "coords": [
+                    [
+                        -12.9816312,
+                        -38.453772
+                    ],
                     [
                         -12.9802231,
                         -38.4550683
-                    ],
-                    [
-                        -12.9933929,
-                        -38.45720529999999
                     ]
                 ]
             }
         ],
         [
-            "Hotel Atlanta",
-            "Pousada Pituba",
+            "Salvador",
+            "Salvador Business & Flat",
             {
-                "distance": 4790,
-                "duration": 1033,
+                "distance": 6799,
+                "duration": 1206,
                 "type": "destination",
                 "coords": [
                     [
-                        -12.9913225,
-                        -38.48612790000001
+                        -12.9777378,
+                        -38.5016363
                     ],
                     [
-                        -12.9933929,
-                        -38.45720529999999
+                        -12.9802231,
+                        -38.4550683
                     ]
                 ]
             }

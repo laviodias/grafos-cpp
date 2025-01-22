@@ -1,38 +1,17 @@
 {
     "origin": {
-        "name": "Quattro Amici Pizzaria",
+        "name": "Mamma's Pizza",
         "location": {
-            "lat": -13.0096104,
-            "lng": -38.5304572
+            "lat": -12.9934906,
+            "lng": -38.45604179999999
         }
     },
     "destinations": [
         {
-            "name": "People2People RH",
+            "name": "Hotel Pir\u00e2mide Rodovi\u00e1ria",
             "location": {
-                "lat": -12.9873278,
-                "lng": -38.4680299
-            }
-        },
-        {
-            "name": "Salvador Business & Flat",
-            "location": {
-                "lat": -12.9802231,
-                "lng": -38.4550683
-            }
-        },
-        {
-            "name": "Real Expresso",
-            "location": {
-                "lat": -12.9778445,
-                "lng": -38.4659356
-            }
-        },
-        {
-            "name": "Lojas Marisa",
-            "location": {
-                "lat": -12.9817061,
-                "lng": -38.4646255
+                "lat": -12.9763242,
+                "lng": -38.4625446
             }
         },
         {
@@ -43,38 +22,10 @@
             }
         },
         {
-            "name": "Fiesta Bahia Hotel - Salvador Bahia",
+            "name": "Hotel Pir\u00e2mide",
             "location": {
-                "lat": -12.9974361,
-                "lng": -38.46532000000001
-            }
-        },
-        {
-            "name": "Tennis shoes",
-            "location": {
-                "lat": -12.9820772,
-                "lng": -38.4635678
-            }
-        },
-        {
-            "name": "Hotel Pir\u00e2mide Rodovi\u00e1ria",
-            "location": {
-                "lat": -12.9763242,
-                "lng": -38.4625446
-            }
-        },
-        {
-            "name": "Sotero Hotel",
-            "location": {
-                "lat": -12.9861838,
-                "lng": -38.4493766
-            }
-        },
-        {
-            "name": "Mercure Salvador Boulevard Hotel",
-            "location": {
-                "lat": -12.9818939,
-                "lng": -38.4558371
+                "lat": -12.990412,
+                "lng": -38.45655599999999
             }
         },
         {
@@ -85,31 +36,24 @@
             }
         },
         {
-            "name": "Pousada Pituba",
+            "name": "Am\u00e9rica Towers Hotel",
             "location": {
-                "lat": -12.9933929,
-                "lng": -38.45720529999999
+                "lat": -12.9816312,
+                "lng": -38.453772
             }
         },
         {
-            "name": "Dubai Hotel",
+            "name": "Salvador",
             "location": {
-                "lat": -12.9848969,
-                "lng": -38.47774639999999
+                "lat": -12.9777378,
+                "lng": -38.5016363
             }
         },
         {
-            "name": "Mercure Salvador Pituba",
+            "name": "Salvador Business & Flat",
             "location": {
-                "lat": -12.9866277,
-                "lng": -38.4518323
-            }
-        },
-        {
-            "name": "Brotas",
-            "location": {
-                "lat": -12.9850099,
-                "lng": -38.5015788
+                "lat": -12.9802231,
+                "lng": -38.4550683
             }
         }
     ]

@@ -10,14 +10,14 @@ from src.algorithms.appr_path_v2 import find_approximate_path
 load_dotenv()
 
 LOCATION = "-12.9814,-38.4714"  # Salvador, Bahia
-RADIUS = 5000  # 10 km
+RADIUS = 5000  # 5 km
 API_KEY = os.getenv("API_KEY")
 BASES_FILE = "storage/bases_itau_distances.json"
 ORIGIN_DESTINATIONS_FILE = "input/origin_and_destinations.json"
 GRAPH_FILE = "input/graph_input.json"
-LOAD_GRAPH_FROM_FILE = False
+LOAD_GRAPH_FROM_FILE = True
 LOAD_ORIGIN_AND_DESTINATIONS_FROM_FILE = False
-NUM_DESTINATIONS = 15
+NUM_DESTINATIONS = 7
 FUEL_LIMIT = 45
 
 maps = MapManager(API_KEY, LOCATION, RADIUS, BASES_FILE, NUM_DESTINATIONS)
