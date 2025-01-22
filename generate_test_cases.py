@@ -2,7 +2,7 @@ import os
 import json
 import numpy as np
 from src.graph_utils import graph_to_adjacency_matrix
-from src.algorithms.appr_path import find_approximate_path
+from src.algorithms.appr_path_v2 import find_approximate_path
 from src.algorithms.shortest_path import find_path_with_fuel_limit
 import networkx as nx
 import folium
@@ -11,6 +11,7 @@ LOCATION = "-12.9814,-38.4714"  # Salvador, Bahia
 
 
 def draw_map(graph, bike_bases, origin, destinations, output_path):
+    print(f"Drawing map to: {output_path}")
     delivery_map = folium.Map(
         location=[float(coord) for coord in LOCATION.split(",")], zoom_start=15
     )
@@ -44,7 +45,7 @@ def draw_map(graph, bike_bases, origin, destinations, output_path):
             "origin": "red",
             "destination": "green",
         }
-        color = colors[edge[2]["type"]]
+        color = colors.get(edge[2]["type"], "gray")
         folium.PolyLine(
             [
                 (graph.nodes[edge[0]]["coords"][0], graph.nodes[edge[0]]["coords"][1]),
@@ -58,13 +59,16 @@ def draw_map(graph, bike_bases, origin, destinations, output_path):
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     delivery_map.save(output_path)
+    print(f"Map saved to: {output_path}")
 
 
 def load_graph_from_data(graph_data):
+    print("Loading graph from data...")
     graph = nx.Graph()
 
     origin = graph_data.get("origin")
     destinations = graph_data.get("destinations", [])
+    print(f"Origin: {origin}, Destinations: {len(destinations)}")
 
     for node, attrs in graph_data.get("nodes", []):
         graph.add_node(node, **attrs)
@@ -72,19 +76,24 @@ def load_graph_from_data(graph_data):
     for source, target, attrs in graph_data.get("edges", []):
         graph.add_edge(source, target, **attrs)
 
+    print(f"Graph loaded: {len(graph.nodes)} nodes, {len(graph.edges)} edges")
     return graph, origin, destinations
 
 
 def _load_from_file(filepath):
+    print(f"Loading file: {filepath}")
     if os.path.exists(filepath):
         with open(filepath, "r") as f:
-            return json.load(f)
+            data = json.load(f)
+            print(f"File loaded: {filepath} ({len(data)} items)")
+            return data
     else:
         print(f"File {filepath} not found.")
         return None
 
 
 def process_graph_files():
+    print("Processing graph files...")
     input_dir = "storage"
     tests_input_dir = "tests/input"
     output_dir = "tests/output/"
@@ -93,11 +102,13 @@ def process_graph_files():
     data_bike_bases = _load_from_file("storage/bases_itau_distances.json")
     if data_bike_bases:
         bike_bases = data_bike_bases.get("locations", [])
+        print(f"Loaded {len(bike_bases)} bike bases")
 
     fuel_limits = [20, 35, 45]
 
     for filename in os.listdir(input_dir):
         if filename.startswith("graph"):
+            print(f"Processing file: {filename}")
             input_path = os.path.join(input_dir, filename)
             output_subdir = os.path.join(output_dir, filename.replace(".json", ""))
 
@@ -111,6 +122,7 @@ def process_graph_files():
             draw_map(graph, bike_bases, origin, destinations, map_output_path)
 
             # Gerar matriz de adjacência, nós e coordenadas
+            print("Generating adjacency matrix...")
             adjacency_matrix, nodes, node_coords = graph_to_adjacency_matrix(graph)
 
             # Determinar o vértice inicial e os vértices obrigatórios
@@ -118,6 +130,10 @@ def process_graph_files():
             mandatory_vertices = [
                 nodes.index(destination["name"]) for destination in destinations
             ]
+
+            print(
+                f"Start vertex: {start_vertex}, Mandatory vertices: {mandatory_vertices}"
+            )
 
             edges = [
                 {
@@ -129,6 +145,7 @@ def process_graph_files():
             ]
 
             for fuel_limit in fuel_limits:
+                print(f"Calculating path with fuel limit {fuel_limit} minutes...")
                 apprx_path, apprx_cost, apprx_stops = find_approximate_path(
                     adjacency_matrix, start_vertex, mandatory_vertices, fuel_limit * 60
                 )
@@ -136,6 +153,10 @@ def process_graph_files():
                 apprx_path = apprx_path if isinstance(apprx_path, list) else []
                 apprx_stops = apprx_stops if isinstance(apprx_stops, list) else []
                 apprx_cost = apprx_cost if apprx_cost is not None else 0
+
+                print(
+                    f"Path found: {apprx_path}, Cost: {apprx_cost}, Stops: {apprx_stops}"
+                )
 
                 formatted_data = {
                     "adj_matrix": (
@@ -160,8 +181,10 @@ def process_graph_files():
                     tests_input_dir,
                     f"fuel_{fuel_limit}_{filename.replace('.json', '.json')}",
                 )
+                print(f"Saving test data to: {output_path}")
                 with open(output_path, "w") as test_file:
                     json.dump(formatted_data, test_file, indent=4)
+    print("Graph processing complete.")
 
 
 if __name__ == "__main__":

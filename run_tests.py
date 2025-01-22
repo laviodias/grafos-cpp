@@ -2,7 +2,9 @@ import os
 import folium
 import json
 import numpy as np
-from src.algorithms.appr_path import find_approximate_path
+
+# from src.algorithms.appr_path import find_approximate_path
+from src.algorithms.appr_path_v2 import find_approximate_path
 
 
 def draw_final_map(
@@ -72,7 +74,7 @@ def draw_final_map(
 
         folium.PolyLine(
             [coord1, coord2],
-            color="blue",
+            color="red",
             weight=3,
             opacity=0.7,
             popup=f"Duration: {duration / 60} minutes",

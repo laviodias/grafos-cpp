@@ -5,7 +5,7 @@ from src.maps.manager import MapManager
 from src.maps.utils import MapUtils
 from src.graph_utils import graph_to_adjacency_matrix
 from src.algorithms.shortest_path import find_path_with_fuel_limit
-from src.algorithms.appr_path import find_approximate_path
+from src.algorithms.appr_path_v2 import find_approximate_path
 
 load_dotenv()
 
@@ -18,7 +18,7 @@ GRAPH_FILE = "input/graph_input.json"
 LOAD_GRAPH_FROM_FILE = False
 LOAD_ORIGIN_AND_DESTINATIONS_FROM_FILE = False
 NUM_DESTINATIONS = 15
-FUEL_LIMIT = 40
+FUEL_LIMIT = 50*60
 
 maps = MapManager(API_KEY, LOCATION, RADIUS, BASES_FILE, NUM_DESTINATIONS)
 maps_utils = MapUtils(LOCATION, API_KEY)
@@ -78,22 +78,22 @@ if __name__ == "__main__":
     ]
 
     # path, cost, stops = find_path_with_fuel_limit(
-    #     adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
+    #     adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT * 60
     # )
 
-    apprx_path, apprx_cost, apprx_stops = find_approximate_path(
-        adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT
+    path, cost, stops = find_approximate_path(
+        adjacency_matrix, start_vertex, mandatory_vertices, FUEL_LIMIT * 60
     )
 
-    if apprx_path:
-        print(f"apprx_path: {apprx_path}")
-        print(f"Cost: {apprx_cost}")
-        print(f"Stops: {apprx_stops}")
+    if path:
+        print(f"Path: {path}")
+        print(f"Cost: {cost}")
+        print(f"Stops: {stops}")
 
         # Recriar o mapa com o menor caminho
         delivery_map = maps_utils.draw_final_map(
-            apprx_path,
-            apprx_stops,
+            path,
+            stops,
             graph,
             bike_bases,
             start_vertex,
