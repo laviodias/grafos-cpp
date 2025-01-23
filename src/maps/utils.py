@@ -54,11 +54,17 @@ class MapUtils:
                 icon=folium.Icon(color="blue", icon="info-sign"),
             ).add_to(delivery_map)
 
+        colors = {
+            "bike": "blue",
+            "origin": "red",
+            "destination": "green",
+        }
+
         for edge in graph.edges(data=True):
             self.add_edge_to_map(
                 delivery_map,
                 edge,
-                color="blue",
+                color=colors[edge[2]["type"]],
                 weight=3,
                 opacity=0.7,
             )
@@ -118,14 +124,14 @@ class MapUtils:
             coord2 = node_coords[node2]
 
             duration = graph[node1][node2]["duration"]
-            duration_minutes = duration // 60
+            duration_minutes = duration / 60
 
             folium.PolyLine(
                 [coord1, coord2],
                 color="blue",
                 weight=3,
                 opacity=0.7,
-                popup=f"Duration: {duration_minutes} minutes",
+                popup=f"Duration: {duration_minutes:.2f} minutes",
             ).add_to(delivery_map)
 
         return delivery_map
