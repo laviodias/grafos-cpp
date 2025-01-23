@@ -8,7 +8,7 @@ O programa utiliza um grafo baseado em dados reais da cidade de Salvador, extra�
 
 ## 🗂 Estrutura do Projeto
 
-Os principais arquivos para
+Os principais arquivos e diretórios que podem ser úteis.
 
 - `input/graph_input.json`: Arquivo de entrada com os dados do grafo.
 - `main.py`: Arquivo principal para executar o programa com o grafo padrão.
