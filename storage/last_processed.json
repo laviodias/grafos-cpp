@@ -1,19 +1,12 @@
 {
     "origin": {
-        "name": "Mamma's Pizza",
+        "name": "Pizzaria May Calzone",
         "location": {
-            "lat": -12.9934906,
-            "lng": -38.45604179999999
+            "lat": -12.9731965,
+            "lng": -38.4298557
         }
     },
     "destinations": [
-        {
-            "name": "Hotel Pir\u00e2mide Rodovi\u00e1ria",
-            "location": {
-                "lat": -12.9763242,
-                "lng": -38.4625446
-            }
-        },
         {
             "name": "Hotel Intercity Salvador",
             "location": {
@@ -22,10 +15,24 @@
             }
         },
         {
-            "name": "Hotel Pir\u00e2mide",
+            "name": "Mercure Salvador Pituba",
             "location": {
-                "lat": -12.990412,
-                "lng": -38.45655599999999
+                "lat": -12.9866277,
+                "lng": -38.4518323
+            }
+        },
+        {
+            "name": "Mercure Salvador Boulevard Hotel",
+            "location": {
+                "lat": -12.9818939,
+                "lng": -38.4558371
+            }
+        },
+        {
+            "name": "Tennis shoes",
+            "location": {
+                "lat": -12.9820772,
+                "lng": -38.4635678
             }
         },
         {
@@ -36,24 +43,17 @@
             }
         },
         {
-            "name": "Am\u00e9rica Towers Hotel",
+            "name": "People2People RH",
             "location": {
-                "lat": -12.9816312,
-                "lng": -38.453772
+                "lat": -12.9873278,
+                "lng": -38.4680299
             }
         },
         {
-            "name": "Salvador",
+            "name": "Lojas Marisa",
             "location": {
-                "lat": -12.9777378,
-                "lng": -38.5016363
-            }
-        },
-        {
-            "name": "Salvador Business & Flat",
-            "location": {
-                "lat": -12.9802231,
-                "lng": -38.4550683
+                "lat": -12.9817061,
+                "lng": -38.4646255
             }
         }
     ]
